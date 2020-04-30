@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Dev" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Dev">
-    <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value=""/>
-    <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atbidevdb1"/>
-    <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="bidevdb"/>
-    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:8Ds+DaUoPz150XJz/IstwOfJilNi19lkKS9B1gGoRhoM8teN2MY6"/>
-    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="1521"/>
-    <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ods"/>
-    <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ODS"/>
-    <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="Services-db.dev.accelerate.cinchhs.com"/>
-    <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="data_import"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_Password" value="enc:system.encryption.key.v1:XPY89RMtjOa88dZukActtCXhZO0+h45XAuF67350GQvp6KwccDx0Rvk="/>
-    <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="5432"/>
-    <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="SP_RATING"/>
-    <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value=""/>
-    <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="dspr"/>
+    <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" type="id_String" value="atbidevdb1"/>
+    <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" type="id_String" value="bidevdb"/>
+    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:6jEmyaImf1oVzh0BS+yBaH4YHsLKnXnRS6N/zdV41YU1dz4n8z7X"/>
+    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" type="id_String" value="1521"/>
+    <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" type="id_String" value="ods"/>
+    <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" type="id_String" value="ODS"/>
+    <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" type="id_String" value="Services-db.dev.accelerate.cinchhs.com"/>
+    <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" type="id_String" value="data_import"/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:rSqtdrzqEOt2BOmaK+UzQVSNMyT9hfRhHU0zWNN1BEY6HomSj9TGuRA="/>
+    <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" type="id_String" value="5432"/>
+    <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" type="id_String" value="SP_RATING"/>
+    <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" type="id_String" value="dspr"/>
   </context>
   <context confirmationNeeded="false" name="CI">
-    <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atbicidb1"/>
-    <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="bicidb"/>
-    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="1521"/>
-    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:ZrXZNIosUnC1Cl4z0B+hFVt+Iq6SwcAwPbcpF4TrwNyoH7bQy8pL"/>
-    <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ODS"/>
-    <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ods"/>
-    <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value=""/>
-    <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="Services-db.dev.accelerate.cinchhs.com"/>
-    <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="data_import"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_Password" value="enc:system.encryption.key.v1:KBAf2ciz6kIWLkvel4VL1WyyEYdUs9jJ4w+CdcJMPPeFQ3AL/qdHDdE="/>
-    <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="5432"/>
-    <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="SP_RATING"/>
-    <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value=""/>
-    <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="dspr"/>
+    <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" type="id_String" value="atbicidb1"/>
+    <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" type="id_String" value="bicidb"/>
+    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" type="id_String" value="1521"/>
+    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:/Sp8O1TYwqiLX9vJr3hLtuAHVc8HVmk6VGG3bp1xzIJaiRBHC7Th"/>
+    <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" type="id_String" value="ODS"/>
+    <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" type="id_String" value="ods"/>
+    <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" type="id_String" value="Services-db.dev.accelerate.cinchhs.com"/>
+    <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" type="id_String" value="data_import"/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:sj3TiVKvm3gwYUXgyymTGPjywYeYYUK/1Zn6ZP30CJ8iBENuf7WT3D4="/>
+    <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" type="id_String" value="5432"/>
+    <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" type="id_String" value="SP_RATING"/>
+    <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" type="id_String" value="dspr"/>
   </context>
   <context confirmationNeeded="false" name="Prod">
-    <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atd0-scan"/>
-    <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="bidb.cchs.com"/>
-    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="1521"/>
-    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:51bkY2BysNCkppQ7rJ68ibe3LsdLp4QIHD7W+dMHDJ2oEGuADEd3"/>
-    <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ODS"/>
-    <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ods"/>
-    <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value=""/>
-    <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="Services-db.dev.accelerate.cinchhs.com"/>
-    <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="data_import"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_Password" value="enc:system.encryption.key.v1:WuH+cOuHCn81722YIVZ8Y0xgTk0yAtnagt3HAotbmVgvfSiPRgB0yPA="/>
-    <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="5432"/>
-    <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="SP_RATING"/>
-    <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value=""/>
-    <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="dspr"/>
+    <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" type="id_String" value="atd0-scan"/>
+    <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" type="id_String" value="bidb.cchs.com"/>
+    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" type="id_String" value="1521"/>
+    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:zBpPxyD34F2bqcP4/x2xRYWUSoXwcdPdIGQDxZRWP45ejy9S0tcm"/>
+    <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" type="id_String" value="ODS"/>
+    <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" type="id_String" value="ods"/>
+    <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" type="id_String" value="Services-db.dev.accelerate.cinchhs.com"/>
+    <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" type="id_String" value="data_import"/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:viw7F/T8R5ncqleAKPcnBytp+5oGp0tQp88+tGjv/a0TljENyeWnNeg="/>
+    <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" type="id_String" value="5432"/>
+    <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" type="id_String" value="SP_RATING"/>
+    <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" type="id_String" value="dspr"/>
   </context>
   <context confirmationNeeded="false" name="QA">
-    <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atbiqadb1"/>
-    <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="bidbqa"/>
-    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="1521"/>
-    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:BBAxeCuVou0trr/9JiLo0PnMog31oECFzi8zndtujLIS8f1Xsw7e"/>
-    <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ODS"/>
-    <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ods"/>
-    <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value=""/>
-    <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="Services-db.qa.accelerate.cinchhs.com"/>
-    <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="data_import"/>
-    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_Password" value="enc:system.encryption.key.v1:JJ2RihnE3kbHSEiT9xZRn77m91XHW9euN93Y0smqw1aKlv+hI/VFZUo="/>
-    <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="5432"/>
-    <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="SP_RATING"/>
-    <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value=""/>
-    <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" repositoryContextId="_RVfaoIrpEeqSP-Ylg8Dr-A" type="id_String" value="dspr"/>
+    <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" type="id_String" value="atbiqadb1"/>
+    <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" type="id_String" value="bidbqa"/>
+    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" type="id_String" value="1521"/>
+    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:Z5khuh4bLoTPqajQqETM+M5HGKg2h0EqQYQd+1oVuyx/m5ZPbB9X"/>
+    <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" type="id_String" value="ODS"/>
+    <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" type="id_String" value="ods"/>
+    <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Postgres_Server" prompt="Postgres_Server?" promptNeeded="false" type="id_String" value="Services-db.qa.accelerate.cinchhs.com"/>
+    <contextParameter comment="" name="Postgres_Login" prompt="Postgres_Login?" promptNeeded="false" type="id_String" value="data_import"/>
+    <contextParameter comment="" name="Postgres_Password" prompt="Postgres_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:Ycntgvitq/LP4AwuTxWf0V65rHq2WeXEkPlqQiIB2lBjI1XFxRiFPu4="/>
+    <contextParameter comment="" name="Postgres_Port" prompt="Postgres_Port?" promptNeeded="false" type="id_String" value="5432"/>
+    <contextParameter comment="" name="Postgres_Database" prompt="Postgres_Database?" promptNeeded="false" type="id_String" value="SP_RATING"/>
+    <contextParameter comment="" name="Postgres_AdditionalParams" prompt="Postgres_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Postgres_Schema" prompt="Postgres_Schema?" promptNeeded="false" type="id_String" value="dspr"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -105,7 +105,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:fiBOwnlqlHOe78esqSNHeuYEmwwe6a0RN3/bX2/x"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:3jlHM7WJSY+gwMc6pABxvqfTZIVk49n2OMozPTYx"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -120,7 +120,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend/Talend-Studio-20190620_1446-V7.2.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/gangula-office/Talendworkspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -140,7 +140,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Nuo4UJ6dj5fH7n703AhyYDD+6W4CZrIQLjfwzLqt"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:JkzboO2FKQFZRzqiieDCiM7Vj3wJW5JK7elGjFz3"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -177,8 +177,6 @@
   </parameters>
   <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_4hD20EKeEeqbDIV_tRIthA"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
@@ -191,7 +189,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:6xsMpJDwdemnM54MhiwmASjlHrjAxkzkM8vIQsGxLOfeZkMSBvUCF74nJuPd7uuD"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:tLHWYSPvKaFFDjs5SWOx9b85M/MWMNcpSW2QVeP2lm1aevFa8dHcvum5NwvnMRFO"/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value=""/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -308,8 +306,6 @@
   </node>
   <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_gAStEIrnEeqSP-Ylg8Dr-A"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
@@ -319,7 +315,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.Postgres_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SVwUgFtAVO10NH2FkiIdK5noPz8FfB4CuPajyM4YgEzjkNNUY5Wrxq741BOwX/xQyc474bo="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Fx+zfpBdDAQbd0Uc5uQ2smzeBxyslMocfR5aS99swy2vsIvnMn9CHK5w40+GKrXH03PJW5Y="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;sp_ranking_stage&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -552,13 +548,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_43803d02-09d9-401d-904f-73900c04088f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kXEyqHtSIp/2NNdpza+5UdNrHnTmViKGPdotaRblXD7acLe6NsxAn3elfQludubwEE9kAr2Yd4f6
-CO++vYHT/g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_874d6dca-7fba-41e7-935c-8bb6de836f20"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Uctshtz8xDuU42aHOiO3hGy/Cima4gyT6DbekGFaurn+lNkmMjGUNXkYsz7NfpSDb9KEvJ380Yo/
-b3GffCVlMQ==</DigestValue></Reference></SignedInfo><SignatureValue>RMqXYDHuspB+RU4+ISE9z0kaO0isbeAKrnbzF+VPFSRj+pdieoSx91bwW6RCQkjf/21wNoc8pJyN
-A/rLpBnsIyA6KGn1Dg7jt1ITVilRCyTKxigaYI5zUtL6g6Eoym/tnQRL/rzMmb1zgGQtLIjLgHq+
-JjYmV/Uv6B1HBSH4pYSPi308ozk3uU+96Q7ZU0GAx8jHAoTO0TMhvWP22W9KHRKLHQvJXdBuzu8K
-msbWlPZK+Xf4lcGLxYpViwJX+AbtzlXzH2NRdpE/3RCee7pSTzyIkdiywv7ANQw6JmHv369pB9mA
-im0shMnJan38ysmCKRBpnBxM7BV9O89w1GWoMQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8829e410-c01b-4d55-8177-835f36150f65"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KSD0Q1w9SB6O301nWqllXt/d1AeEu3qzVube5P1BbORgTg7xNKRmIDh0reMKmpZKB5xlQeJG06gw
+QKDmy7tuvg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_165eba6f-98b2-4f03-a6b4-f0382a8aef19"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Y1u0xd2UVy2d0YG+goo8X5kKYz9/cgadQJ3pHEFwrOc43xrKPsWMnpBJ2nezVbVtVp34yd0McE1r
+vcOkZy6x/Q==</DigestValue></Reference></SignedInfo><SignatureValue>noVdqwITTbDYCrTunbconfpPbrUhVf0OoJJURQaiDUazBuHFuRwTJyCOtHWbNQhPWAywYoXkLqmX
+A1QZwzzt+yvJNj5T2zBj/buqbItXiia7RwLu1CygxR9lvZdb4E8CWXFlqhHDB5n9kgLs84cBfBBV
+FbhI9OHAkJOihNjGQ86cXFPDnGCRFqUEYPB3sI1Y7MP3kWheIMD9lQgwTP2164FneDVt8WdsMaI5
+5iQ9sHuTI4bNt0iUpwYBeCRm1kLDsghKVSehe3j4PbVEXPS/2mrBv4spzshI629upjTHpKJ/cXdS
+S2RUVV8nyxRsJE3lQejMx3hVw93Ob/rowMVzCw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -580,4 +576,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_874d6dca-7fba-41e7-935c-8bb6de836f20" Target="#_43803d02-09d9-401d-904f-73900c04088f"><Timestamp>2020-04-30 19:06:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_165eba6f-98b2-4f03-a6b4-f0382a8aef19" Target="#_8829e410-c01b-4d55-8177-835f36150f65"><Timestamp>2020-04-30 19:08:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

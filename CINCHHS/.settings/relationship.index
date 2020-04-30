@@ -72,22 +72,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_RVfaoIrpEeqSP-Ylg8Dr-A",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_SoBDYEaWEeqWKq9lCyru-A",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_4hD20EKeEeqbDIV_tRIthA",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_gAStEIrnEeqSP-Ylg8Dr-A",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
