@@ -5,4 +5,9 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_EQoOoIsUEeqoQdxf-QCU7A" login="abogle@cinchhs.com" firstName="Alejandro" lastName="Bogle" type="DQ"/>
   <TalendProperties:User xmi:id="_QXyNsIsUEeqoQdxf-QCU7A" login="etl@cinchhs.com" firstName="etl" lastName="etl" type="DQ"/>
+  <TalendProperties:User xmi:id="_R4E-8IsYEeqoQdxf-QCU7A" login="jsanchez@cinchhs.com" firstName="Jose" lastName="Sanchez" type="DQ"/>
+  <TalendProperties:User xmi:id="_R4E-8YsYEeqoQdxf-QCU7A" login="spitla@cinchhs.com" firstName="Sowjanya" lastName="Pitla" type="DQ"/>
+  <TalendProperties:User xmi:id="_R4E-8osYEeqoQdxf-QCU7A" login="rgangula@cinchhs.com" firstName="Rohan sai" lastName="Gangula" type="DQ"/>
+  <TalendProperties:User xmi:id="_R4E-84sYEeqoQdxf-QCU7A" login="sdeekollu@cinchhs.com" firstName="Sudhakar" lastName="Deekollu" type="DQ"/>
+  <TalendProperties:User xmi:id="_R4E-9IsYEeqoQdxf-QCU7A" login="pmandava@cinchhs.com" firstName="Pramod" lastName="Mandava" type="DQ"/>
 </xmi:XMI>
