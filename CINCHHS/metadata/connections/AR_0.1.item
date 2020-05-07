@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="Oracle with service name" DatasourceName="" DbmsId="oracle_id" DriverClass="oracle.jdbc.OracleDriver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:ojXAA1UE8yAGkUo1ih4JXjDj2/vFo8K9fn+GtDnroORr4CK1gZK05z5sR59PsWVS" Port="1521" ProductId="ORACLE" SID="oaprod" SQLMode="false" ServerName="atd0-scan" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=atd0-scan)(port=1521))(connect_data=(service_name=oaprod)))" UiSchema="AR" Username="apps_query" dataPackage="_q2jlPh_tEeqpgYJgYhS2qg" dbVersionString="ORACLE_18" id="_pKo18B_tEeqpgYJgYhS2qg" label="AR" name="AR" xmi:id="_pK9mEB_tEeqpgYJgYhS2qg">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_TykU4B_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="package filter" value="" xmi:id="_T0dyUB_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="Status" value="" xmi:id="_T0jR4B_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_T0jR4R_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_T0jR4h_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="Description" value="" xmi:id="_T0jR4x_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="Author" value="" xmi:id="_T0jR5B_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="otherParameter" xmi:id="_T0jR5R_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="DB ProductName" value="Oracle" xmi:id="_T240MB_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="DB ProductVersion" value="Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production&#10;With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,&#10;Data Mining and Real Application Testing options" xmi:id="_T240MR_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_T240Mh_cEeqpgYJgYhS2qg"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="apps_query" xmi:id="_TykU4R_cEeqpgYJgYhS2qg"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_k_jVkB_tEeqpgYJgYhS2qg"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_pK9mEB_tEeqpgYJgYhS2qg" name="AR" xmi:id="_q2jlPh_tEeqpgYJgYhS2qg">
+    <ownedElement label="AQ$AR_REV_REC_QT" name="AQ$AR_REV_REC_QT" tableType="VIEW" xmi:id="_78aUUCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdView"/>
+    <ownedElement label="AQ$AR_REV_REC_QT_R" name="AQ$AR_REV_REC_QT_R" tableType="VIEW" xmi:id="_78aUUSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdView"/>
+    <ownedElement label="AQ$AR_REV_REC_QT_S" name="AQ$AR_REV_REC_QT_S" tableType="VIEW" xmi:id="_78aUUiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdView"/>
+    <ownedElement label="AQ$_AR_REV_REC_QT_F" name="AQ$_AR_REV_REC_QT_F" tableType="VIEW" xmi:id="_78aUUyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdView"/>
+    <ownedElement id="_8AmQwCRKEeqY4fdMB7zUvQ" label="AQ$_AR_REV_REC_QT_G" name="AQ$_AR_REV_REC_QT_G" tableType="TABLE" xmi:id="_-pBEgSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8A2vcCRKEeqY4fdMB7zUvQ" label="AQ$_AR_REV_REC_QT_H" name="AQ$_AR_REV_REC_QT_H" tableType="TABLE" xmi:id="_-pBEgiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8BHOICRKEeqY4fdMB7zUvQ" label="AQ$_AR_REV_REC_QT_I" name="AQ$_AR_REV_REC_QT_I" tableType="TABLE" xmi:id="_-pBEgyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8BawICRKEeqY4fdMB7zUvQ" label="AQ$_AR_REV_REC_QT_L" name="AQ$_AR_REV_REC_QT_L" tableType="TABLE" xmi:id="_-pBEhCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8BrO0CRKEeqY4fdMB7zUvQ" label="AQ$_AR_REV_REC_QT_S" name="AQ$_AR_REV_REC_QT_S" tableType="TABLE" xmi:id="_-pBEhSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8B7tgCRKEeqY4fdMB7zUvQ" label="AQ$_AR_REV_REC_QT_T" name="AQ$_AR_REV_REC_QT_T" tableType="TABLE" xmi:id="_-pBEhiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8CNaUCRKEeqY4fdMB7zUvQ" label="AR_ACTION_NOTIFICATIONS" name="AR_ACTION_NOTIFICATIONS" tableType="TABLE" xmi:id="_-pBEhyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8Cd5ACRKEeqY4fdMB7zUvQ" label="AR_ADJUSTMENTS_ALL" name="AR_ADJUSTMENTS_ALL" tableType="TABLE" xmi:id="_-pBEiCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8CwM4CRKEeqY4fdMB7zUvQ" label="AR_ADJUSTMENTS_REP_ITF" name="AR_ADJUSTMENTS_REP_ITF" tableType="TABLE" xmi:id="_-pBEiSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8DB5sCRKEeqY4fdMB7zUvQ" label="AR_AE_ALLOC_REC_GT" name="AR_AE_ALLOC_REC_GT" tableType="TABLE" xmi:id="_-pBEiiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8DdXgCRKEeqY4fdMB7zUvQ" label="AR_AGING_BUCKETS" name="AR_AGING_BUCKETS" tableType="TABLE" xmi:id="_-pBEiyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8DvEUCRKEeqY4fdMB7zUvQ" label="AR_AGING_BUCKET_LINES_B" name="AR_AGING_BUCKET_LINES_B" tableType="TABLE" xmi:id="_-pBEjCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8D_jACRKEeqY4fdMB7zUvQ" label="AR_AGING_BUCKET_LINES_TL" name="AR_AGING_BUCKET_LINES_TL" tableType="TABLE" xmi:id="_-pBEjSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8EQBsCRKEeqY4fdMB7zUvQ" label="AR_APPROVAL_ACTION_HISTORY" name="AR_APPROVAL_ACTION_HISTORY" tableType="TABLE" xmi:id="_-pBEjiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8Ef5UCRKEeqY4fdMB7zUvQ" label="AR_APPROVAL_USER_LIMITS" name="AR_APPROVAL_USER_LIMITS" tableType="TABLE" xmi:id="_-pBEjyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8EwYACRKEeqY4fdMB7zUvQ" label="AR_APP_RULES" name="AR_APP_RULES" tableType="TABLE" xmi:id="_-pBEkCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8FAPoCRKEeqY4fdMB7zUvQ" label="AR_APP_RULE_DETAILS" name="AR_APP_RULE_DETAILS" tableType="TABLE" xmi:id="_-pBEkSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8FR8cCRKEeqY4fdMB7zUvQ" label="AR_APP_RULE_SETS" name="AR_APP_RULE_SETS" tableType="TABLE" xmi:id="_-pBEkiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8FjpQCRKEeqY4fdMB7zUvQ" label="AR_ARCHIVE_CONTROL" name="AR_ARCHIVE_CONTROL" tableType="TABLE" xmi:id="_-pBEkyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8Fzg4CRKEeqY4fdMB7zUvQ" label="AR_ARCHIVE_CONTROL_DETAIL" name="AR_ARCHIVE_CONTROL_DETAIL" tableType="TABLE" xmi:id="_-pBElCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8GRa8CRKEeqY4fdMB7zUvQ" label="AR_ARCHIVE_DETAIL" name="AR_ARCHIVE_DETAIL" tableType="TABLE" xmi:id="_-pBElSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8GigsCRKEeqY4fdMB7zUvQ" label="AR_ARCHIVE_HEADER" name="AR_ARCHIVE_HEADER" tableType="TABLE" xmi:id="_-pBEliRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8GzmcCRKEeqY4fdMB7zUvQ" label="AR_ARCHIVE_PURGE_INTERIM" name="AR_ARCHIVE_PURGE_INTERIM" tableType="TABLE" xmi:id="_-pBElyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8HDeECRKEeqY4fdMB7zUvQ" label="AR_ARCHIVE_PURGE_LOG" name="AR_ARCHIVE_PURGE_LOG" tableType="TABLE" xmi:id="_-pBEmCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8HUj0CRKEeqY4fdMB7zUvQ" label="AR_AUDIT_DATA" name="AR_AUDIT_DATA" tableType="TABLE" xmi:id="_-pBEmSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8HlCgCRKEeqY4fdMB7zUvQ" label="AR_AUTOCASH_HIERARCHIES" name="AR_AUTOCASH_HIERARCHIES" tableType="TABLE" xmi:id="_-pBEmiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8H06ICRKEeqY4fdMB7zUvQ" label="AR_AUTOCASH_RULES" name="AR_AUTOCASH_RULES" tableType="TABLE" xmi:id="_-pBEmyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8IFY0CRKEeqY4fdMB7zUvQ" label="AR_AUTOREC_EXCEPTIONS" name="AR_AUTOREC_EXCEPTIONS" tableType="TABLE" xmi:id="_-pBEnCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8IV3gCRKEeqY4fdMB7zUvQ" label="AR_BANK_DIRECTORY" name="AR_BANK_DIRECTORY" tableType="TABLE" xmi:id="_-pBEnSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8InkUCRKEeqY4fdMB7zUvQ" label="AR_BASE_GL_ACCT_BALANCES" name="AR_BASE_GL_ACCT_BALANCES" tableType="TABLE" xmi:id="_-pBEniRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8JB0ACRKEeqY4fdMB7zUvQ" label="AR_BATCHES_ALL" name="AR_BATCHES_ALL" tableType="TABLE" xmi:id="_-pBEnyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8JSSsCRKEeqY4fdMB7zUvQ" label="AR_BATCH_SOURCES_ALL" name="AR_BATCH_SOURCES_ALL" tableType="TABLE" xmi:id="_-pBEoCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8JjYcCRKEeqY4fdMB7zUvQ" label="AR_BPA_AREA_ITEMS" name="AR_BPA_AREA_ITEMS" tableType="TABLE" xmi:id="_-pBEoSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8J0eMCRKEeqY4fdMB7zUvQ" label="AR_BPA_CONTENT_AREAS_B" name="AR_BPA_CONTENT_AREAS_B" tableType="TABLE" xmi:id="_-pBEoiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8KEV0CRKEeqY4fdMB7zUvQ" label="AR_BPA_CONTENT_AREAS_TL" name="AR_BPA_CONTENT_AREAS_TL" tableType="TABLE" xmi:id="_-pBEoyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8KWpsCRKEeqY4fdMB7zUvQ" label="AR_BPA_DATASRC_APPS_B" name="AR_BPA_DATASRC_APPS_B" tableType="TABLE" xmi:id="_-pBEpCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8KmhUCRKEeqY4fdMB7zUvQ" label="AR_BPA_DATASRC_APPS_TL" name="AR_BPA_DATASRC_APPS_TL" tableType="TABLE" xmi:id="_-pBEpSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8K3AACRKEeqY4fdMB7zUvQ" label="AR_BPA_DATA_SOURCES_B" name="AR_BPA_DATA_SOURCES_B" tableType="TABLE" xmi:id="_-pBEpiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8LHesCRKEeqY4fdMB7zUvQ" label="AR_BPA_DATA_SOURCES_TL" name="AR_BPA_DATA_SOURCES_TL" tableType="TABLE" xmi:id="_-pBEpyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8LXWUCRKEeqY4fdMB7zUvQ" label="AR_BPA_DATA_SRC_PARAMS" name="AR_BPA_DATA_SRC_PARAMS" tableType="TABLE" xmi:id="_-pBEqCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8LzbMCRKEeqY4fdMB7zUvQ" label="AR_BPA_ITEMS_B" name="AR_BPA_ITEMS_B" tableType="TABLE" xmi:id="_-pBEqSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8MDS0CRKEeqY4fdMB7zUvQ" label="AR_BPA_ITEMS_TL" name="AR_BPA_ITEMS_TL" tableType="TABLE" xmi:id="_-pBEqiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8MUYkCRKEeqY4fdMB7zUvQ" label="AR_BPA_PAGE_SETUPS_B" name="AR_BPA_PAGE_SETUPS_B" tableType="TABLE" xmi:id="_-pBEqyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8MkQMCRKEeqY4fdMB7zUvQ" label="AR_BPA_PAGE_SETUPS_TL" name="AR_BPA_PAGE_SETUPS_TL" tableType="TABLE" xmi:id="_-pBErCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8M1V8CRKEeqY4fdMB7zUvQ" label="AR_BPA_PRINT_REQUESTS" name="AR_BPA_PRINT_REQUESTS" tableType="TABLE" xmi:id="_-pBErSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8NGbsCRKEeqY4fdMB7zUvQ" label="AR_BPA_RULES_B" name="AR_BPA_RULES_B" tableType="TABLE" xmi:id="_-pBEriRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8NW6YCRKEeqY4fdMB7zUvQ" label="AR_BPA_RULES_TL" name="AR_BPA_RULES_TL" tableType="TABLE" xmi:id="_-pBEryRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8NnZECRKEeqY4fdMB7zUvQ" label="AR_BPA_RULE_ATTRIBUTES_B" name="AR_BPA_RULE_ATTRIBUTES_B" tableType="TABLE" xmi:id="_-pBEsCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8N33wCRKEeqY4fdMB7zUvQ" label="AR_BPA_RULE_ATTRIBUTES_TL" name="AR_BPA_RULE_ATTRIBUTES_TL" tableType="TABLE" xmi:id="_-pBEsSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8OHvYCRKEeqY4fdMB7zUvQ" label="AR_BPA_RULE_TEMPLATES" name="AR_BPA_RULE_TEMPLATES" tableType="TABLE" xmi:id="_-pBEsiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8OimICRKEeqY4fdMB7zUvQ" label="AR_BPA_TEMPLATES_B" name="AR_BPA_TEMPLATES_B" tableType="TABLE" xmi:id="_-pBEsyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8OzE0CRKEeqY4fdMB7zUvQ" label="AR_BPA_TEMPLATES_TL" name="AR_BPA_TEMPLATES_TL" tableType="TABLE" xmi:id="_-pBEtCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8PC8cCRKEeqY4fdMB7zUvQ" label="AR_BPA_TEMPLATE_FIELDS" name="AR_BPA_TEMPLATE_FIELDS" tableType="TABLE" xmi:id="_-pBEtSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8PS0ECRKEeqY4fdMB7zUvQ" label="AR_BPA_TEMPLATE_FILES" name="AR_BPA_TEMPLATE_FILES" tableType="TABLE" xmi:id="_-pBEtiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8Pj50CRKEeqY4fdMB7zUvQ" label="AR_BPA_URLS_B" name="AR_BPA_URLS_B" tableType="TABLE" xmi:id="_-pBEtyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8P1moCRKEeqY4fdMB7zUvQ" label="AR_BPA_URLS_TL" name="AR_BPA_URLS_TL" tableType="TABLE" xmi:id="_-pBEuCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8QFeQCRKEeqY4fdMB7zUvQ" label="AR_BPA_URL_PARAMS" name="AR_BPA_URL_PARAMS" tableType="TABLE" xmi:id="_-pBEuSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8QVV4CRKEeqY4fdMB7zUvQ" label="AR_BR_FMT_TMP" name="AR_BR_FMT_TMP" tableType="TABLE" xmi:id="_-pBEuiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8QkmcCRKEeqY4fdMB7zUvQ" label="AR_BR_STAMP_VALUES_ALL" name="AR_BR_STAMP_VALUES_ALL" tableType="TABLE" xmi:id="_-pBEuyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8Q1sMCRKEeqY4fdMB7zUvQ" label="AR_BR_STATUS_REP_ITF" name="AR_BR_STATUS_REP_ITF" tableType="TABLE" xmi:id="_-pBEvCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8RRKACRKEeqY4fdMB7zUvQ" label="AR_BR_STATUS_SUM_ITF" name="AR_BR_STATUS_SUM_ITF" tableType="TABLE" xmi:id="_-pBEvSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8RhBoCRKEeqY4fdMB7zUvQ" label="AR_BR_TRX_BATCH_RPT" name="AR_BR_TRX_BATCH_RPT" tableType="TABLE" xmi:id="_-pBEviRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8Rw5QCRKEeqY4fdMB7zUvQ" label="AR_CALL_ACTIONS" name="AR_CALL_ACTIONS" tableType="TABLE" xmi:id="_-pBEvyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8SAw4CRKEeqY4fdMB7zUvQ" label="AR_CASH_BASIS_DISTS_ALL" name="AR_CASH_BASIS_DISTS_ALL" tableType="TABLE" xmi:id="_-pBEwCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8SQogCRKEeqY4fdMB7zUvQ" label="AR_CASH_RECEIPTS_ALL" name="AR_CASH_RECEIPTS_ALL" tableType="TABLE" xmi:id="_-pBEwSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8ShHMCRKEeqY4fdMB7zUvQ" label="AR_CASH_RECEIPT_HISTORY_ALL" name="AR_CASH_RECEIPT_HISTORY_ALL" tableType="TABLE" xmi:id="_-pBEwiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8Sxl4CRKEeqY4fdMB7zUvQ" label="AR_CCID_BY_GL_ACCOUNTS" name="AR_CCID_BY_GL_ACCOUNTS" tableType="TABLE" xmi:id="_-pBEwyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8TDSsCRKEeqY4fdMB7zUvQ" label="AR_CCID_CORRECTIONS_ALL" name="AR_CCID_CORRECTIONS_ALL" tableType="TABLE" xmi:id="_-pBExCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8TUYcCRKEeqY4fdMB7zUvQ" label="AR_CC_ERROR_HISTORY" name="AR_CC_ERROR_HISTORY" tableType="TABLE" xmi:id="_-pBExSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8TmsUCRKEeqY4fdMB7zUvQ" label="AR_CC_ERROR_MAPPINGS" name="AR_CC_ERROR_MAPPINGS" tableType="TABLE" xmi:id="_-pBExiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8UBjECRKEeqY4fdMB7zUvQ" label="AR_CHANGE_MATRIX" name="AR_CHANGE_MATRIX" tableType="TABLE" xmi:id="_-pBExyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8URasCRKEeqY4fdMB7zUvQ" label="AR_CLOSED_GL_PERIODS" name="AR_CLOSED_GL_PERIODS" tableType="TABLE" xmi:id="_-pBEyCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8UigcCRKEeqY4fdMB7zUvQ" label="AR_CMGT_AUTO_RECOMMENDS" name="AR_CMGT_AUTO_RECOMMENDS" tableType="TABLE" xmi:id="_-pBEySRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8UyYECRKEeqY4fdMB7zUvQ" label="AR_CMGT_AUTO_RULES" name="AR_CMGT_AUTO_RULES" tableType="TABLE" xmi:id="_-pBEyiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8VC2wCRKEeqY4fdMB7zUvQ" label="AR_CMGT_AUTO_RULE_DTLS" name="AR_CMGT_AUTO_RULE_DTLS" tableType="TABLE" xmi:id="_-pBEyyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8VSuYCRKEeqY4fdMB7zUvQ" label="AR_CMGT_BANK_REF_ACCTS" name="AR_CMGT_BANK_REF_ACCTS" tableType="TABLE" xmi:id="_-pBEzCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8Vh-8CRKEeqY4fdMB7zUvQ" label="AR_CMGT_BANK_REF_DATA" name="AR_CMGT_BANK_REF_DATA" tableType="TABLE" xmi:id="_-pBEzSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8Vx2kCRKEeqY4fdMB7zUvQ" label="AR_CMGT_CASE_FOLDERS" name="AR_CMGT_CASE_FOLDERS" tableType="TABLE" xmi:id="_-pBEziRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8WCVQCRKEeqY4fdMB7zUvQ" label="AR_CMGT_CF_AGING_DTLS" name="AR_CMGT_CF_AGING_DTLS" tableType="TABLE" xmi:id="_-pBEzyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8WSz8CRKEeqY4fdMB7zUvQ" label="AR_CMGT_CF_ANL_NOTES" name="AR_CMGT_CF_ANL_NOTES" tableType="TABLE" xmi:id="_-pBE0CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8WtDoCRKEeqY4fdMB7zUvQ" label="AR_CMGT_CF_DNB_DTLS" name="AR_CMGT_CF_DNB_DTLS" tableType="TABLE" xmi:id="_-pBE0SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8W8UMCRKEeqY4fdMB7zUvQ" label="AR_CMGT_CF_DTLS" name="AR_CMGT_CF_DTLS" tableType="TABLE" xmi:id="_-pBE0iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8XMy4CRKEeqY4fdMB7zUvQ" label="AR_CMGT_CF_RECOMMENDS" name="AR_CMGT_CF_RECOMMENDS" tableType="TABLE" xmi:id="_-pBE0yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8XcqgCRKEeqY4fdMB7zUvQ" label="AR_CMGT_CHECK_LISTS" name="AR_CMGT_CHECK_LISTS" tableType="TABLE" xmi:id="_-pBE1CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8XtwQCRKEeqY4fdMB7zUvQ" label="AR_CMGT_CHECK_LIST_DTLS" name="AR_CMGT_CHECK_LIST_DTLS" tableType="TABLE" xmi:id="_-pBE1SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8X9n4CRKEeqY4fdMB7zUvQ" label="AR_CMGT_COLLATERAL_DATA" name="AR_CMGT_COLLATERAL_DATA" tableType="TABLE" xmi:id="_-pBE1iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8YNfgCRKEeqY4fdMB7zUvQ" label="AR_CMGT_CREDIT_REQUESTS" name="AR_CMGT_CREDIT_REQUESTS" tableType="TABLE" xmi:id="_-pBE1yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8YdXICRKEeqY4fdMB7zUvQ" label="AR_CMGT_CURR_USAGE_GT" name="AR_CMGT_CURR_USAGE_GT" tableType="TABLE" xmi:id="_-pBE2CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8Yt10CRKEeqY4fdMB7zUvQ" label="AR_CMGT_DATA_POINTS_B" name="AR_CMGT_DATA_POINTS_B" tableType="TABLE" xmi:id="_-pBE2SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8Y-7kCRKEeqY4fdMB7zUvQ" label="AR_CMGT_DATA_POINTS_TL" name="AR_CMGT_DATA_POINTS_TL" tableType="TABLE" xmi:id="_-pBE2iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8ZZyUCRKEeqY4fdMB7zUvQ" label="AR_CMGT_DNB_ELEMENTS_B" name="AR_CMGT_DNB_ELEMENTS_B" tableType="TABLE" xmi:id="_-pBE2yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8ZqRACRKEeqY4fdMB7zUvQ" label="AR_CMGT_DNB_ELEMENTS_TL" name="AR_CMGT_DNB_ELEMENTS_TL" tableType="TABLE" xmi:id="_-pBE3CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8Z6vsCRKEeqY4fdMB7zUvQ" label="AR_CMGT_DNB_MAPPINGS" name="AR_CMGT_DNB_MAPPINGS" tableType="TABLE" xmi:id="_-pBE3SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8aKnUCRKEeqY4fdMB7zUvQ" label="AR_CMGT_FINANCIAL_DATA" name="AR_CMGT_FINANCIAL_DATA" tableType="TABLE" xmi:id="_-pBE3iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8abGACRKEeqY4fdMB7zUvQ" label="AR_CMGT_GUARANTOR_DATA" name="AR_CMGT_GUARANTOR_DATA" tableType="TABLE" xmi:id="_-pBE3yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8arksCRKEeqY4fdMB7zUvQ" label="AR_CMGT_OTHER_DATA" name="AR_CMGT_OTHER_DATA" tableType="TABLE" xmi:id="_-pBE4CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8a8qcCRKEeqY4fdMB7zUvQ" label="AR_CMGT_SCORES" name="AR_CMGT_SCORES" tableType="TABLE" xmi:id="_-pBE4SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8bNJICRKEeqY4fdMB7zUvQ" label="AR_CMGT_SCORE_DTLS" name="AR_CMGT_SCORE_DTLS" tableType="TABLE" xmi:id="_-pBE4iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8bdAwCRKEeqY4fdMB7zUvQ" label="AR_CMGT_SCORE_WEIGHTS" name="AR_CMGT_SCORE_WEIGHTS" tableType="TABLE" xmi:id="_-pBE4yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8btfcCRKEeqY4fdMB7zUvQ" label="AR_CMGT_SETUP_OPTIONS" name="AR_CMGT_SETUP_OPTIONS" tableType="TABLE" xmi:id="_-pBE5CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8cI9QCRKEeqY4fdMB7zUvQ" label="AR_CMGT_TRADE_REF_DATA" name="AR_CMGT_TRADE_REF_DATA" tableType="TABLE" xmi:id="_-pBE5SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8cZb8CRKEeqY4fdMB7zUvQ" label="AR_CM_SUM_TRX_DAYS_GT" name="AR_CM_SUM_TRX_DAYS_GT" tableType="TABLE" xmi:id="_-pBE5iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8cp6oCRKEeqY4fdMB7zUvQ" label="AR_COGS_REV_ITF" name="AR_COGS_REV_ITF" tableType="TABLE" xmi:id="_-pBE5yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8c7AYCRKEeqY4fdMB7zUvQ" label="AR_COLIND" name="AR_COLIND" tableType="TABLE" xmi:id="_-pBE6CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8dLfECRKEeqY4fdMB7zUvQ" label="AR_COLLECTION_INDICATORS_ALL" name="AR_COLLECTION_INDICATORS_ALL" tableType="TABLE" xmi:id="_-pBE6SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8dbWsCRKEeqY4fdMB7zUvQ" label="AR_COLLECTORS" name="AR_COLLECTORS" tableType="TABLE" xmi:id="_-pBE6iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8drOUCRKEeqY4fdMB7zUvQ" label="AR_CONC_PROCESS_REQUESTS" name="AR_CONC_PROCESS_REQUESTS" tableType="TABLE" xmi:id="_-pBE6yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8d8UECRKEeqY4fdMB7zUvQ" label="AR_CONC_REQUEST_MESSAGES" name="AR_CONC_REQUEST_MESSAGES" tableType="TABLE" xmi:id="_-pBE7CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8eMLsCRKEeqY4fdMB7zUvQ" label="AR_CONFIRMATION_ACTIONS" name="AR_CONFIRMATION_ACTIONS" tableType="TABLE" xmi:id="_-pBE7SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8ecqYCRKEeqY4fdMB7zUvQ" label="AR_CONS_INV_ALL" name="AR_CONS_INV_ALL" tableType="TABLE" xmi:id="_-pBE7iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8e4IMCRKEeqY4fdMB7zUvQ" label="AR_CONS_INV_TRX_ALL" name="AR_CONS_INV_TRX_ALL" tableType="TABLE" xmi:id="_-pBE7yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8fH_0CRKEeqY4fdMB7zUvQ" label="AR_CONS_INV_TRX_LINES_ALL" name="AR_CONS_INV_TRX_LINES_ALL" tableType="TABLE" xmi:id="_-pBE8CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8fX3cCRKEeqY4fdMB7zUvQ" label="AR_CONT_ACTIONS_ALL" name="AR_CONT_ACTIONS_ALL" tableType="TABLE" xmi:id="_-pBE8SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8foWICRKEeqY4fdMB7zUvQ" label="AR_CORRESPONDENCES_ALL" name="AR_CORRESPONDENCES_ALL" tableType="TABLE" xmi:id="_-pBE8iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8f5b4CRKEeqY4fdMB7zUvQ" label="AR_CORR_PAY_SCHED_ALL" name="AR_CORR_PAY_SCHED_ALL" tableType="TABLE" xmi:id="_-pBE8yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8gKhoCRKEeqY4fdMB7zUvQ" label="AR_CREDIT_HISTORIES" name="AR_CREDIT_HISTORIES" tableType="TABLE" xmi:id="_-pBE9CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8gaZQCRKEeqY4fdMB7zUvQ" label="AR_CREDIT_MEMO_AMOUNTS" name="AR_CREDIT_MEMO_AMOUNTS" tableType="TABLE" xmi:id="_-pBE9SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8gqQ4CRKEeqY4fdMB7zUvQ" label="AR_CUSTOMER_ALT_NAMES" name="AR_CUSTOMER_ALT_NAMES" tableType="TABLE" xmi:id="_-pBE9iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8g7WoCRKEeqY4fdMB7zUvQ" label="AR_CUSTOMER_BALANCE_ITF" name="AR_CUSTOMER_BALANCE_ITF" tableType="TABLE" xmi:id="_-pBE9yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8hNDcCRKEeqY4fdMB7zUvQ" label="AR_CUSTOMER_CALLS_ALL" name="AR_CUSTOMER_CALLS_ALL" tableType="TABLE" xmi:id="_-pBE-CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8hn6MCRKEeqY4fdMB7zUvQ" label="AR_CUSTOMER_CALL_TOPICS_ALL" name="AR_CUSTOMER_CALL_TOPICS_ALL" tableType="TABLE" xmi:id="_-pBE-SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8h4Y4CRKEeqY4fdMB7zUvQ" label="AR_CUSTOMER_PROFILES" name="AR_CUSTOMER_PROFILES" tableType="TABLE" xmi:id="_-pBE-iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8iIQgCRKEeqY4fdMB7zUvQ" label="AR_CUSTOMER_PROFILE_AMOUNTS" name="AR_CUSTOMER_PROFILE_AMOUNTS" tableType="TABLE" xmi:id="_-pBE-yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8iYIICRKEeqY4fdMB7zUvQ" label="AR_CUSTOMER_PROFILE_CLASSES" name="AR_CUSTOMER_PROFILE_CLASSES" tableType="TABLE" xmi:id="_-pBE_CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8ip08CRKEeqY4fdMB7zUvQ" label="AR_CUST_PROF_CLASS_AMOUNTS" name="AR_CUST_PROF_CLASS_AMOUNTS" tableType="TABLE" xmi:id="_-pBE_SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8i6ToCRKEeqY4fdMB7zUvQ" label="AR_CUST_SEARCH_GT" name="AR_CUST_SEARCH_GT" tableType="TABLE" xmi:id="_-pBE_iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8jKyUCRKEeqY4fdMB7zUvQ" label="AR_DEBUG" name="AR_DEBUG" tableType="TABLE" xmi:id="_-pBE_yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8jbRACRKEeqY4fdMB7zUvQ" label="AR_DEFERRED_LINES_ALL" name="AR_DEFERRED_LINES_ALL" tableType="TABLE" xmi:id="_-pBFACRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8jrvsCRKEeqY4fdMB7zUvQ" label="AR_DISPUTE_HISTORY" name="AR_DISPUTE_HISTORY" tableType="TABLE" xmi:id="_-pBFASRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8j81cCRKEeqY4fdMB7zUvQ" label="AR_DISTRIBUTIONS_ALL" name="AR_DISTRIBUTIONS_ALL" tableType="TABLE" xmi:id="_-pBFAiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8kYTQCRKEeqY4fdMB7zUvQ" label="AR_DISTRIBUTION_SETS_ALL" name="AR_DISTRIBUTION_SETS_ALL" tableType="TABLE" xmi:id="_-pBFAyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8kox8CRKEeqY4fdMB7zUvQ" label="AR_DISTRIBUTION_SET_LINES_ALL" name="AR_DISTRIBUTION_SET_LINES_ALL" tableType="TABLE" xmi:id="_-pBFBCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8k5QoCRKEeqY4fdMB7zUvQ" label="AR_DOCUMENT_TRANSFERS" name="AR_DOCUMENT_TRANSFERS" tableType="TABLE" xmi:id="_-pBFBSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8lJIQCRKEeqY4fdMB7zUvQ" label="AR_DOC_SEQUENCE_AUDIT" name="AR_DOC_SEQUENCE_AUDIT" tableType="TABLE" xmi:id="_-pBFBiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8lZm8CRKEeqY4fdMB7zUvQ" label="AR_DUNNING_LETTERS_B" name="AR_DUNNING_LETTERS_B" tableType="TABLE" xmi:id="_-pBFByRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8lqFoCRKEeqY4fdMB7zUvQ" label="AR_DUNNING_LETTERS_CUSTOM_TL" name="AR_DUNNING_LETTERS_CUSTOM_TL" tableType="TABLE" xmi:id="_-pBFCCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8l7LYCRKEeqY4fdMB7zUvQ" label="AR_DUNNING_LETTERS_TL" name="AR_DUNNING_LETTERS_TL" tableType="TABLE" xmi:id="_-pBFCSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8mNfQCRKEeqY4fdMB7zUvQ" label="AR_DUNNING_LETTER_SETS" name="AR_DUNNING_LETTER_SETS" tableType="TABLE" xmi:id="_-pBFCiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8mdW4CRKEeqY4fdMB7zUvQ" label="AR_DUNNING_LETTER_SET_LINES" name="AR_DUNNING_LETTER_SET_LINES" tableType="TABLE" xmi:id="_-pBFCyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8mucoCRKEeqY4fdMB7zUvQ" label="AR_GL_ACCT_BALANCES" name="AR_GL_ACCT_BALANCES" tableType="TABLE" xmi:id="_-pBFDCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8nLIkCRKEeqY4fdMB7zUvQ" label="AR_GL_RECON_GT" name="AR_GL_RECON_GT" tableType="TABLE" xmi:id="_-pBFDSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8nbnQCRKEeqY4fdMB7zUvQ" label="AR_INTERFACE_CONTS_ALL" name="AR_INTERFACE_CONTS_ALL" tableType="TABLE" xmi:id="_-pBFDiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8nstACRKEeqY4fdMB7zUvQ" label="AR_INTERIM_CASH_RCPT_LINES_ALL" name="AR_INTERIM_CASH_RCPT_LINES_ALL" tableType="TABLE" xmi:id="_-pBFDyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8n8koCRKEeqY4fdMB7zUvQ" label="AR_INTERIM_CASH_RECEIPTS_ALL" name="AR_INTERIM_CASH_RECEIPTS_ALL" tableType="TABLE" xmi:id="_-pBFECRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8oNDUCRKEeqY4fdMB7zUvQ" label="AR_INTERIM_POSTING" name="AR_INTERIM_POSTING" tableType="TABLE" xmi:id="_-pBFESRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8oeJECRKEeqY4fdMB7zUvQ" label="AR_IREC_APPLY_CREDIT_GT" name="AR_IREC_APPLY_CREDIT_GT" tableType="TABLE" xmi:id="_-pBFEiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8ovO0CRKEeqY4fdMB7zUvQ" label="AR_IREC_CUSTOM_CUST_GT" name="AR_IREC_CUSTOM_CUST_GT" tableType="TABLE" xmi:id="_-pBFEyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8pA7oCRKEeqY4fdMB7zUvQ" label="AR_IREC_CUSTOM_SRCH_GT" name="AR_IREC_CUSTOM_SRCH_GT" tableType="TABLE" xmi:id="_-pBFFCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8pRaUCRKEeqY4fdMB7zUvQ" label="AR_IREC_PAYMENT_LIST_GT" name="AR_IREC_PAYMENT_LIST_GT" tableType="TABLE" xmi:id="_-pBFFSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8pigECRKEeqY4fdMB7zUvQ" label="AR_JOURNAL_INTERIM_ALL" name="AR_JOURNAL_INTERIM_ALL" tableType="TABLE" xmi:id="_-pBFFiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8p994CRKEeqY4fdMB7zUvQ" label="AR_LINE_CONTS_ALL" name="AR_LINE_CONTS_ALL" tableType="TABLE" xmi:id="_-pBFFyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8qQRwCRKEeqY4fdMB7zUvQ" label="AR_LINE_REV_ADJ_GT" name="AR_LINE_REV_ADJ_GT" tableType="TABLE" xmi:id="_-pBFGCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8qgJYCRKEeqY4fdMB7zUvQ" label="AR_LOCATION_ACCOUNTS_ALL" name="AR_LOCATION_ACCOUNTS_ALL" tableType="TABLE" xmi:id="_-pBFGSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8qwoECRKEeqY4fdMB7zUvQ" label="AR_LOCATION_COMBINATIONS" name="AR_LOCATION_COMBINATIONS" tableType="TABLE" xmi:id="_-pBFGiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8rAfsCRKEeqY4fdMB7zUvQ" label="AR_LOCATION_RATES" name="AR_LOCATION_RATES" tableType="TABLE" xmi:id="_-pBFGyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8rRlcCRKEeqY4fdMB7zUvQ" label="AR_LOCATION_VALUES" name="AR_LOCATION_VALUES" tableType="TABLE" xmi:id="_-pBFHCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8rhdECRKEeqY4fdMB7zUvQ" label="AR_LOCKBOXES_ALL" name="AR_LOCKBOXES_ALL" tableType="TABLE" xmi:id="_-pBFHSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8rxUsCRKEeqY4fdMB7zUvQ" label="AR_LOOKUPS_OLD" name="AR_LOOKUPS_OLD" tableType="TABLE" xmi:id="_-pBFHiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8sBzYCRKEeqY4fdMB7zUvQ" label="AR_LOOKUP_TYPES_OLD" name="AR_LOOKUP_TYPES_OLD" tableType="TABLE" xmi:id="_-pBFHyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8sSSECRKEeqY4fdMB7zUvQ" label="AR_MC_ADJUSTMENTS" name="AR_MC_ADJUSTMENTS" tableType="TABLE" xmi:id="_-pBFICRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8stI0CRKEeqY4fdMB7zUvQ" label="AR_MC_BATCHES" name="AR_MC_BATCHES" tableType="TABLE" xmi:id="_-pBFISRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8s8ZYCRKEeqY4fdMB7zUvQ" label="AR_MC_CASH_BASIS_DISTS_ALL" name="AR_MC_CASH_BASIS_DISTS_ALL" tableType="TABLE" xmi:id="_-pBFIiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8tNfICRKEeqY4fdMB7zUvQ" label="AR_MC_CASH_RECEIPTS" name="AR_MC_CASH_RECEIPTS" tableType="TABLE" xmi:id="_-pBFIyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8tdWwCRKEeqY4fdMB7zUvQ" label="AR_MC_CASH_RECEIPT_HIST" name="AR_MC_CASH_RECEIPT_HIST" tableType="TABLE" xmi:id="_-pBFJCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8tsnUCRKEeqY4fdMB7zUvQ" label="AR_MC_DISTRIBUTIONS_ALL" name="AR_MC_DISTRIBUTIONS_ALL" tableType="TABLE" xmi:id="_-pBFJSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8t9GACRKEeqY4fdMB7zUvQ" label="AR_MC_MISC_CASH_DISTS" name="AR_MC_MISC_CASH_DISTS" tableType="TABLE" xmi:id="_-pBFJiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8uM9oCRKEeqY4fdMB7zUvQ" label="AR_MC_PAYMENT_SCHEDULES" name="AR_MC_PAYMENT_SCHEDULES" tableType="TABLE" xmi:id="_-pBFJyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8udcUCRKEeqY4fdMB7zUvQ" label="AR_MC_RATE_ADJUSTMENTS" name="AR_MC_RATE_ADJUSTMENTS" tableType="TABLE" xmi:id="_-pBFKCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8ut7ACRKEeqY4fdMB7zUvQ" label="AR_MC_RECEIVABLE_APPS" name="AR_MC_RECEIVABLE_APPS" tableType="TABLE" xmi:id="_-pBFKSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8u-ZsCRKEeqY4fdMB7zUvQ" label="AR_MC_TRANSACTION_HISTORY" name="AR_MC_TRANSACTION_HISTORY" tableType="TABLE" xmi:id="_-pBFKiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8vYpYCRKEeqY4fdMB7zUvQ" label="AR_MEMO_LINES_ALL_B" name="AR_MEMO_LINES_ALL_B" tableType="TABLE" xmi:id="_-pBFKyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8vpIECRKEeqY4fdMB7zUvQ" label="AR_MEMO_LINES_ALL_TL" name="AR_MEMO_LINES_ALL_TL" tableType="TABLE" xmi:id="_-pBFLCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8v4_sCRKEeqY4fdMB7zUvQ" label="AR_MISC_CASH_DISTRIBUTIONS_ALL" name="AR_MISC_CASH_DISTRIBUTIONS_ALL" tableType="TABLE" xmi:id="_-pBFLSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8wKsgCRKEeqY4fdMB7zUvQ" label="AR_MRC_CASH_HEADER" name="AR_MRC_CASH_HEADER" tableType="TABLE" xmi:id="_-pBFLiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8wbLMCRKEeqY4fdMB7zUvQ" label="AR_MRC_CASH_LINES" name="AR_MRC_CASH_LINES" tableType="TABLE" xmi:id="_-pBFLyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8wrC0CRKEeqY4fdMB7zUvQ" label="AR_MRC_INQ_TRANS_BALANCES" name="AR_MRC_INQ_TRANS_BALANCES" tableType="TABLE" xmi:id="_-pBFMCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8w7hgCRKEeqY4fdMB7zUvQ" label="AR_NOTES" name="AR_NOTES" tableType="TABLE" xmi:id="_-pBFMSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8xMAMCRKEeqY4fdMB7zUvQ" label="AR_PARALLEL_AUTOINSTALL" name="AR_PARALLEL_AUTOINSTALL" tableType="TABLE" xmi:id="_-pBFMiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8xdF8CRKEeqY4fdMB7zUvQ" label="AR_PAYMENTS_INTERFACE_ALL" name="AR_PAYMENTS_INTERFACE_ALL" tableType="TABLE" xmi:id="_-pBFMyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8xs9kCRKEeqY4fdMB7zUvQ" label="AR_PAYMENT_SCHEDULES_ALL" name="AR_PAYMENT_SCHEDULES_ALL" tableType="TABLE" xmi:id="_-pBFNCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8yH0UCRKEeqY4fdMB7zUvQ" label="AR_PAYMENT_SCHEDULES_ALL_MV" name="AR_PAYMENT_SCHEDULES_ALL_MV" tableType="TABLE" xmi:id="_-pBFNSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8yXr8CRKEeqY4fdMB7zUvQ" label="AR_PERIODS" name="AR_PERIODS" tableType="TABLE" xmi:id="_-pBFNiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8yoKoCRKEeqY4fdMB7zUvQ" label="AR_PERIOD_TYPES" name="AR_PERIOD_TYPES" tableType="TABLE" xmi:id="_-pBFNyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8y4CQCRKEeqY4fdMB7zUvQ" label="AR_POSTING_CONTROL" name="AR_POSTING_CONTROL" tableType="TABLE" xmi:id="_-pBFOCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8zH54CRKEeqY4fdMB7zUvQ" label="AR_POSTING_REPORT_INTERIM" name="AR_POSTING_REPORT_INTERIM" tableType="TABLE" xmi:id="_-pBFOSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8zY_oCRKEeqY4fdMB7zUvQ" label="AR_PURGE_OE_EXCEPTIONS" name="AR_PURGE_OE_EXCEPTIONS" tableType="TABLE" xmi:id="_-pBFOiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8zo3QCRKEeqY4fdMB7zUvQ" label="AR_PURGE_REC_AUX" name="AR_PURGE_REC_AUX" tableType="TABLE" xmi:id="_-pBFOyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8z4u4CRKEeqY4fdMB7zUvQ" label="AR_PURGE_TRX_AUX" name="AR_PURGE_TRX_AUX" tableType="TABLE" xmi:id="_-pBFPCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_80ImgCRKEeqY4fdMB7zUvQ" label="AR_RAMC_AUDIT_TRAIL" name="AR_RAMC_AUDIT_TRAIL" tableType="TABLE" xmi:id="_-pBFPSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_80YeICRKEeqY4fdMB7zUvQ" label="AR_RATE_ADJUSTMENTS_ALL" name="AR_RATE_ADJUSTMENTS_ALL" tableType="TABLE" xmi:id="_-pBFPiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_801KECRKEeqY4fdMB7zUvQ" label="AR_RECEIPTS_REP_ITF" name="AR_RECEIPTS_REP_ITF" tableType="TABLE" xmi:id="_-pBFPyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_81FBsCRKEeqY4fdMB7zUvQ" label="AR_RECEIPT_CLASSES" name="AR_RECEIPT_CLASSES" tableType="TABLE" xmi:id="_-pBFQCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_81VgYCRKEeqY4fdMB7zUvQ" label="AR_RECEIPT_METHODS" name="AR_RECEIPT_METHODS" tableType="TABLE" xmi:id="_-pBFQSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_81lYACRKEeqY4fdMB7zUvQ" label="AR_RECEIPT_METHOD_ACCOUNTS_ALL" name="AR_RECEIPT_METHOD_ACCOUNTS_ALL" tableType="TABLE" xmi:id="_-pBFQiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_811PoCRKEeqY4fdMB7zUvQ" label="AR_RECEIVABLES_TRX_ALL" name="AR_RECEIVABLES_TRX_ALL" tableType="TABLE" xmi:id="_-pBFQyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_82G8cCRKEeqY4fdMB7zUvQ" label="AR_RECEIVABLE_APPLICATIONS_ALL" name="AR_RECEIVABLE_APPLICATIONS_ALL" tableType="TABLE" xmi:id="_-pBFRCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_82YCMCRKEeqY4fdMB7zUvQ" label="AR_RECEIVABLE_APPLICATIONS_MV" name="AR_RECEIVABLE_APPLICATIONS_MV" tableType="TABLE" xmi:id="_-pBFRSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_82n50CRKEeqY4fdMB7zUvQ" label="AR_REVENUE_ADJUSTMENTS_ALL" name="AR_REVENUE_ADJUSTMENTS_ALL" tableType="TABLE" xmi:id="_-pBFRiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_827b0CRKEeqY4fdMB7zUvQ" label="AR_REVENUE_ASSIGNMENTS_GT" name="AR_REVENUE_ASSIGNMENTS_GT" tableType="TABLE" xmi:id="_-pBFRyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_83L6gCRKEeqY4fdMB7zUvQ" label="AR_REV_REC_QT" name="AR_REV_REC_QT" tableType="TABLE" xmi:id="_-pBFSCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_83nYUCRKEeqY4fdMB7zUvQ" label="AR_SALES_TAX" name="AR_SALES_TAX" tableType="TABLE" xmi:id="_-pBFSSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_832o4CRKEeqY4fdMB7zUvQ" label="AR_SALES_TAX_REP_ITF" name="AR_SALES_TAX_REP_ITF" tableType="TABLE" xmi:id="_-pBFSiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_84HHkCRKEeqY4fdMB7zUvQ" label="AR_SELECTION_CRITERIA" name="AR_SELECTION_CRITERIA" tableType="TABLE" xmi:id="_-pBFSyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_84XmQCRKEeqY4fdMB7zUvQ" label="AR_STANDARD_TEXT_B" name="AR_STANDARD_TEXT_B" tableType="TABLE" xmi:id="_-pBFTCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_84oE8CRKEeqY4fdMB7zUvQ" label="AR_STANDARD_TEXT_TL" name="AR_STANDARD_TEXT_TL" tableType="TABLE" xmi:id="_-pBFTSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8438kCRKEeqY4fdMB7zUvQ" label="AR_STATEMENTS_HISTORY_ALL" name="AR_STATEMENTS_HISTORY_ALL" tableType="TABLE" xmi:id="_-pBFTiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_85IbQCRKEeqY4fdMB7zUvQ" label="AR_STATEMENT_CYCLES" name="AR_STATEMENT_CYCLES" tableType="TABLE" xmi:id="_-pBFTyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_85YS4CRKEeqY4fdMB7zUvQ" label="AR_STATEMENT_CYCLE_DATES_ALL" name="AR_STATEMENT_CYCLE_DATES_ALL" tableType="TABLE" xmi:id="_-pBFUCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_85oKgCRKEeqY4fdMB7zUvQ" label="AR_STATEMENT_CYCLE_INTERVALS" name="AR_STATEMENT_CYCLE_INTERVALS" tableType="TABLE" xmi:id="_-pBFUSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_854CICRKEeqY4fdMB7zUvQ" label="AR_STATEMENT_FINCHRG_GT" name="AR_STATEMENT_FINCHRG_GT" tableType="TABLE" xmi:id="_-pBFUiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_86Tf8CRKEeqY4fdMB7zUvQ" label="AR_STATEMENT_HEADERS" name="AR_STATEMENT_HEADERS" tableType="TABLE" xmi:id="_-pBFUyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_86lMwCRKEeqY4fdMB7zUvQ" label="AR_STATEMENT_LINE_CLUSTERS" name="AR_STATEMENT_LINE_CLUSTERS" tableType="TABLE" xmi:id="_-pBFVCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_861rcCRKEeqY4fdMB7zUvQ" label="AR_SUM_REF_EVENT_HIST" name="AR_SUM_REF_EVENT_HIST" tableType="TABLE" xmi:id="_-pBFVSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_87FjECRKEeqY4fdMB7zUvQ" label="AR_SYSTEM_PARAMETERS_ALL" name="AR_SYSTEM_PARAMETERS_ALL" tableType="TABLE" xmi:id="_-pBFViRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_87Wo0CRKEeqY4fdMB7zUvQ" label="AR_TAX_CODE_COMBINATION_ID_GT" name="AR_TAX_CODE_COMBINATION_ID_GT" tableType="TABLE" xmi:id="_-pBFVyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_87nukCRKEeqY4fdMB7zUvQ" label="AR_TAX_CONDITIONS_ALL" name="AR_TAX_CONDITIONS_ALL" tableType="TABLE" xmi:id="_-pBFWCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_879FwCRKEeqY4fdMB7zUvQ" label="AR_TAX_CONDITION_ACTIONS_ALL" name="AR_TAX_CONDITION_ACTIONS_ALL" tableType="TABLE" xmi:id="_-pBFWSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_88M9YCRKEeqY4fdMB7zUvQ" label="AR_TAX_CONDITION_LINES_ALL" name="AR_TAX_CONDITION_LINES_ALL" tableType="TABLE" xmi:id="_-pBFWiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_88eqMCRKEeqY4fdMB7zUvQ" label="AR_TAX_EXTRACT_DCL_ITF" name="AR_TAX_EXTRACT_DCL_ITF" tableType="TABLE" xmi:id="_-pBFWyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_88vv8CRKEeqY4fdMB7zUvQ" label="AR_TAX_EXTRACT_MATRIX_ITF" name="AR_TAX_EXTRACT_MATRIX_ITF" tableType="TABLE" xmi:id="_-pBFXCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_89TwoCRKEeqY4fdMB7zUvQ" label="AR_TAX_EXTRACT_SUB_ITF" name="AR_TAX_EXTRACT_SUB_ITF" tableType="TABLE" xmi:id="_-pBFXSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_89pH0CRKEeqY4fdMB7zUvQ" label="AR_TAX_EXTR_SUB_AP_EXT" name="AR_TAX_EXTR_SUB_AP_EXT" tableType="TABLE" xmi:id="_-pBFXiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_898p0CRKEeqY4fdMB7zUvQ" label="AR_TAX_EXTR_SUB_AR_EXT" name="AR_TAX_EXTR_SUB_AR_EXT" tableType="TABLE" xmi:id="_-pBFXyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8-T2MCRKEeqY4fdMB7zUvQ" label="AR_TAX_EXTR_SUB_COM_EXT" name="AR_TAX_EXTR_SUB_COM_EXT" tableType="TABLE" xmi:id="_-pBFYCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8-k78CRKEeqY4fdMB7zUvQ" label="AR_TAX_GROUP_CODES_ALL" name="AR_TAX_GROUP_CODES_ALL" tableType="TABLE" xmi:id="_-pBFYSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8-1aoCRKEeqY4fdMB7zUvQ" label="AR_TAX_INTERFACE" name="AR_TAX_INTERFACE" tableType="TABLE" xmi:id="_-pBFYiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8_FSQCRKEeqY4fdMB7zUvQ" label="AR_TA_ASGN_TO_INT_ALL" name="AR_TA_ASGN_TO_INT_ALL" tableType="TABLE" xmi:id="_-pBFYyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8_Ui0CRKEeqY4fdMB7zUvQ" label="AR_TA_CASHAPP_OB_ALL" name="AR_TA_CASHAPP_OB_ALL" tableType="TABLE" xmi:id="_-pBFZCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8_mPoCRKEeqY4fdMB7zUvQ" label="AR_TA_CR_AGEN_INF_ALL" name="AR_TA_CR_AGEN_INF_ALL" tableType="TABLE" xmi:id="_-pBFZSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_8_2HQCRKEeqY4fdMB7zUvQ" label="AR_TA_CUST_HIER_CHILD" name="AR_TA_CUST_HIER_CHILD" tableType="TABLE" xmi:id="_-pBFZiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9AQ-ACRKEeqY4fdMB7zUvQ" label="AR_TA_CUST_HIER_PARNT" name="AR_TA_CUST_HIER_PARNT" tableType="TABLE" xmi:id="_-pBFZyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Ag1oCRKEeqY4fdMB7zUvQ" label="AR_TA_CUST_INT_ALL" name="AR_TA_CUST_INT_ALL" tableType="TABLE" xmi:id="_-pBFaCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9AxUUCRKEeqY4fdMB7zUvQ" label="AR_TA_CUST_TRXSTR_ALL" name="AR_TA_CUST_TRXSTR_ALL" tableType="TABLE" xmi:id="_-pBFaSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9BBzACRKEeqY4fdMB7zUvQ" label="AR_TA_DEDN_ASSGNS_ALL" name="AR_TA_DEDN_ASSGNS_ALL" tableType="TABLE" xmi:id="_-pBFaiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9BRqoCRKEeqY4fdMB7zUvQ" label="AR_TA_DEDN_INT_ALL" name="AR_TA_DEDN_INT_ALL" tableType="TABLE" xmi:id="_-pBFayRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9BiJUCRKEeqY4fdMB7zUvQ" label="AR_TA_DEDN_RELATE_ALL" name="AR_TA_DEDN_RELATE_ALL" tableType="TABLE" xmi:id="_-pBFbCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9ByA8CRKEeqY4fdMB7zUvQ" label="AR_TA_LEGACY_CUST_INT" name="AR_TA_LEGACY_CUST_INT" tableType="TABLE" xmi:id="_-pBFbSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9CB4kCRKEeqY4fdMB7zUvQ" label="AR_TA_LEGACY_STAT_INT" name="AR_TA_LEGACY_STAT_INT" tableType="TABLE" xmi:id="_-pBFbiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9CSXQCRKEeqY4fdMB7zUvQ" label="AR_TA_PAYMNT_HIST_ALL" name="AR_TA_PAYMNT_HIST_ALL" tableType="TABLE" xmi:id="_-pBFbyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Ci18CRKEeqY4fdMB7zUvQ" label="AR_TA_PROF_ASSGNT_ALL" name="AR_TA_PROF_ASSGNT_ALL" tableType="TABLE" xmi:id="_-pBFcCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9C9FoCRKEeqY4fdMB7zUvQ" label="AR_TA_PROMOTIONS_ALL" name="AR_TA_PROMOTIONS_ALL" tableType="TABLE" xmi:id="_-pBFcSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9DNkUCRKEeqY4fdMB7zUvQ" label="AR_TA_PROMOTIONS_INT" name="AR_TA_PROMOTIONS_INT" tableType="TABLE" xmi:id="_-pBFciRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Ddb8CRKEeqY4fdMB7zUvQ" label="AR_TA_PROM_CUST_ALL" name="AR_TA_PROM_CUST_ALL" tableType="TABLE" xmi:id="_-pBFcyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9DtTkCRKEeqY4fdMB7zUvQ" label="AR_TA_PROM_CUST_MAP" name="AR_TA_PROM_CUST_MAP" tableType="TABLE" xmi:id="_-pBFdCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9D9LMCRKEeqY4fdMB7zUvQ" label="AR_TA_PROM_LINES_INT" name="AR_TA_PROM_LINES_INT" tableType="TABLE" xmi:id="_-pBFdSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9ENC0CRKEeqY4fdMB7zUvQ" label="AR_TA_PROM_PAYMNT_ALL" name="AR_TA_PROM_PAYMNT_ALL" tableType="TABLE" xmi:id="_-pBFdiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Ec6cCRKEeqY4fdMB7zUvQ" label="AR_TA_PROM_PAYMNT_TYP" name="AR_TA_PROM_PAYMNT_TYP" tableType="TABLE" xmi:id="_-pBFdyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9EsyECRKEeqY4fdMB7zUvQ" label="AR_TA_PROM_PRODS_ALL" name="AR_TA_PROM_PRODS_ALL" tableType="TABLE" xmi:id="_-pBFeCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9E8psCRKEeqY4fdMB7zUvQ" label="AR_TA_PROM_STATUS_MAP" name="AR_TA_PROM_STATUS_MAP" tableType="TABLE" xmi:id="_-pBFeSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9FMhUCRKEeqY4fdMB7zUvQ" label="AR_TA_RECON_INFO_ALL" name="AR_TA_RECON_INFO_ALL" tableType="TABLE" xmi:id="_-pBFeiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9FmxACRKEeqY4fdMB7zUvQ" label="AR_TA_RECV_TRXSET_ALL" name="AR_TA_RECV_TRXSET_ALL" tableType="TABLE" xmi:id="_-pBFeyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9F3PsCRKEeqY4fdMB7zUvQ" label="AR_TA_REMIT_HIST_ALL" name="AR_TA_REMIT_HIST_ALL" tableType="TABLE" xmi:id="_-pBFfCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9GHuYCRKEeqY4fdMB7zUvQ" label="AR_TA_REMIT_PROF_ALL" name="AR_TA_REMIT_PROF_ALL" tableType="TABLE" xmi:id="_-pBFfSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9GXmACRKEeqY4fdMB7zUvQ" label="AR_TA_RISK_COMENT_ALL" name="AR_TA_RISK_COMENT_ALL" tableType="TABLE" xmi:id="_-pBFfiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9GndoCRKEeqY4fdMB7zUvQ" label="AR_TA_RULES_ALL" name="AR_TA_RULES_ALL" tableType="TABLE" xmi:id="_-pBFfyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9G3VQCRKEeqY4fdMB7zUvQ" label="AR_TA_RULE_OUTPUT" name="AR_TA_RULE_OUTPUT" tableType="TABLE" xmi:id="_-pBFgCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9HHM4CRKEeqY4fdMB7zUvQ" label="AR_TA_RULE_SETS_ALL" name="AR_TA_RULE_SETS_ALL" tableType="TABLE" xmi:id="_-pBFgSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9HXrkCRKEeqY4fdMB7zUvQ" label="AR_TA_RULE_SET_LN_ALL" name="AR_TA_RULE_SET_LN_ALL" tableType="TABLE" xmi:id="_-pBFgiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9HoxUCRKEeqY4fdMB7zUvQ" label="AR_TA_TRX_SETS_ALL" name="AR_TA_TRX_SETS_ALL" tableType="TABLE" xmi:id="_-pBFgyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9H4o8CRKEeqY4fdMB7zUvQ" label="AR_TA_TRX_SET_LN_ALL" name="AR_TA_TRX_SET_LN_ALL" tableType="TABLE" xmi:id="_-pBFhCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9IS4oCRKEeqY4fdMB7zUvQ" label="AR_TA_TRX_TO_CREATE" name="AR_TA_TRX_TO_CREATE" tableType="TABLE" xmi:id="_-pBFhSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Ij-YCRKEeqY4fdMB7zUvQ" label="AR_TA_TRX_TYP_INT_ALL" name="AR_TA_TRX_TYP_INT_ALL" tableType="TABLE" xmi:id="_-pBFhiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9I0dECRKEeqY4fdMB7zUvQ" label="AR_TA_VERSIONS" name="AR_TA_VERSIONS" tableType="TABLE" xmi:id="_-pBFhyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9JFi0CRKEeqY4fdMB7zUvQ" label="AR_TRANSACTIONS_REP_ITF" name="AR_TRANSACTIONS_REP_ITF" tableType="TABLE" xmi:id="_-pBFiCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9JVacCRKEeqY4fdMB7zUvQ" label="AR_TRANSACTION_HISTORY_ALL" name="AR_TRANSACTION_HISTORY_ALL" tableType="TABLE" xmi:id="_-pBFiSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Jl5ICRKEeqY4fdMB7zUvQ" label="AR_TRANSMISSIONS_ALL" name="AR_TRANSMISSIONS_ALL" tableType="TABLE" xmi:id="_-pBFiiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9J2X0CRKEeqY4fdMB7zUvQ" label="AR_TRANSMISSION_FORMATS" name="AR_TRANSMISSION_FORMATS" tableType="TABLE" xmi:id="_-pBFiyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9KG2gCRKEeqY4fdMB7zUvQ" label="AR_TRANS_FIELD_FORMATS" name="AR_TRANS_FIELD_FORMATS" tableType="TABLE" xmi:id="_-pBFjCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9KWuICRKEeqY4fdMB7zUvQ" label="AR_TRANS_RECORD_FORMATS" name="AR_TRANS_RECORD_FORMATS" tableType="TABLE" xmi:id="_-pBFjSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Knz4CRKEeqY4fdMB7zUvQ" label="AR_TRX_BAL_SUMMARY" name="AR_TRX_BAL_SUMMARY" tableType="TABLE" xmi:id="_-pBFjiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9LCqoCRKEeqY4fdMB7zUvQ" label="AR_TRX_CONTINGENCIES_GT" name="AR_TRX_CONTINGENCIES_GT" tableType="TABLE" xmi:id="_-pBFjyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9LSiQCRKEeqY4fdMB7zUvQ" label="AR_TRX_DIST_GT" name="AR_TRX_DIST_GT" tableType="TABLE" xmi:id="_-pBFkCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9LjA8CRKEeqY4fdMB7zUvQ" label="AR_TRX_ERRORS_GT" name="AR_TRX_ERRORS_GT" tableType="TABLE" xmi:id="_-pBFkSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9L0twCRKEeqY4fdMB7zUvQ" label="AR_TRX_HEADER_GT" name="AR_TRX_HEADER_GT" tableType="TABLE" xmi:id="_-pBFkiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9MElYCRKEeqY4fdMB7zUvQ" label="AR_TRX_LINES_GT" name="AR_TRX_LINES_GT" tableType="TABLE" xmi:id="_-pBFkyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9MVrICRKEeqY4fdMB7zUvQ" label="AR_TRX_SALESCREDITS_GT" name="AR_TRX_SALESCREDITS_GT" tableType="TABLE" xmi:id="_-pBFlCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Mk7sCRKEeqY4fdMB7zUvQ" label="AR_TRX_SUMMARY" name="AR_TRX_SUMMARY" tableType="TABLE" xmi:id="_-pBFlSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9M2BcCRKEeqY4fdMB7zUvQ" label="AR_TRX_SUMMARY_HIST" name="AR_TRX_SUMMARY_HIST" tableType="TABLE" xmi:id="_-pBFliRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9NFSACRKEeqY4fdMB7zUvQ" label="AR_VAT_TAX_ALL_B" name="AR_VAT_TAX_ALL_B" tableType="TABLE" xmi:id="_-pBFlyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9NVwsCRKEeqY4fdMB7zUvQ" label="AR_VAT_TAX_ALL_TL" name="AR_VAT_TAX_ALL_TL" tableType="TABLE" xmi:id="_-pBFmCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9NwncCRKEeqY4fdMB7zUvQ" label="DR$HZ_CLASS_CODE_DENORM_T1$I" name="DR$HZ_CLASS_CODE_DENORM_T1$I" tableType="TABLE" xmi:id="_-pBFmSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9OAfECRKEeqY4fdMB7zUvQ" label="DR$HZ_CLASS_CODE_DENORM_T1$K" name="DR$HZ_CLASS_CODE_DENORM_T1$K" tableType="TABLE" xmi:id="_-pBFmiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9OQ9wCRKEeqY4fdMB7zUvQ" label="DR$HZ_CLASS_CODE_DENORM_T1$N" name="DR$HZ_CLASS_CODE_DENORM_T1$N" tableType="TABLE" xmi:id="_-pBFmyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Og1YCRKEeqY4fdMB7zUvQ" label="DR$HZ_CLASS_CODE_DENORM_T1$R" name="DR$HZ_CLASS_CODE_DENORM_T1$R" tableType="TABLE" xmi:id="_-pBFnCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9OxUECRKEeqY4fdMB7zUvQ" label="HZ_ADAPTERS" name="HZ_ADAPTERS" tableType="TABLE" xmi:id="_-pBFnSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9PBLsCRKEeqY4fdMB7zUvQ" label="HZ_ADAPTER_LOGS" name="HZ_ADAPTER_LOGS" tableType="TABLE" xmi:id="_-pBFniRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9PRqYCRKEeqY4fdMB7zUvQ" label="HZ_ADAPTER_TERRITORIES" name="HZ_ADAPTER_TERRITORIES" tableType="TABLE" xmi:id="_-pBFnyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9PhiACRKEeqY4fdMB7zUvQ" label="HZ_APPLICATION_TRANS_GT" name="HZ_APPLICATION_TRANS_GT" tableType="TABLE" xmi:id="_-pBFoCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9PyAsCRKEeqY4fdMB7zUvQ" label="HZ_BANK_VAL_GT" name="HZ_BANK_VAL_GT" tableType="TABLE" xmi:id="_-pBFoSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9QCfYCRKEeqY4fdMB7zUvQ" label="HZ_BILLING_PREFERENCES" name="HZ_BILLING_PREFERENCES" tableType="TABLE" xmi:id="_-pBFoiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9QdWICRKEeqY4fdMB7zUvQ" label="HZ_CERTIFICATIONS" name="HZ_CERTIFICATIONS" tableType="TABLE" xmi:id="_-pBFoyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Qt00CRKEeqY4fdMB7zUvQ" label="HZ_CITIZENSHIP" name="HZ_CITIZENSHIP" tableType="TABLE" xmi:id="_-pBFpCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Q-6kCRKEeqY4fdMB7zUvQ" label="HZ_CLASS_CATEGORIES" name="HZ_CLASS_CATEGORIES" tableType="TABLE" xmi:id="_-pBFpSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9RPZQCRKEeqY4fdMB7zUvQ" label="HZ_CLASS_CATEGORY_USES" name="HZ_CLASS_CATEGORY_USES" tableType="TABLE" xmi:id="_-pBFpiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9RgfACRKEeqY4fdMB7zUvQ" label="HZ_CLASS_CODE_DENORM" name="HZ_CLASS_CODE_DENORM" tableType="TABLE" xmi:id="_-pBFpyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9RwWoCRKEeqY4fdMB7zUvQ" label="HZ_CLASS_CODE_RELATIONS" name="HZ_CLASS_CODE_RELATIONS" tableType="TABLE" xmi:id="_-pBFqCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9SAOQCRKEeqY4fdMB7zUvQ" label="HZ_CODE_ASSIGNMENTS" name="HZ_CODE_ASSIGNMENTS" tableType="TABLE" xmi:id="_-pBFqSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9SQF4CRKEeqY4fdMB7zUvQ" label="HZ_CONTACT_POINTS" name="HZ_CONTACT_POINTS" tableType="TABLE" xmi:id="_-pBFqiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9SgkkCRKEeqY4fdMB7zUvQ" label="HZ_CONTACT_POINT_VAL_GT" name="HZ_CONTACT_POINT_VAL_GT" tableType="TABLE" xmi:id="_-pBFqyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9SwcMCRKEeqY4fdMB7zUvQ" label="HZ_CONTACT_PREFERENCES" name="HZ_CONTACT_PREFERENCES" tableType="TABLE" xmi:id="_-pBFrCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9TL6ACRKEeqY4fdMB7zUvQ" label="HZ_CONTACT_RESTRICTIONS" name="HZ_CONTACT_RESTRICTIONS" tableType="TABLE" xmi:id="_-pBFrSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Tc_wCRKEeqY4fdMB7zUvQ" label="HZ_CREDIT_PROFILES" name="HZ_CREDIT_PROFILES" tableType="TABLE" xmi:id="_-pBFriRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Ts3YCRKEeqY4fdMB7zUvQ" label="HZ_CREDIT_PROFILE_AMTS" name="HZ_CREDIT_PROFILE_AMTS" tableType="TABLE" xmi:id="_-pBFryRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9T99ICRKEeqY4fdMB7zUvQ" label="HZ_CREDIT_RATINGS" name="HZ_CREDIT_RATINGS" tableType="TABLE" xmi:id="_-pBFsCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9UN0wCRKEeqY4fdMB7zUvQ" label="HZ_CREDIT_RATINGS_EXT_B" name="HZ_CREDIT_RATINGS_EXT_B" tableType="TABLE" xmi:id="_-pBFsSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9UdsYCRKEeqY4fdMB7zUvQ" label="HZ_CREDIT_RATINGS_EXT_TL" name="HZ_CREDIT_RATINGS_EXT_TL" tableType="TABLE" xmi:id="_-pBFsiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9UuLECRKEeqY4fdMB7zUvQ" label="HZ_CREDIT_USAGES" name="HZ_CREDIT_USAGES" tableType="TABLE" xmi:id="_-pBFsyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9U-pwCRKEeqY4fdMB7zUvQ" label="HZ_CREDIT_USAGE_RULES" name="HZ_CREDIT_USAGE_RULES" tableType="TABLE" xmi:id="_-pBFtCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9VPIcCRKEeqY4fdMB7zUvQ" label="HZ_CREDIT_USAGE_RULE_SETS_B" name="HZ_CREDIT_USAGE_RULE_SETS_B" tableType="TABLE" xmi:id="_-pBFtSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9VfAECRKEeqY4fdMB7zUvQ" label="HZ_CREDIT_USAGE_RULE_SETS_TL" name="HZ_CREDIT_USAGE_RULE_SETS_TL" tableType="TABLE" xmi:id="_-pBFtiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9V7sACRKEeqY4fdMB7zUvQ" label="HZ_CUSTOMER_MERGE_LOG" name="HZ_CUSTOMER_MERGE_LOG" tableType="TABLE" xmi:id="_-pBFtyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9WMKsCRKEeqY4fdMB7zUvQ" label="HZ_CUSTOMER_PROFILES" name="HZ_CUSTOMER_PROFILES" tableType="TABLE" xmi:id="_-pBFuCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9WcCUCRKEeqY4fdMB7zUvQ" label="HZ_CUSTOMER_PROFILES_M" name="HZ_CUSTOMER_PROFILES_M" tableType="TABLE" xmi:id="_-pBFuSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9WshACRKEeqY4fdMB7zUvQ" label="HZ_CUST_ACCOUNTS" name="HZ_CUST_ACCOUNTS" tableType="TABLE" xmi:id="_-pBFuiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9W8YoCRKEeqY4fdMB7zUvQ" label="HZ_CUST_ACCOUNTS_M" name="HZ_CUST_ACCOUNTS_M" tableType="TABLE" xmi:id="_-pBFuyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9XM3UCRKEeqY4fdMB7zUvQ" label="HZ_CUST_ACCOUNT_ROLES" name="HZ_CUST_ACCOUNT_ROLES" tableType="TABLE" xmi:id="_-pBFvCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Xcu8CRKEeqY4fdMB7zUvQ" label="HZ_CUST_ACCOUNT_ROLES_M" name="HZ_CUST_ACCOUNT_ROLES_M" tableType="TABLE" xmi:id="_-pBFvSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9XsmkCRKEeqY4fdMB7zUvQ" label="HZ_CUST_ACCT_RELATE_ALL" name="HZ_CUST_ACCT_RELATE_ALL" tableType="TABLE" xmi:id="_-pBFviRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9X9FQCRKEeqY4fdMB7zUvQ" label="HZ_CUST_ACCT_RELATE_ALL_M" name="HZ_CUST_ACCT_RELATE_ALL_M" tableType="TABLE" xmi:id="_-pBFvyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9YM84CRKEeqY4fdMB7zUvQ" label="HZ_CUST_ACCT_SITES_ALL" name="HZ_CUST_ACCT_SITES_ALL" tableType="TABLE" xmi:id="_-pBFwCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9YnzoCRKEeqY4fdMB7zUvQ" label="HZ_CUST_ACCT_SITES_ALL_M" name="HZ_CUST_ACCT_SITES_ALL_M" tableType="TABLE" xmi:id="_-pBFwSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Y3rQCRKEeqY4fdMB7zUvQ" label="HZ_CUST_CONTACT_POINTS" name="HZ_CUST_CONTACT_POINTS" tableType="TABLE" xmi:id="_-pBFwiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9ZIxACRKEeqY4fdMB7zUvQ" label="HZ_CUST_MERGE_LOG_DICT" name="HZ_CUST_MERGE_LOG_DICT" tableType="TABLE" xmi:id="_-pBFwyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9ZYooCRKEeqY4fdMB7zUvQ" label="HZ_CUST_PROFILE_AMTS" name="HZ_CUST_PROFILE_AMTS" tableType="TABLE" xmi:id="_-pBFxCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9ZogQCRKEeqY4fdMB7zUvQ" label="HZ_CUST_PROFILE_AMTS_M" name="HZ_CUST_PROFILE_AMTS_M" tableType="TABLE" xmi:id="_-pBFxSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9Z4X4CRKEeqY4fdMB7zUvQ" label="HZ_CUST_PROFILE_CLASSES" name="HZ_CUST_PROFILE_CLASSES" tableType="TABLE" xmi:id="_-pBFxiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9aIPgCRKEeqY4fdMB7zUvQ" label="HZ_CUST_PROF_CLASS_AMTS" name="HZ_CUST_PROF_CLASS_AMTS" tableType="TABLE" xmi:id="_-pBFxyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9aYuMCRKEeqY4fdMB7zUvQ" label="HZ_CUST_SITE_USES_ALL" name="HZ_CUST_SITE_USES_ALL" tableType="TABLE" xmi:id="_-pBFyCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9aol0CRKEeqY4fdMB7zUvQ" label="HZ_CUST_SITE_USES_ALL_M" name="HZ_CUST_SITE_USES_ALL_M" tableType="TABLE" xmi:id="_-pBFySRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9a4dcCRKEeqY4fdMB7zUvQ" label="HZ_DL_SELECTED_CRITERIA" name="HZ_DL_SELECTED_CRITERIA" tableType="TABLE" xmi:id="_-pBFyiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9bTUMCRKEeqY4fdMB7zUvQ" label="HZ_DNB_REQUEST_LOG" name="HZ_DNB_REQUEST_LOG" tableType="TABLE" xmi:id="_-pBFyyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9bjL0CRKEeqY4fdMB7zUvQ" label="HZ_DQM_DETAILS_GT" name="HZ_DQM_DETAILS_GT" tableType="TABLE" xmi:id="_-pBFzCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9b0RkCRKEeqY4fdMB7zUvQ" label="HZ_DQM_PARTIES_GT" name="HZ_DQM_PARTIES_GT" tableType="TABLE" xmi:id="_-pBFzSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9cEwQCRKEeqY4fdMB7zUvQ" label="HZ_DQM_STAGE_GT" name="HZ_DQM_STAGE_GT" tableType="TABLE" xmi:id="_-pBFziRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9cUA0CRKEeqY4fdMB7zUvQ" label="HZ_DQM_STAGE_LOG" name="HZ_DQM_STAGE_LOG" tableType="TABLE" xmi:id="_-pBFzyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9cmUsCRKEeqY4fdMB7zUvQ" label="HZ_DQM_SYNC_GT" name="HZ_DQM_SYNC_GT" tableType="TABLE" xmi:id="_-pBF0CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9c2MUCRKEeqY4fdMB7zUvQ" label="HZ_DQM_SYNC_INTERFACE" name="HZ_DQM_SYNC_INTERFACE" tableType="TABLE" xmi:id="_-pBF0SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9dGrACRKEeqY4fdMB7zUvQ" label="HZ_DSS_ASSIGNMENTS" name="HZ_DSS_ASSIGNMENTS" tableType="TABLE" xmi:id="_-pBF0iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9dXJsCRKEeqY4fdMB7zUvQ" label="HZ_DSS_CRITERIA" name="HZ_DSS_CRITERIA" tableType="TABLE" xmi:id="_-pBF0yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9dnBUCRKEeqY4fdMB7zUvQ" label="HZ_DSS_ENTITIES" name="HZ_DSS_ENTITIES" tableType="TABLE" xmi:id="_-pBF1CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9eCfICRKEeqY4fdMB7zUvQ" label="HZ_DSS_GROUPS_B" name="HZ_DSS_GROUPS_B" tableType="TABLE" xmi:id="_-pBF1SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9eSWwCRKEeqY4fdMB7zUvQ" label="HZ_DSS_GROUPS_TL" name="HZ_DSS_GROUPS_TL" tableType="TABLE" xmi:id="_-pBF1iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9ei1cCRKEeqY4fdMB7zUvQ" label="HZ_DSS_SCHEME_FUNCTIONS" name="HZ_DSS_SCHEME_FUNCTIONS" tableType="TABLE" xmi:id="_-pBF1yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9eytECRKEeqY4fdMB7zUvQ" label="HZ_DSS_SECURED_ENTITIES" name="HZ_DSS_SECURED_ENTITIES" tableType="TABLE" xmi:id="_-pBF2CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9fDLwCRKEeqY4fdMB7zUvQ" label="HZ_DUP_BATCH" name="HZ_DUP_BATCH" tableType="TABLE" xmi:id="_-pBF2SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9fTqcCRKEeqY4fdMB7zUvQ" label="HZ_DUP_EXCLUSIONS" name="HZ_DUP_EXCLUSIONS" tableType="TABLE" xmi:id="_-pBF2iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9fkJICRKEeqY4fdMB7zUvQ" label="HZ_DUP_MATCH_DETAILS" name="HZ_DUP_MATCH_DETAILS" tableType="TABLE" xmi:id="_-pBF2yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9f0n0CRKEeqY4fdMB7zUvQ" label="HZ_DUP_MERGE_PARTIES" name="HZ_DUP_MERGE_PARTIES" tableType="TABLE" xmi:id="_-pBF3CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9gFGgCRKEeqY4fdMB7zUvQ" label="HZ_DUP_RESULTS" name="HZ_DUP_RESULTS" tableType="TABLE" xmi:id="_-pBF3SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9gU-ICRKEeqY4fdMB7zUvQ" label="HZ_DUP_SETS" name="HZ_DUP_SETS" tableType="TABLE" xmi:id="_-pBF3iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9gxDACRKEeqY4fdMB7zUvQ" label="HZ_DUP_SET_PARTIES" name="HZ_DUP_SET_PARTIES" tableType="TABLE" xmi:id="_-pBF3yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9hBhsCRKEeqY4fdMB7zUvQ" label="HZ_DUP_WORKER_CHUNK_GT" name="HZ_DUP_WORKER_CHUNK_GT" tableType="TABLE" xmi:id="_-pBF4CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9hSAYCRKEeqY4fdMB7zUvQ" label="HZ_EDUCATION" name="HZ_EDUCATION" tableType="TABLE" xmi:id="_-pBF4SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9hjGICRKEeqY4fdMB7zUvQ" label="HZ_EMAIL_DOMAINS" name="HZ_EMAIL_DOMAINS" tableType="TABLE" xmi:id="_-pBF4iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9hy9wCRKEeqY4fdMB7zUvQ" label="HZ_EMPLOYMENT_HISTORY" name="HZ_EMPLOYMENT_HISTORY" tableType="TABLE" xmi:id="_-pBF4yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9iEqkCRKEeqY4fdMB7zUvQ" label="HZ_ENTITY_ATTRIBUTES" name="HZ_ENTITY_ATTRIBUTES" tableType="TABLE" xmi:id="_-pBF5CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9iVJQCRKEeqY4fdMB7zUvQ" label="HZ_EXT_DATA_RULES_TL" name="HZ_EXT_DATA_RULES_TL" tableType="TABLE" xmi:id="_-pBF5SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9imPACRKEeqY4fdMB7zUvQ" label="HZ_FINANCIAL_NUMBERS" name="HZ_FINANCIAL_NUMBERS" tableType="TABLE" xmi:id="_-pBF5iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9i2tsCRKEeqY4fdMB7zUvQ" label="HZ_FINANCIAL_PROFILE" name="HZ_FINANCIAL_PROFILE" tableType="TABLE" xmi:id="_-pBF5yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9jHzcCRKEeqY4fdMB7zUvQ" label="HZ_FINANCIAL_REPORTS" name="HZ_FINANCIAL_REPORTS" tableType="TABLE" xmi:id="_-pBF6CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9jkfYCRKEeqY4fdMB7zUvQ" label="HZ_FIN_NUMBERS_EXT_B" name="HZ_FIN_NUMBERS_EXT_B" tableType="TABLE" xmi:id="_-pBF6SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9j0-ECRKEeqY4fdMB7zUvQ" label="HZ_FIN_NUMBERS_EXT_TL" name="HZ_FIN_NUMBERS_EXT_TL" tableType="TABLE" xmi:id="_-pBF6iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9kFcwCRKEeqY4fdMB7zUvQ" label="HZ_FIN_REPORTS_EXT_B" name="HZ_FIN_REPORTS_EXT_B" tableType="TABLE" xmi:id="_-pBF6yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9kWigCRKEeqY4fdMB7zUvQ" label="HZ_FIN_REPORTS_EXT_TL" name="HZ_FIN_REPORTS_EXT_TL" tableType="TABLE" xmi:id="_-pBF7CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9kmaICRKEeqY4fdMB7zUvQ" label="HZ_GEOGRAPHIES" name="HZ_GEOGRAPHIES" tableType="TABLE" xmi:id="_-pBF7SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9k3f4CRKEeqY4fdMB7zUvQ" label="HZ_GEOGRAPHY_IDENTIFIERS" name="HZ_GEOGRAPHY_IDENTIFIERS" tableType="TABLE" xmi:id="_-pBF7iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9lJzwCRKEeqY4fdMB7zUvQ" label="HZ_GEOGRAPHY_RANGES" name="HZ_GEOGRAPHY_RANGES" tableType="TABLE" xmi:id="_-pBF7yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9la5gCRKEeqY4fdMB7zUvQ" label="HZ_GEOGRAPHY_TYPES_B" name="HZ_GEOGRAPHY_TYPES_B" tableType="TABLE" xmi:id="_-pBF8CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9lr_QCRKEeqY4fdMB7zUvQ" label="HZ_GEOGRAPHY_TYPES_TL" name="HZ_GEOGRAPHY_TYPES_TL" tableType="TABLE" xmi:id="_-pBF8SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9l-6MCRKEeqY4fdMB7zUvQ" label="HZ_GEO_NAME_REFERENCES" name="HZ_GEO_NAME_REFERENCES" tableType="TABLE" xmi:id="_-pBF8iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9ma_ECRKEeqY4fdMB7zUvQ" label="HZ_GEO_NAME_REFERENCE_LOG" name="HZ_GEO_NAME_REFERENCE_LOG" tableType="TABLE" xmi:id="_-pBF8yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9msr4CRKEeqY4fdMB7zUvQ" label="HZ_GEO_STRUCTURE_LEVELS" name="HZ_GEO_STRUCTURE_LEVELS" tableType="TABLE" xmi:id="_-pBF9CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9m-YsCRKEeqY4fdMB7zUvQ" label="HZ_GEO_STRUCT_MAP" name="HZ_GEO_STRUCT_MAP" tableType="TABLE" xmi:id="_-pBF9SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9nPecCRKEeqY4fdMB7zUvQ" label="HZ_GEO_STRUCT_MAP_DTL" name="HZ_GEO_STRUCT_MAP_DTL" tableType="TABLE" xmi:id="_-pBF9iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9nf9ICRKEeqY4fdMB7zUvQ" label="HZ_GROUP_VAL_GT" name="HZ_GROUP_VAL_GT" tableType="TABLE" xmi:id="_-pBF9yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9nv0wCRKEeqY4fdMB7zUvQ" label="HZ_HIERARCHY_NODES" name="HZ_HIERARCHY_NODES" tableType="TABLE" xmi:id="_-pBF-CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9oA6gCRKEeqY4fdMB7zUvQ" label="HZ_IMP_ADAPTERS" name="HZ_IMP_ADAPTERS" tableType="TABLE" xmi:id="_-pBF-SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9oQyICRKEeqY4fdMB7zUvQ" label="HZ_IMP_ADDRESSES_INT" name="HZ_IMP_ADDRESSES_INT" tableType="TABLE" xmi:id="_-pBF-iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9oie8CRKEeqY4fdMB7zUvQ" label="HZ_IMP_ADDRESSES_SG" name="HZ_IMP_ADDRESSES_SG" tableType="TABLE" xmi:id="_-pBF-yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9oy9oCRKEeqY4fdMB7zUvQ" label="HZ_IMP_ADDRESSUSES_INT" name="HZ_IMP_ADDRESSUSES_INT" tableType="TABLE" xmi:id="_-pBF_CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9pObcCRKEeqY4fdMB7zUvQ" label="HZ_IMP_ADDRESSUSES_SG" name="HZ_IMP_ADDRESSUSES_SG" tableType="TABLE" xmi:id="_-pBF_SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9pe6ICRKEeqY4fdMB7zUvQ" label="HZ_IMP_BATCH_DETAILS" name="HZ_IMP_BATCH_DETAILS" tableType="TABLE" xmi:id="_-pBF_iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9puxwCRKEeqY4fdMB7zUvQ" label="HZ_IMP_BATCH_SUMMARY" name="HZ_IMP_BATCH_SUMMARY" tableType="TABLE" xmi:id="_-pBF_yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9p-pYCRKEeqY4fdMB7zUvQ" label="HZ_IMP_CLASSIFICS_INT" name="HZ_IMP_CLASSIFICS_INT" tableType="TABLE" xmi:id="_-pBGACRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9qN58CRKEeqY4fdMB7zUvQ" label="HZ_IMP_CLASSIFICS_SG" name="HZ_IMP_CLASSIFICS_SG" tableType="TABLE" xmi:id="_-pBrkCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9qe_sCRKEeqY4fdMB7zUvQ" label="HZ_IMP_CONTACTPTS_INT" name="HZ_IMP_CONTACTPTS_INT" tableType="TABLE" xmi:id="_-pBrkSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9qu3UCRKEeqY4fdMB7zUvQ" label="HZ_IMP_CONTACTPTS_SG" name="HZ_IMP_CONTACTPTS_SG" tableType="TABLE" xmi:id="_-pBrkiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9q_WACRKEeqY4fdMB7zUvQ" label="HZ_IMP_CONTACTROLES_INT" name="HZ_IMP_CONTACTROLES_INT" tableType="TABLE" xmi:id="_-pBrkyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9rP0sCRKEeqY4fdMB7zUvQ" label="HZ_IMP_CONTACTROLES_SG" name="HZ_IMP_CONTACTROLES_SG" tableType="TABLE" xmi:id="_-pBrlCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9rgTYCRKEeqY4fdMB7zUvQ" label="HZ_IMP_CONTACTS_INT" name="HZ_IMP_CONTACTS_INT" tableType="TABLE" xmi:id="_-pBrlSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9r7xMCRKEeqY4fdMB7zUvQ" label="HZ_IMP_CONTACTS_SG" name="HZ_IMP_CONTACTS_SG" tableType="TABLE" xmi:id="_-pBrliRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9sLo0CRKEeqY4fdMB7zUvQ" label="HZ_IMP_CREDITRTNGS_INT" name="HZ_IMP_CREDITRTNGS_INT" tableType="TABLE" xmi:id="_-pBrlyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9scHgCRKEeqY4fdMB7zUvQ" label="HZ_IMP_CREDITRTNGS_SG" name="HZ_IMP_CREDITRTNGS_SG" tableType="TABLE" xmi:id="_-pBrmCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9sr_ICRKEeqY4fdMB7zUvQ" label="HZ_IMP_DUP_DETAILS" name="HZ_IMP_DUP_DETAILS" tableType="TABLE" xmi:id="_-pBrmSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9s72wCRKEeqY4fdMB7zUvQ" label="HZ_IMP_DUP_PARTIES" name="HZ_IMP_DUP_PARTIES" tableType="TABLE" xmi:id="_-pBrmiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9tMVcCRKEeqY4fdMB7zUvQ" label="HZ_IMP_ERRORS" name="HZ_IMP_ERRORS" tableType="TABLE" xmi:id="_-pBrmyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9tbmACRKEeqY4fdMB7zUvQ" label="HZ_IMP_FINNUMBERS_INT" name="HZ_IMP_FINNUMBERS_INT" tableType="TABLE" xmi:id="_-pBrnCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9tsEsCRKEeqY4fdMB7zUvQ" label="HZ_IMP_FINNUMBERS_SG" name="HZ_IMP_FINNUMBERS_SG" tableType="TABLE" xmi:id="_-pBrnSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9t7VQCRKEeqY4fdMB7zUvQ" label="HZ_IMP_FINREPORTS_INT" name="HZ_IMP_FINREPORTS_INT" tableType="TABLE" xmi:id="_-pBrniRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9uLM4CRKEeqY4fdMB7zUvQ" label="HZ_IMP_FINREPORTS_SG" name="HZ_IMP_FINREPORTS_SG" tableType="TABLE" xmi:id="_-pBrnyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9umDoCRKEeqY4fdMB7zUvQ" label="HZ_IMP_INT_DEDUP_RESULTS" name="HZ_IMP_INT_DEDUP_RESULTS" tableType="TABLE" xmi:id="_-pBroCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9u2iUCRKEeqY4fdMB7zUvQ" label="HZ_IMP_OSR_CHANGE" name="HZ_IMP_OSR_CHANGE" tableType="TABLE" xmi:id="_-pBroSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9vGZ8CRKEeqY4fdMB7zUvQ" label="HZ_IMP_PARTIES_INT" name="HZ_IMP_PARTIES_INT" tableType="TABLE" xmi:id="_-pBroiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9vWRkCRKEeqY4fdMB7zUvQ" label="HZ_IMP_PARTIES_SG" name="HZ_IMP_PARTIES_SG" tableType="TABLE" xmi:id="_-pBroyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9vliICRKEeqY4fdMB7zUvQ" label="HZ_IMP_RELSHIPS_INT" name="HZ_IMP_RELSHIPS_INT" tableType="TABLE" xmi:id="_-pBrpCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9v2n4CRKEeqY4fdMB7zUvQ" label="HZ_IMP_RELSHIPS_SG" name="HZ_IMP_RELSHIPS_SG" tableType="TABLE" xmi:id="_-pBrpSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9wGfgCRKEeqY4fdMB7zUvQ" label="HZ_IMP_TMP_ERRORS" name="HZ_IMP_TMP_ERRORS" tableType="TABLE" xmi:id="_-pBrpiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9wWXICRKEeqY4fdMB7zUvQ" label="HZ_IMP_TMP_REL_END_DATE" name="HZ_IMP_TMP_REL_END_DATE" tableType="TABLE" xmi:id="_-pBrpyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9wmOwCRKEeqY4fdMB7zUvQ" label="HZ_IMP_WORK_UNITS" name="HZ_IMP_WORK_UNITS" tableType="TABLE" xmi:id="_-pBrqCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9w2GYCRKEeqY4fdMB7zUvQ" label="HZ_INDUSTRIAL_CLASSES" name="HZ_INDUSTRIAL_CLASSES" tableType="TABLE" xmi:id="_-pBrqSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9xQ9ICRKEeqY4fdMB7zUvQ" label="HZ_INDUSTRIAL_CLASS_APP" name="HZ_INDUSTRIAL_CLASS_APP" tableType="TABLE" xmi:id="_-pBrqiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9xg0wCRKEeqY4fdMB7zUvQ" label="HZ_INDUSTRIAL_REFERENCE" name="HZ_INDUSTRIAL_REFERENCE" tableType="TABLE" xmi:id="_-pBrqyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9xwsYCRKEeqY4fdMB7zUvQ" label="HZ_INT_DUP_RESULTS" name="HZ_INT_DUP_RESULTS" tableType="TABLE" xmi:id="_-pBrrCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9x_88CRKEeqY4fdMB7zUvQ" label="HZ_INT_DUP_RESULTS_GT" name="HZ_INT_DUP_RESULTS_GT" tableType="TABLE" xmi:id="_-pBrrSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9yQboCRKEeqY4fdMB7zUvQ" label="HZ_LOCATIONS" name="HZ_LOCATIONS" tableType="TABLE" xmi:id="_-pBrriRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9ygTQCRKEeqY4fdMB7zUvQ" label="HZ_LOCATIONS_EXT_B" name="HZ_LOCATIONS_EXT_B" tableType="TABLE" xmi:id="_-pBrryRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9ywK4CRKEeqY4fdMB7zUvQ" label="HZ_LOCATIONS_EXT_TL" name="HZ_LOCATIONS_EXT_TL" tableType="TABLE" xmi:id="_-pBrsCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9zApkCRKEeqY4fdMB7zUvQ" label="HZ_LOCATION_PROFILES" name="HZ_LOCATION_PROFILES" tableType="TABLE" xmi:id="_-pBrsSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9zQhMCRKEeqY4fdMB7zUvQ" label="HZ_LOCATION_VAL_GT" name="HZ_LOCATION_VAL_GT" tableType="TABLE" xmi:id="_-pBrsiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9zgY0CRKEeqY4fdMB7zUvQ" label="HZ_LOC_ASSIGNMENTS" name="HZ_LOC_ASSIGNMENTS" tableType="TABLE" xmi:id="_-pBrsyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9z9EwCRKEeqY4fdMB7zUvQ" label="HZ_LOG" name="HZ_LOG" tableType="TABLE" xmi:id="_-pBrtCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_90NjcCRKEeqY4fdMB7zUvQ" label="HZ_LOG2" name="HZ_LOG2" tableType="TABLE" xmi:id="_-pBrtSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_90dbECRKEeqY4fdMB7zUvQ" label="HZ_MATCHED_CONTACTS_GT" name="HZ_MATCHED_CONTACTS_GT" tableType="TABLE" xmi:id="_-pBrtiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_90tSsCRKEeqY4fdMB7zUvQ" label="HZ_MATCHED_CPTS_GT" name="HZ_MATCHED_CPTS_GT" tableType="TABLE" xmi:id="_-pBrtyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_909KUCRKEeqY4fdMB7zUvQ" label="HZ_MATCHED_PARTIES_GT" name="HZ_MATCHED_PARTIES_GT" tableType="TABLE" xmi:id="_-pBruCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_91NB8CRKEeqY4fdMB7zUvQ" label="HZ_MATCHED_PARTY_SITES_GT" name="HZ_MATCHED_PARTY_SITES_GT" tableType="TABLE" xmi:id="_-pBruSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_91dgoCRKEeqY4fdMB7zUvQ" label="HZ_MATCH_RULES_B" name="HZ_MATCH_RULES_B" tableType="TABLE" xmi:id="_-pBruiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_91sxMCRKEeqY4fdMB7zUvQ" label="HZ_MATCH_RULES_TL" name="HZ_MATCH_RULES_TL" tableType="TABLE" xmi:id="_-pBruyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_919P4CRKEeqY4fdMB7zUvQ" label="HZ_MATCH_RULE_CONDITIONS" name="HZ_MATCH_RULE_CONDITIONS" tableType="TABLE" xmi:id="_-pBrvCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_92NHgCRKEeqY4fdMB7zUvQ" label="HZ_MATCH_RULE_PRIMARY" name="HZ_MATCH_RULE_PRIMARY" tableType="TABLE" xmi:id="_-pBrvSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_92nXMCRKEeqY4fdMB7zUvQ" label="HZ_MATCH_RULE_SECONDARY" name="HZ_MATCH_RULE_SECONDARY" tableType="TABLE" xmi:id="_-pBrviRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_92314CRKEeqY4fdMB7zUvQ" label="HZ_MERGE_BATCH" name="HZ_MERGE_BATCH" tableType="TABLE" xmi:id="_-pBrvyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_93HtgCRKEeqY4fdMB7zUvQ" label="HZ_MERGE_DICTIONARY" name="HZ_MERGE_DICTIONARY" tableType="TABLE" xmi:id="_-pBrwCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_93XlICRKEeqY4fdMB7zUvQ" label="HZ_MERGE_ENTITY_ATTRIBUTES" name="HZ_MERGE_ENTITY_ATTRIBUTES" tableType="TABLE" xmi:id="_-pBrwSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_93oD0CRKEeqY4fdMB7zUvQ" label="HZ_MERGE_PARTIES" name="HZ_MERGE_PARTIES" tableType="TABLE" xmi:id="_-pBrwiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_934igCRKEeqY4fdMB7zUvQ" label="HZ_MERGE_PARTIES_SUGG" name="HZ_MERGE_PARTIES_SUGG" tableType="TABLE" xmi:id="_-pBrwyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_94JBMCRKEeqY4fdMB7zUvQ" label="HZ_MERGE_PARTYDTLS_SUGG" name="HZ_MERGE_PARTYDTLS_SUGG" tableType="TABLE" xmi:id="_-pBrxCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_94Y40CRKEeqY4fdMB7zUvQ" label="HZ_MERGE_PARTY_DETAILS" name="HZ_MERGE_PARTY_DETAILS" tableType="TABLE" xmi:id="_-pBrxSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_94owcCRKEeqY4fdMB7zUvQ" label="HZ_MERGE_PARTY_HISTORY" name="HZ_MERGE_PARTY_HISTORY" tableType="TABLE" xmi:id="_-pBrxiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_945PICRKEeqY4fdMB7zUvQ" label="HZ_MERGE_PARTY_LOG" name="HZ_MERGE_PARTY_LOG" tableType="TABLE" xmi:id="_-pBrxyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_95Us8CRKEeqY4fdMB7zUvQ" label="HZ_MOBILE_PREFIXES" name="HZ_MOBILE_PREFIXES" tableType="TABLE" xmi:id="_-pBryCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_95kkkCRKEeqY4fdMB7zUvQ" label="HZ_NON_PURGE_CANDIDATES" name="HZ_NON_PURGE_CANDIDATES" tableType="TABLE" xmi:id="_-pBrySRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_951qUCRKEeqY4fdMB7zUvQ" label="HZ_ORGANIZATION_INDICATORS" name="HZ_ORGANIZATION_INDICATORS" tableType="TABLE" xmi:id="_-pBryiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_96Fh8CRKEeqY4fdMB7zUvQ" label="HZ_ORGANIZATION_PROFILES" name="HZ_ORGANIZATION_PROFILES" tableType="TABLE" xmi:id="_-pBryyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_96WnsCRKEeqY4fdMB7zUvQ" label="HZ_ORG_CONTACTS" name="HZ_ORG_CONTACTS" tableType="TABLE" xmi:id="_-pBrzCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_96mfUCRKEeqY4fdMB7zUvQ" label="HZ_ORG_CONTACT_ROLES" name="HZ_ORG_CONTACT_ROLES" tableType="TABLE" xmi:id="_-pBrzSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_962-ACRKEeqY4fdMB7zUvQ" label="HZ_ORG_CONTACT_VAL_GT" name="HZ_ORG_CONTACT_VAL_GT" tableType="TABLE" xmi:id="_-pBrziRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_97IDwCRKEeqY4fdMB7zUvQ" label="HZ_ORG_PROFILES_EXT_B" name="HZ_ORG_PROFILES_EXT_B" tableType="TABLE" xmi:id="_-pBrzyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_97X7YCRKEeqY4fdMB7zUvQ" label="HZ_ORG_PROFILES_EXT_SG" name="HZ_ORG_PROFILES_EXT_SG" tableType="TABLE" xmi:id="_-pBr0CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_97oaECRKEeqY4fdMB7zUvQ" label="HZ_ORG_PROFILES_EXT_TL" name="HZ_ORG_PROFILES_EXT_TL" tableType="TABLE" xmi:id="_-pBr0SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_98D34CRKEeqY4fdMB7zUvQ" label="HZ_ORG_PROFILE_VAL_GT" name="HZ_ORG_PROFILE_VAL_GT" tableType="TABLE" xmi:id="_-pBr0iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_98UWkCRKEeqY4fdMB7zUvQ" label="HZ_ORIG_SYSTEMS_B" name="HZ_ORIG_SYSTEMS_B" tableType="TABLE" xmi:id="_-pBr0yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_98lcUCRKEeqY4fdMB7zUvQ" label="HZ_ORIG_SYSTEMS_TL" name="HZ_ORIG_SYSTEMS_TL" tableType="TABLE" xmi:id="_-pBr1CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9817ACRKEeqY4fdMB7zUvQ" label="HZ_ORIG_SYS_MAPPING" name="HZ_ORIG_SYS_MAPPING" tableType="TABLE" xmi:id="_-pBr1SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_99KrICRKEeqY4fdMB7zUvQ" label="HZ_ORIG_SYS_REFERENCES" name="HZ_ORIG_SYS_REFERENCES" tableType="TABLE" xmi:id="_-pBr1iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_99eNICRKEeqY4fdMB7zUvQ" label="HZ_PARAM_TAB" name="HZ_PARAM_TAB" tableType="TABLE" xmi:id="_-pBr1yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_99ur0CRKEeqY4fdMB7zUvQ" label="HZ_PARTIES" name="HZ_PARTIES" tableType="TABLE" xmi:id="_-pBr2CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9-AYoCRKEeqY4fdMB7zUvQ" label="HZ_PARTY_INTERFACE" name="HZ_PARTY_INTERFACE" tableType="TABLE" xmi:id="_-pBr2SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9-QQQCRKEeqY4fdMB7zUvQ" label="HZ_PARTY_INTERFACE_ERRORS" name="HZ_PARTY_INTERFACE_ERRORS" tableType="TABLE" xmi:id="_-pBr2iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9-gH4CRKEeqY4fdMB7zUvQ" label="HZ_PARTY_PREFERENCES" name="HZ_PARTY_PREFERENCES" tableType="TABLE" xmi:id="_-pBr2yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9-9a4CRKEeqY4fdMB7zUvQ" label="HZ_PARTY_RELATIONSHIPS" name="HZ_PARTY_RELATIONSHIPS" tableType="TABLE" xmi:id="_-pBr3CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9_OgoCRKEeqY4fdMB7zUvQ" label="HZ_PARTY_SCORE_DTLS_GT" name="HZ_PARTY_SCORE_DTLS_GT" tableType="TABLE" xmi:id="_-pBr3SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9_e_UCRKEeqY4fdMB7zUvQ" label="HZ_PARTY_SITES" name="HZ_PARTY_SITES" tableType="TABLE" xmi:id="_-pBr3iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9_u28CRKEeqY4fdMB7zUvQ" label="HZ_PARTY_SITES_EXT_B" name="HZ_PARTY_SITES_EXT_B" tableType="TABLE" xmi:id="_-pBr3yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_9__VoCRKEeqY4fdMB7zUvQ" label="HZ_PARTY_SITES_EXT_TL" name="HZ_PARTY_SITES_EXT_TL" tableType="TABLE" xmi:id="_-pBr4CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-APNQCRKEeqY4fdMB7zUvQ" label="HZ_PARTY_SITE_USES" name="HZ_PARTY_SITE_USES" tableType="TABLE" xmi:id="_-pBr4SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-AfE4CRKEeqY4fdMB7zUvQ" label="HZ_PARTY_SITE_VAL_GT" name="HZ_PARTY_SITE_VAL_GT" tableType="TABLE" xmi:id="_-pBr4iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-AvjkCRKEeqY4fdMB7zUvQ" label="HZ_PARTY_VAL_GT" name="HZ_PARTY_VAL_GT" tableType="TABLE" xmi:id="_-pBr4yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-BACQCRKEeqY4fdMB7zUvQ" label="HZ_PERSON_INTEREST" name="HZ_PERSON_INTEREST" tableType="TABLE" xmi:id="_-pBr5CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-BQg8CRKEeqY4fdMB7zUvQ" label="HZ_PERSON_LANGUAGE" name="HZ_PERSON_LANGUAGE" tableType="TABLE" xmi:id="_-pBr5SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-BqJkCRKEeqY4fdMB7zUvQ" label="HZ_PERSON_PROFILES" name="HZ_PERSON_PROFILES" tableType="TABLE" xmi:id="_-pBr5iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-B6oQCRKEeqY4fdMB7zUvQ" label="HZ_PER_PROFILES_EXT_B" name="HZ_PER_PROFILES_EXT_B" tableType="TABLE" xmi:id="_-pBr5yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-CLG8CRKEeqY4fdMB7zUvQ" label="HZ_PER_PROFILES_EXT_SG" name="HZ_PER_PROFILES_EXT_SG" tableType="TABLE" xmi:id="_-pBr6CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-Ca-kCRKEeqY4fdMB7zUvQ" label="HZ_PER_PROFILES_EXT_TL" name="HZ_PER_PROFILES_EXT_TL" tableType="TABLE" xmi:id="_-pBr6SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-CrdQCRKEeqY4fdMB7zUvQ" label="HZ_PHONE_AREA_CODES" name="HZ_PHONE_AREA_CODES" tableType="TABLE" xmi:id="_-pBr6iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-C7U4CRKEeqY4fdMB7zUvQ" label="HZ_PHONE_COUNTRY_CODES" name="HZ_PHONE_COUNTRY_CODES" tableType="TABLE" xmi:id="_-pBr6yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-DLzkCRKEeqY4fdMB7zUvQ" label="HZ_PHONE_FORMATS" name="HZ_PHONE_FORMATS" tableType="TABLE" xmi:id="_-pBr7CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-DcSQCRKEeqY4fdMB7zUvQ" label="HZ_PRIMARY_TRANS" name="HZ_PRIMARY_TRANS" tableType="TABLE" xmi:id="_-pBr7SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-DsJ4CRKEeqY4fdMB7zUvQ" label="HZ_PURGE_BATCHES" name="HZ_PURGE_BATCHES" tableType="TABLE" xmi:id="_-pBr7iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-D7acCRKEeqY4fdMB7zUvQ" label="HZ_PURGE_CANDIDATES" name="HZ_PURGE_CANDIDATES" tableType="TABLE" xmi:id="_-pBr7yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-EWRMCRKEeqY4fdMB7zUvQ" label="HZ_PURGE_GT" name="HZ_PURGE_GT" tableType="TABLE" xmi:id="_-pBr8CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-Emv4CRKEeqY4fdMB7zUvQ" label="HZ_REFERENCES" name="HZ_REFERENCES" tableType="TABLE" xmi:id="_-pBr8SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-E2ngCRKEeqY4fdMB7zUvQ" label="HZ_REGISTRATIONS" name="HZ_REGISTRATIONS" tableType="TABLE" xmi:id="_-pBr8iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-FGfICRKEeqY4fdMB7zUvQ" label="HZ_REG_VERIFICATIONS" name="HZ_REG_VERIFICATIONS" tableType="TABLE" xmi:id="_-pBr8yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-FW90CRKEeqY4fdMB7zUvQ" label="HZ_RELATIONSHIPS" name="HZ_RELATIONSHIPS" tableType="TABLE" xmi:id="_-pBr9CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-FncgCRKEeqY4fdMB7zUvQ" label="HZ_RELATIONSHIP_TYPES" name="HZ_RELATIONSHIP_TYPES" tableType="TABLE" xmi:id="_-pBr9SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-F3UICRKEeqY4fdMB7zUvQ" label="HZ_RELATIONSHIP_VAL_GT" name="HZ_RELATIONSHIP_VAL_GT" tableType="TABLE" xmi:id="_-pBr9iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-GHy0CRKEeqY4fdMB7zUvQ" label="HZ_ROLE_RESPONSIBILITY" name="HZ_ROLE_RESPONSIBILITY" tableType="TABLE" xmi:id="_-pBr9yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-GYRgCRKEeqY4fdMB7zUvQ" label="HZ_SECONDARY_TRANS" name="HZ_SECONDARY_TRANS" tableType="TABLE" xmi:id="_-pBr-CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-GoJICRKEeqY4fdMB7zUvQ" label="HZ_SECURITY_ISSUED" name="HZ_SECURITY_ISSUED" tableType="TABLE" xmi:id="_-pBr-SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-HEOACRKEeqY4fdMB7zUvQ" label="HZ_SELECT_DATA_SOURCES" name="HZ_SELECT_DATA_SOURCES" tableType="TABLE" xmi:id="_-pBr-iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-HUFoCRKEeqY4fdMB7zUvQ" label="HZ_SRCH_CONTACTS" name="HZ_SRCH_CONTACTS" tableType="TABLE" xmi:id="_-pBr-yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-Hj9QCRKEeqY4fdMB7zUvQ" label="HZ_SRCH_CPTS" name="HZ_SRCH_CPTS" tableType="TABLE" xmi:id="_-pBr_CRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-H0b8CRKEeqY4fdMB7zUvQ" label="HZ_SRCH_PARTIES" name="HZ_SRCH_PARTIES" tableType="TABLE" xmi:id="_-pBr_SRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-IETkCRKEeqY4fdMB7zUvQ" label="HZ_SRCH_PSITES" name="HZ_SRCH_PSITES" tableType="TABLE" xmi:id="_-pBr_iRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-IULMCRKEeqY4fdMB7zUvQ" label="HZ_STAGED_CONTACTS" name="HZ_STAGED_CONTACTS" tableType="TABLE" xmi:id="_-pBr_yRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-Ikp4CRKEeqY4fdMB7zUvQ" label="HZ_STAGED_CONTACT_POINTS" name="HZ_STAGED_CONTACT_POINTS" tableType="TABLE" xmi:id="_-pBsACRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-Iz6cCRKEeqY4fdMB7zUvQ" label="HZ_STAGED_PARTIES" name="HZ_STAGED_PARTIES" tableType="TABLE" xmi:id="_-pBsASRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-JFAMCRKEeqY4fdMB7zUvQ" label="HZ_STAGED_PARTY_SITES" name="HZ_STAGED_PARTY_SITES" tableType="TABLE" xmi:id="_-pBsAiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-JVe4CRKEeqY4fdMB7zUvQ" label="HZ_STOCK_MARKETS" name="HZ_STOCK_MARKETS" tableType="TABLE" xmi:id="_-pBsAyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-JwVoCRKEeqY4fdMB7zUvQ" label="HZ_STYLES_B" name="HZ_STYLES_B" tableType="TABLE" xmi:id="_-pBsBCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-KANQCRKEeqY4fdMB7zUvQ" label="HZ_STYLES_TL" name="HZ_STYLES_TL" tableType="TABLE" xmi:id="_-pBsBSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-KQE4CRKEeqY4fdMB7zUvQ" label="HZ_STYLE_FMT_LAYOUTS_B" name="HZ_STYLE_FMT_LAYOUTS_B" tableType="TABLE" xmi:id="_-pBsBiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-Kf8gCRKEeqY4fdMB7zUvQ" label="HZ_STYLE_FMT_LAYOUTS_TL" name="HZ_STYLE_FMT_LAYOUTS_TL" tableType="TABLE" xmi:id="_-pBsByRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-KwbMCRKEeqY4fdMB7zUvQ" label="HZ_STYLE_FMT_LOCALES" name="HZ_STYLE_FMT_LOCALES" tableType="TABLE" xmi:id="_-pBsCCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-LAS0CRKEeqY4fdMB7zUvQ" label="HZ_STYLE_FMT_VARIATIONS" name="HZ_STYLE_FMT_VARIATIONS" tableType="TABLE" xmi:id="_-pBsCSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-LPjYCRKEeqY4fdMB7zUvQ" label="HZ_STYLE_FORMATS_B" name="HZ_STYLE_FORMATS_B" tableType="TABLE" xmi:id="_-pBsCiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-LfbACRKEeqY4fdMB7zUvQ" label="HZ_STYLE_FORMATS_TL" name="HZ_STYLE_FORMATS_TL" tableType="TABLE" xmi:id="_-pBsCyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-LvSoCRKEeqY4fdMB7zUvQ" label="HZ_SUSPENSION_ACTIVITY" name="HZ_SUSPENSION_ACTIVITY" tableType="TABLE" xmi:id="_-pBsDCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-L_xUCRKEeqY4fdMB7zUvQ" label="HZ_THIRDPARTY_EXCEPS" name="HZ_THIRDPARTY_EXCEPS" tableType="TABLE" xmi:id="_-pBsDSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-MbPICRKEeqY4fdMB7zUvQ" label="HZ_THIRDPARTY_RULE" name="HZ_THIRDPARTY_RULE" tableType="TABLE" xmi:id="_-pBsDiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-Mrt0CRKEeqY4fdMB7zUvQ" label="HZ_TIMEZONES" name="HZ_TIMEZONES" tableType="TABLE" xmi:id="_-pBsDyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-M7lcCRKEeqY4fdMB7zUvQ" label="HZ_TIMEZONES_TL" name="HZ_TIMEZONES_TL" tableType="TABLE" xmi:id="_-pBsECRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-NLdECRKEeqY4fdMB7zUvQ" label="HZ_TIMEZONE_MAPPING" name="HZ_TIMEZONE_MAPPING" tableType="TABLE" xmi:id="_-pBsESRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-Nb7wCRKEeqY4fdMB7zUvQ" label="HZ_TRANS_ATTRIBUTES_B" name="HZ_TRANS_ATTRIBUTES_B" tableType="TABLE" xmi:id="_-pBsEiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-NrzYCRKEeqY4fdMB7zUvQ" label="HZ_TRANS_ATTRIBUTES_TL" name="HZ_TRANS_ATTRIBUTES_TL" tableType="TABLE" xmi:id="_-pBsEyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-N7rACRKEeqY4fdMB7zUvQ" label="HZ_TRANS_FUNCTIONS_B" name="HZ_TRANS_FUNCTIONS_B" tableType="TABLE" xmi:id="_-pBsFCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-OLioCRKEeqY4fdMB7zUvQ" label="HZ_TRANS_FUNCTIONS_TL" name="HZ_TRANS_FUNCTIONS_TL" tableType="TABLE" xmi:id="_-pBsFSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-OcBUCRKEeqY4fdMB7zUvQ" label="HZ_USER_CREATE_RULES" name="HZ_USER_CREATE_RULES" tableType="TABLE" xmi:id="_-pBsFiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-Or48CRKEeqY4fdMB7zUvQ" label="HZ_USER_ORG_GT" name="HZ_USER_ORG_GT" tableType="TABLE" xmi:id="_-pBsFyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-PHWwCRKEeqY4fdMB7zUvQ" label="HZ_USER_OVERWRITE_RULES" name="HZ_USER_OVERWRITE_RULES" tableType="TABLE" xmi:id="_-pBsGCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-PX1cCRKEeqY4fdMB7zUvQ" label="HZ_WIN_SOURCE_EXCEPS" name="HZ_WIN_SOURCE_EXCEPS" tableType="TABLE" xmi:id="_-pBsGSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-PntECRKEeqY4fdMB7zUvQ" label="HZ_WORD_LISTS" name="HZ_WORD_LISTS" tableType="TABLE" xmi:id="_-pBsGiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-P2WkCRKEeqY4fdMB7zUvQ" label="HZ_WORD_REPLACEMENTS" name="HZ_WORD_REPLACEMENTS" tableType="TABLE" xmi:id="_-pBsGyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-QHcUCRKEeqY4fdMB7zUvQ" label="HZ_WORD_RPL_CONDS_B" name="HZ_WORD_RPL_CONDS_B" tableType="TABLE" xmi:id="_-pBsHCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-QXT8CRKEeqY4fdMB7zUvQ" label="HZ_WORD_RPL_CONDS_TL" name="HZ_WORD_RPL_CONDS_TL" tableType="TABLE" xmi:id="_-pBsHSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-QmkgCRKEeqY4fdMB7zUvQ" label="HZ_WORD_RPL_COND_ATTRIBS" name="HZ_WORD_RPL_COND_ATTRIBS" tableType="TABLE" xmi:id="_-pBsHiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-Q2cICRKEeqY4fdMB7zUvQ" label="HZ_WORK_CLASS" name="HZ_WORK_CLASS" tableType="TABLE" xmi:id="_-pBsHyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-RHh4CRKEeqY4fdMB7zUvQ" label="JE_DE_AR_BATCHES" name="JE_DE_AR_BATCHES" tableType="TABLE" xmi:id="_-pBsICRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-RWycCRKEeqY4fdMB7zUvQ" label="JE_DE_REMITTANCE_RESULTS" name="JE_DE_REMITTANCE_RESULTS" tableType="TABLE" xmi:id="_-pBsISRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-RxpMCRKEeqY4fdMB7zUvQ" label="JG_ZZ_AR_BALANCES" name="JG_ZZ_AR_BALANCES" tableType="TABLE" xmi:id="_-pBsIiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-SCH4CRKEeqY4fdMB7zUvQ" label="JG_ZZ_AR_TMP_ACCOUNT" name="JG_ZZ_AR_TMP_ACCOUNT" tableType="TABLE" xmi:id="_-pBsIyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-SR_gCRKEeqY4fdMB7zUvQ" label="JG_ZZ_AR_TMP_BAL" name="JG_ZZ_AR_TMP_BAL" tableType="TABLE" xmi:id="_-pBsJCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-SieMCRKEeqY4fdMB7zUvQ" label="JG_ZZ_AR_TMP_DETAIL" name="JG_ZZ_AR_TMP_DETAIL" tableType="TABLE" xmi:id="_-pBsJSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-S0LACRKEeqY4fdMB7zUvQ" label="JG_ZZ_II_INT_RATES_ALL" name="JG_ZZ_II_INT_RATES_ALL" tableType="TABLE" xmi:id="_-pBsJiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-TEpsCRKEeqY4fdMB7zUvQ" label="JG_ZZ_INTEREST_BATCHES_ALL" name="JG_ZZ_INTEREST_BATCHES_ALL" tableType="TABLE" xmi:id="_-pBsJyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-TUhUCRKEeqY4fdMB7zUvQ" label="JG_ZZ_INTEREST_INVOICES_ALL" name="JG_ZZ_INTEREST_INVOICES_ALL" tableType="TABLE" xmi:id="_-pBsKCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-TkY8CRKEeqY4fdMB7zUvQ" label="JG_ZZ_INT_INV_LINES_ALL" name="JG_ZZ_INT_INV_LINES_ALL" tableType="TABLE" xmi:id="_-pBsKSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-T0QkCRKEeqY4fdMB7zUvQ" label="JG_ZZ_JGZZCSLP_MESSAGES" name="JG_ZZ_JGZZCSLP_MESSAGES" tableType="TABLE" xmi:id="_-pBsKiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-UEIMCRKEeqY4fdMB7zUvQ" label="JG_ZZ_LOOKUP_VALUES_ALL_R110" name="JG_ZZ_LOOKUP_VALUES_ALL_R110" tableType="TABLE" xmi:id="_-pBsKyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-UfmACRKEeqY4fdMB7zUvQ" label="MLOG$_AR_CASH_RECEIPTS_ALL" name="MLOG$_AR_CASH_RECEIPTS_ALL" tableType="TABLE" xmi:id="_-pBsLCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="snapshot log for master table AR.AR_CASH_RECEIPTS_ALL" xmi:id="_-pBsLSRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-UwEsCRKEeqY4fdMB7zUvQ" label="MLOG$_AR_PAYMENT_SCHEDULES" name="MLOG$_AR_PAYMENT_SCHEDULES" tableType="TABLE" xmi:id="_-pBsLiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="snapshot log for master table AR.AR_PAYMENT_SCHEDULES_ALL" xmi:id="_-pBsLyRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-U_8UCRKEeqY4fdMB7zUvQ" label="MLOG$_AR_RECEIVABLE_APPLIC" name="MLOG$_AR_RECEIVABLE_APPLIC" tableType="TABLE" xmi:id="_-pBsMCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="snapshot log for master table AR.AR_RECEIVABLE_APPLICATIONS_ALL" xmi:id="_-pBsMSRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-VQbACRKEeqY4fdMB7zUvQ" label="MLOG$_HZ_CONTACT_POINTS" name="MLOG$_HZ_CONTACT_POINTS" tableType="TABLE" xmi:id="_-pBsMiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="snapshot log for master table AR.HZ_CONTACT_POINTS" xmi:id="_-pBsMyRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-VgSoCRKEeqY4fdMB7zUvQ" label="MLOG$_HZ_CUST_ACCOUNTS" name="MLOG$_HZ_CUST_ACCOUNTS" tableType="TABLE" xmi:id="_-pBsNCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="snapshot log for master table AR.HZ_CUST_ACCOUNTS" xmi:id="_-pBsNSRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-VxYYCRKEeqY4fdMB7zUvQ" label="MLOG$_HZ_LOCATIONS" name="MLOG$_HZ_LOCATIONS" tableType="TABLE" xmi:id="_-pBsNiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="snapshot log for master table AR.HZ_LOCATIONS" xmi:id="_-pBsNyRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-WBQACRKEeqY4fdMB7zUvQ" label="MLOG$_HZ_PARTIES" name="MLOG$_HZ_PARTIES" tableType="TABLE" xmi:id="_-pBsOCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="snapshot log for master table AR.HZ_PARTIES" xmi:id="_-pBsOSRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-WRusCRKEeqY4fdMB7zUvQ" label="MLOG$_RA_BATCH_SOURCES_ALL" name="MLOG$_RA_BATCH_SOURCES_ALL" tableType="TABLE" xmi:id="_-pBsOiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="snapshot log for master table AR.RA_BATCH_SOURCES_ALL" xmi:id="_-pBsOyRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-WiNYCRKEeqY4fdMB7zUvQ" label="MLOG$_RA_CUSTOMER_TRX_ALL" name="MLOG$_RA_CUSTOMER_TRX_ALL" tableType="TABLE" xmi:id="_-pBsPCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="snapshot log for master table AR.RA_CUSTOMER_TRX_ALL" xmi:id="_-pBsPSRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-WyFACRKEeqY4fdMB7zUvQ" label="MLOG$_RA_CUST_TRX_LINE_GL_" name="MLOG$_RA_CUST_TRX_LINE_GL_" tableType="TABLE" xmi:id="_-pBsPiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="snapshot log for master table AR.RA_CUST_TRX_LINE_GL_DIST_ALL" xmi:id="_-pBsPyRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-XMUsCRKEeqY4fdMB7zUvQ" label="OCM_CREDIT_REVIEW_GT" name="OCM_CREDIT_REVIEW_GT" tableType="TABLE" xmi:id="_-pBsQCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-XczYCRKEeqY4fdMB7zUvQ" label="RA_ACCOUNT_COMBINATIONS" name="RA_ACCOUNT_COMBINATIONS" tableType="TABLE" xmi:id="_-pBsQSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-XsD8CRKEeqY4fdMB7zUvQ" label="RA_ACCOUNT_DEFAULTS_ALL" name="RA_ACCOUNT_DEFAULTS_ALL" tableType="TABLE" xmi:id="_-pBsQiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-X8ioCRKEeqY4fdMB7zUvQ" label="RA_ACCOUNT_DEFAULT_SEGMENTS" name="RA_ACCOUNT_DEFAULT_SEGMENTS" tableType="TABLE" xmi:id="_-pBsQyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-YLzMCRKEeqY4fdMB7zUvQ" label="RA_ADDRESSES_ALL" name="RA_ADDRESSES_ALL" tableType="TABLE" xmi:id="_-pBsRCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-YcR4CRKEeqY4fdMB7zUvQ" label="RA_BATCHES_ALL" name="RA_BATCHES_ALL" tableType="TABLE" xmi:id="_-pBsRSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-YricCRKEeqY4fdMB7zUvQ" label="RA_BATCH_SOURCES_ALL" name="RA_BATCH_SOURCES_ALL" tableType="TABLE" xmi:id="_-pBsRiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-Y7aECRKEeqY4fdMB7zUvQ" label="RA_CM_REQUESTS_ALL" name="RA_CM_REQUESTS_ALL" tableType="TABLE" xmi:id="_-pBsRyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-ZLRsCRKEeqY4fdMB7zUvQ" label="RA_CM_REQUEST_LINES_ALL" name="RA_CM_REQUEST_LINES_ALL" tableType="TABLE" xmi:id="_-pBsSCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-ZbJUCRKEeqY4fdMB7zUvQ" label="RA_CONTACTS" name="RA_CONTACTS" tableType="TABLE" xmi:id="_-pBsSSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-Z2AECRKEeqY4fdMB7zUvQ" label="RA_CONTACT_PHONES_INT_ALL" name="RA_CONTACT_PHONES_INT_ALL" tableType="TABLE" xmi:id="_-pBsSiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-aGewCRKEeqY4fdMB7zUvQ" label="RA_CONTACT_ROLES" name="RA_CONTACT_ROLES" tableType="TABLE" xmi:id="_-pBsSyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-aVvUCRKEeqY4fdMB7zUvQ" label="RA_CUSTOMERS" name="RA_CUSTOMERS" tableType="TABLE" xmi:id="_-pBsTCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-alm8CRKEeqY4fdMB7zUvQ" label="RA_CUSTOMERS_INTERFACE_ALL" name="RA_CUSTOMERS_INTERFACE_ALL" tableType="TABLE" xmi:id="_-pBsTSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-a2FoCRKEeqY4fdMB7zUvQ" label="RA_CUSTOMER_BANKS_INT_ALL" name="RA_CUSTOMER_BANKS_INT_ALL" tableType="TABLE" xmi:id="_-pBsTiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-bF9QCRKEeqY4fdMB7zUvQ" label="RA_CUSTOMER_MERGES" name="RA_CUSTOMER_MERGES" tableType="TABLE" xmi:id="_-pBsTyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-bWb8CRKEeqY4fdMB7zUvQ" label="RA_CUSTOMER_MERGE_HEADERS" name="RA_CUSTOMER_MERGE_HEADERS" tableType="TABLE" xmi:id="_-pBsUCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-bmTkCRKEeqY4fdMB7zUvQ" label="RA_CUSTOMER_PROFILES_INT_ALL" name="RA_CUSTOMER_PROFILES_INT_ALL" tableType="TABLE" xmi:id="_-pBsUSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-b4AYCRKEeqY4fdMB7zUvQ" label="RA_CUSTOMER_RELATIONSHIPS_ALL" name="RA_CUSTOMER_RELATIONSHIPS_ALL" tableType="TABLE" xmi:id="_-pBsUiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-cH4ACRKEeqY4fdMB7zUvQ" label="RA_CUSTOMER_TRX_ALL" name="RA_CUSTOMER_TRX_ALL" tableType="TABLE" xmi:id="_-pBsUyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-ciuwCRKEeqY4fdMB7zUvQ" label="RA_CUSTOMER_TRX_LINES_ALL" name="RA_CUSTOMER_TRX_LINES_ALL" tableType="TABLE" xmi:id="_-pBsVCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-czNcCRKEeqY4fdMB7zUvQ" label="RA_CUST_PAY_METHOD_INT_ALL" name="RA_CUST_PAY_METHOD_INT_ALL" tableType="TABLE" xmi:id="_-pBsVSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-dDsICRKEeqY4fdMB7zUvQ" label="RA_CUST_RECEIPT_METHODS" name="RA_CUST_RECEIPT_METHODS" tableType="TABLE" xmi:id="_-pBsViRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-dTjwCRKEeqY4fdMB7zUvQ" label="RA_CUST_TRXLINEGLDISTA_REC_MV" name="RA_CUST_TRXLINEGLDISTA_REC_MV" tableType="TABLE" xmi:id="_-pBsVyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-djbYCRKEeqY4fdMB7zUvQ" label="RA_CUST_TRX_LINE_GL_DIST_ALL" name="RA_CUST_TRX_LINE_GL_DIST_ALL" tableType="TABLE" xmi:id="_-pBsWCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-dyr8CRKEeqY4fdMB7zUvQ" label="RA_CUST_TRX_LINE_SALESREPS_ALL" name="RA_CUST_TRX_LINE_SALESREPS_ALL" tableType="TABLE" xmi:id="_-pBsWSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-eCjkCRKEeqY4fdMB7zUvQ" label="RA_CUST_TRX_TYPES_ALL" name="RA_CUST_TRX_TYPES_ALL" tableType="TABLE" xmi:id="_-pBsWiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-eTCQCRKEeqY4fdMB7zUvQ" label="RA_GROUPING_RULES" name="RA_GROUPING_RULES" tableType="TABLE" xmi:id="_-pBsWyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-ejg8CRKEeqY4fdMB7zUvQ" label="RA_GROUPING_TRX_TYPES" name="RA_GROUPING_TRX_TYPES" tableType="TABLE" xmi:id="_-pBsXCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-ezYkCRKEeqY4fdMB7zUvQ" label="RA_GROUP_BYS" name="RA_GROUP_BYS" tableType="TABLE" xmi:id="_-pBsXSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-fOPUCRKEeqY4fdMB7zUvQ" label="RA_GROUP_BY_COLUMNS" name="RA_GROUP_BY_COLUMNS" tableType="TABLE" xmi:id="_-pBsXiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-fdf4CRKEeqY4fdMB7zUvQ" label="RA_INTERFACE_DISTRIBUTIONS_ALL" name="RA_INTERFACE_DISTRIBUTIONS_ALL" tableType="TABLE" xmi:id="_-pBsXyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-fvzwCRKEeqY4fdMB7zUvQ" label="RA_INTERFACE_DIST_ALL_BAK" name="RA_INTERFACE_DIST_ALL_BAK" tableType="TABLE" xmi:id="_-pBsYCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-gAScCRKEeqY4fdMB7zUvQ" label="RA_INTERFACE_ERRORS_ALL" name="RA_INTERFACE_ERRORS_ALL" tableType="TABLE" xmi:id="_-pBsYSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-gQKECRKEeqY4fdMB7zUvQ" label="RA_INTERFACE_ERRORS_ALL_BAK" name="RA_INTERFACE_ERRORS_ALL_BAK" tableType="TABLE" xmi:id="_-pBsYiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-ggowCRKEeqY4fdMB7zUvQ" label="RA_INTERFACE_LINES_ALL" name="RA_INTERFACE_LINES_ALL" tableType="TABLE" xmi:id="_-pBsYyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-gwgYCRKEeqY4fdMB7zUvQ" label="RA_INTERFACE_SALESCREDITS_ALL" name="RA_INTERFACE_SALESCREDITS_ALL" tableType="TABLE" xmi:id="_-pBsZCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-hAYACRKEeqY4fdMB7zUvQ" label="RA_ITEM_EXCEPTION_RATES" name="RA_ITEM_EXCEPTION_RATES" tableType="TABLE" xmi:id="_-pBsZSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-hQ2sCRKEeqY4fdMB7zUvQ" label="RA_LINE_ORDERING_RULES" name="RA_LINE_ORDERING_RULES" tableType="TABLE" xmi:id="_-pBsZiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-hguUCRKEeqY4fdMB7zUvQ" label="RA_LINE_ORDER_BYS" name="RA_LINE_ORDER_BYS" tableType="TABLE" xmi:id="_-pBsZyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-h7lECRKEeqY4fdMB7zUvQ" label="RA_LINE_ORDER_BY_COLUMNS" name="RA_LINE_ORDER_BY_COLUMNS" tableType="TABLE" xmi:id="_-pBsaCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-iLcsCRKEeqY4fdMB7zUvQ" label="RA_MC_BATCHES" name="RA_MC_BATCHES" tableType="TABLE" xmi:id="_-pBsaSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-iatQCRKEeqY4fdMB7zUvQ" label="RA_MC_CUSTOMER_TRX" name="RA_MC_CUSTOMER_TRX" tableType="TABLE" xmi:id="_-pBsaiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-irL8CRKEeqY4fdMB7zUvQ" label="RA_MC_CUSTOMER_TRX_LINES" name="RA_MC_CUSTOMER_TRX_LINES" tableType="TABLE" xmi:id="_-pBsayRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-i6cgCRKEeqY4fdMB7zUvQ" label="RA_MC_TRX_LINE_GL_DIST" name="RA_MC_TRX_LINE_GL_DIST" tableType="TABLE" xmi:id="_-pBsbCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-jKUICRKEeqY4fdMB7zUvQ" label="RA_PHONES" name="RA_PHONES" tableType="TABLE" xmi:id="_-pBsbSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-jay0CRKEeqY4fdMB7zUvQ" label="RA_RECUR_INTERIM" name="RA_RECUR_INTERIM" tableType="TABLE" xmi:id="_-pBsbiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-jqDYCRKEeqY4fdMB7zUvQ" label="RA_REMIT_TOS_ALL" name="RA_REMIT_TOS_ALL" tableType="TABLE" xmi:id="_-pBsbyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-j6iECRKEeqY4fdMB7zUvQ" label="RA_RULES" name="RA_RULES" tableType="TABLE" xmi:id="_-pBscCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-kLAwCRKEeqY4fdMB7zUvQ" label="RA_RULE_SCHEDULES" name="RA_RULE_SCHEDULES" tableType="TABLE" xmi:id="_-pBscSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-klQcCRKEeqY4fdMB7zUvQ" label="RA_SALESREPS_ALL_OLD" name="RA_SALESREPS_ALL_OLD" tableType="TABLE" xmi:id="_-pBsciRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-k1vICRKEeqY4fdMB7zUvQ" label="RA_SALESREP_TERRITORIES" name="RA_SALESREP_TERRITORIES" tableType="TABLE" xmi:id="_-pBscyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-lE_sCRKEeqY4fdMB7zUvQ" label="RA_SITE_USES_ALL" name="RA_SITE_USES_ALL" tableType="TABLE" xmi:id="_-pBsdCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-lU3UCRKEeqY4fdMB7zUvQ" label="RA_TAX_EXEMPTIONS_ALL" name="RA_TAX_EXEMPTIONS_ALL" tableType="TABLE" xmi:id="_-pBsdSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-lku8CRKEeqY4fdMB7zUvQ" label="RA_TERMS_B" name="RA_TERMS_B" tableType="TABLE" xmi:id="_-pBsdiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-l1NoCRKEeqY4fdMB7zUvQ" label="RA_TERMS_LINES" name="RA_TERMS_LINES" tableType="TABLE" xmi:id="_-pBsdyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-mEeMCRKEeqY4fdMB7zUvQ" label="RA_TERMS_LINES_DISCOUNTS" name="RA_TERMS_LINES_DISCOUNTS" tableType="TABLE" xmi:id="_-pBseCRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-mVj8CRKEeqY4fdMB7zUvQ" label="RA_TERMS_TL" name="RA_TERMS_TL" tableType="TABLE" xmi:id="_-pBseSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-mmCoCRKEeqY4fdMB7zUvQ" label="RA_TERRITORIES" name="RA_TERRITORIES" tableType="TABLE" xmi:id="_-pBseiRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+    <ownedElement id="_-m16QCRKEeqY4fdMB7zUvQ" label="RUPD$_AR_CASH_RECEIPTS_ALL" name="RUPD$_AR_CASH_RECEIPTS_ALL" tableType="TABLE" xmi:id="_-pBseyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="temporary updatable snapshot log" xmi:id="_-pBsfCRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-nRYECRKEeqY4fdMB7zUvQ" label="RUPD$_AR_RECEIVABLE_APPLIC" name="RUPD$_AR_RECEIVABLE_APPLIC" tableType="TABLE" xmi:id="_-pBsfSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="temporary updatable snapshot log" xmi:id="_-pBsfiRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-nhPsCRKEeqY4fdMB7zUvQ" label="RUPD$_HZ_CONTACT_POINTS" name="RUPD$_HZ_CONTACT_POINTS" tableType="TABLE" xmi:id="_-pBsfyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="temporary updatable snapshot log" xmi:id="_-pBsgCRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-nxHUCRKEeqY4fdMB7zUvQ" label="RUPD$_HZ_CUST_ACCOUNTS" name="RUPD$_HZ_CUST_ACCOUNTS" tableType="TABLE" xmi:id="_-pBsgSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="temporary updatable snapshot log" xmi:id="_-pBsgiRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-oA-8CRKEeqY4fdMB7zUvQ" label="RUPD$_HZ_LOCATIONS" name="RUPD$_HZ_LOCATIONS" tableType="TABLE" xmi:id="_-pBsgyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="temporary updatable snapshot log" xmi:id="_-pBshCRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-oQ2kCRKEeqY4fdMB7zUvQ" label="RUPD$_HZ_PARTIES" name="RUPD$_HZ_PARTIES" tableType="TABLE" xmi:id="_-pBshSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="temporary updatable snapshot log" xmi:id="_-pBshiRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-ohVQCRKEeqY4fdMB7zUvQ" label="RUPD$_RA_BATCH_SOURCES_ALL" name="RUPD$_RA_BATCH_SOURCES_ALL" tableType="TABLE" xmi:id="_-pBshyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="temporary updatable snapshot log" xmi:id="_-pBsiCRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-oxM4CRKEeqY4fdMB7zUvQ" label="RUPD$_RA_CUSTOMER_TRX_ALL" name="RUPD$_RA_CUSTOMER_TRX_ALL" tableType="TABLE" xmi:id="_-pBsiSRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="temporary updatable snapshot log" xmi:id="_-pBsiiRKEeqY4fdMB7zUvQ"/>
+    </ownedElement>
+    <ownedElement id="_-pBEgCRKEeqY4fdMB7zUvQ" label="SYS_IOT_OVER_671776" name="SYS_IOT_OVER_671776" tableType="TABLE" xmi:id="_-pBsiyRKEeqY4fdMB7zUvQ" xsi:type="relational:TdTable"/>
+  </orgomg.cwm.resource.relational:Schema>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f835d96e-ec0d-4580-b325-4f81e17ed6f5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MH6gDK6IHxaGNgu5Sza1usKdsti8moN92o84aUqnlM++vkhTgEIC3sT5znhL3lIyUT7QnbwyXPio
+fz7yQ95IKA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d26bde02-1256-46b9-8be2-46b85472ff38"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FXEYY71CBqD2RMxL6N2AEzFUzbAirap8PDdbhDsi0gUx9JJva4Bk03gGPv2EYFJ+ZtXS4C9CsVa9
+nAo0qIZeeQ==</DigestValue></Reference></SignedInfo><SignatureValue>H+CO/oBmIgpc6uX7YfOms/da2NV8Zz+TtDoiGetUBlXSh6NFO6SYaqERnwrh8Mf7mkNBalyNRNoh
+IxHd+ANXBeZuxVBlNbfHw4P3WdB3y1/ysP8crbl5yMcOwoGCA/ASE5cqVKJmpJ71VYG6mFt5sr6m
+f5Tnu/CmdSVlTa1yWuNXIx/tIpaH6fVlD7ky5cHSTqqcq4ZaYIjj0YhYUXqwWsLp/cnAmVl51GaQ
+NmaiZpWJaXDClRvNXTZAA3BiUGiHzmGHnLYmOaTwrvr9NlPzzYA5yHVWkex4bts5hOz5XT8Y7qup
+zs9aW1wYCEno2JexbnGP85/PDLBc7n4BAdrBwA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d26bde02-1256-46b9-8be2-46b85472ff38" Target="#_f835d96e-ec0d-4580-b325-4f81e17ed6f5"><Timestamp>2020-04-30 19:34:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

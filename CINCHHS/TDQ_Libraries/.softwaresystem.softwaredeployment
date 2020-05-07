@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<softwaredeployment:TdSoftwareSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:softwaredeployment="http://www.talend.org/cwm/foundation/softwaredeployment/2010" xmi:id="_CdTvgIsXEeqoQdxf-QCU7A" name="Oracle" subtype="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production&#xA;With the Partitioning, OLAP, Data Mining and Real Application Testing options"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:softwaredeployment="http://www.talend.org/cwm/foundation/softwaredeployment/2010">
+  <softwaredeployment:TdSoftwareSystem xmi:id="_N7foEIstEeqoQdxf-QCU7A" name="Oracle" subtype="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production&#xA;With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,&#xA;Data Mining and Real Application Testing options"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_N8Fd8IstEeqoQdxf-QCU7A" name="PostgreSQL" subtype="PostgreSQL" version="11.5"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_N9wR4IstEeqoQdxf-QCU7A" name="Informix Dynamic Server" subtype="Informix Dynamic Server" version="12.10.FC11"/>
+  <softwaredeployment:TdSoftwareSystem xmi:id="_N98fIIstEeqoQdxf-QCU7A" name="Oracle" subtype="Oracle" version="Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production&#xA;With the Partitioning, OLAP, Data Mining and Real Application Testing options"/>
+</xmi:XMI>

@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="Oracle with service name" DatasourceName="" DbmsId="oracle_id" DriverClass="oracle.jdbc.OracleDriver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:181oE8c3gxGUfjl+6xlGz8h0z+F2XwJHY2VZX9HWD2nJYGB9i+7zqopcqib+sibX" Port="1521" ProductId="ORACLE" SID="oaprod" SQLMode="false" ServerName="atd0-scan" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:oracle:thin:@(description=(address=(protocol=tcp)(host=atd0-scan)(port=1521))(connect_data=(service_name=oaprod)))" UiSchema="APPS" Username="apps_query" dataPackage="_R6J_EGpJEeqZh9xgAuX6ow" dbVersionString="ORACLE_18" id="_3ngxsGpIEeqZh9xgAuX6ow" label="APPS" name="APPS" xmi:id="_3tsSMGpIEeqZh9xgAuX6ow">
+    <taggedValue tag="Is Conn Need Reload" value="true" xmi:id="_TykU4B_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="package filter" value="" xmi:id="_T0dyUB_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="Status" value="" xmi:id="_T0jR4B_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_T0jR4R_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_T0jR4h_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="Description" value="" xmi:id="_T0jR4x_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="Author" value="" xmi:id="_T0jR5B_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="otherParameter" xmi:id="_T0jR5R_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="DB ProductName" value="Oracle" xmi:id="_T240MB_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="DB ProductVersion" value="Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production&#10;With the Partitioning, Real Application Clusters, Automatic Storage Management, OLAP,&#10;Data Mining and Real Application Testing options" xmi:id="_T240MR_cEeqpgYJgYhS2qg"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_T240Mh_cEeqpgYJgYhS2qg"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="apps_query" xmi:id="_TykU4R_cEeqpgYJgYhS2qg"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_4RF6MGpIEeqZh9xgAuX6ow"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_3tsSMGpIEeqZh9xgAuX6ow" name="APPS" xmi:id="_R6J_EGpJEeqZh9xgAuX6ow">
+    <ownedElement id="_6vdJ4GrTEeqZh9xgAuX6ow" label="AP_INVOICE_DISTRIBUTIONS_ALL" name="AP_INVOICE_DISTRIBUTIONS_ALL" tableType="SYNONYM" xmi:id="_6veYAGrTEeqZh9xgAuX6ow" xsi:type="relational:TdTable">
+      <feature label="ACCOUNTING_DATE" length="7" name="ACCOUNTING_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_6veYAWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYAmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ACCOUNTING_EVENT_ID" length="15" name="ACCOUNTING_EVENT_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYA2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYBGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ACCRUAL_POSTED_FLAG" length="1" name="ACCRUAL_POSTED_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYBWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYBmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ACCTS_PAY_CODE_COMBINATION_ID" length="15" name="ACCTS_PAY_CODE_COMBINATION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYB2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYCGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ADJUSTMENT_REASON" length="240" name="ADJUSTMENT_REASON" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYCWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYCmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AMOUNT" length="22" name="AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYC2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYDGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AMOUNT_AT_PREPAY_PAY_XRATE" length="22" name="AMOUNT_AT_PREPAY_PAY_XRATE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYDWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYDmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AMOUNT_AT_PREPAY_XRATE" length="22" name="AMOUNT_AT_PREPAY_XRATE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYD2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYEGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AMOUNT_ENCUMBERED" length="22" name="AMOUNT_ENCUMBERED" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYEWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYEmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AMOUNT_INCLUDES_TAX_FLAG" length="1" name="AMOUNT_INCLUDES_TAX_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYE2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYFGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AMOUNT_TO_POST" length="22" name="AMOUNT_TO_POST" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYFWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYFmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AMOUNT_VARIANCE" length="22" name="AMOUNT_VARIANCE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYF2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYGGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ASSETS_ADDITION_FLAG" length="1" name="ASSETS_ADDITION_FLAG" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYGWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYGmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ASSETS_TRACKING_FLAG" length="1" name="ASSETS_TRACKING_FLAG" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYG2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYHGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ASSET_BOOK_TYPE_CODE" length="15" name="ASSET_BOOK_TYPE_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYHWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYHmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ASSET_CATEGORY_ID" length="15" name="ASSET_CATEGORY_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYH2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYIGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE1" length="150" name="ATTRIBUTE1" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYIWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYImrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE10" length="150" name="ATTRIBUTE10" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYI2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYJGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE11" length="150" name="ATTRIBUTE11" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYJWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYJmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE12" length="150" name="ATTRIBUTE12" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYJ2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYKGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE13" length="150" name="ATTRIBUTE13" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYKWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYKmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE14" length="150" name="ATTRIBUTE14" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYK2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYLGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE15" length="150" name="ATTRIBUTE15" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYLWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYLmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE2" length="150" name="ATTRIBUTE2" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYL2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYMGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE3" length="150" name="ATTRIBUTE3" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYMWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYMmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE4" length="150" name="ATTRIBUTE4" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYM2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYNGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE5" length="150" name="ATTRIBUTE5" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYNWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYNmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE6" length="150" name="ATTRIBUTE6" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYN2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYOGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE7" length="150" name="ATTRIBUTE7" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYOWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYOmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE8" length="150" name="ATTRIBUTE8" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYO2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYPGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE9" length="150" name="ATTRIBUTE9" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYPWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYPmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ATTRIBUTE_CATEGORY" length="150" name="ATTRIBUTE_CATEGORY" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYP2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYQGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AWARD_ID" length="15" name="AWARD_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYQWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYQmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AWT_FLAG" length="1" name="AWT_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYQ2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYRGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AWT_GROSS_AMOUNT" length="22" name="AWT_GROSS_AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYRWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYRmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AWT_GROUP_ID" length="15" name="AWT_GROUP_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYR2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYSGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AWT_INVOICE_ID" length="15" name="AWT_INVOICE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYSWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYSmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AWT_INVOICE_PAYMENT_ID" length="15" name="AWT_INVOICE_PAYMENT_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYS2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYTGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AWT_ORIGIN_GROUP_ID" length="15" name="AWT_ORIGIN_GROUP_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYTWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYTmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AWT_RELATED_ID" length="15" name="AWT_RELATED_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYT2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYUGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AWT_TAX_RATE_ID" length="15" name="AWT_TAX_RATE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYUWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYUmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="AWT_WITHHELD_AMT" length="22" name="AWT_WITHHELD_AMT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYU2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYVGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="BASE_AMOUNT" length="22" name="BASE_AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYVWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYVmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="BASE_AMOUNT_ENCUMBERED" length="22" name="BASE_AMOUNT_ENCUMBERED" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYV2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYWGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="BASE_AMOUNT_TO_POST" length="22" name="BASE_AMOUNT_TO_POST" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYWWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYWmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="BASE_AMOUNT_VARIANCE" length="22" name="BASE_AMOUNT_VARIANCE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYW2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYXGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="BASE_INVOICE_PRICE_VARIANCE" length="22" name="BASE_INVOICE_PRICE_VARIANCE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYXWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYXmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="BASE_QUANTITY_VARIANCE" length="22" name="BASE_QUANTITY_VARIANCE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYX2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYYGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="BATCH_ID" length="15" name="BATCH_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYYWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYYmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="BC_EVENT_ID" length="22" name="BC_EVENT_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYY2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYZGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="CANCELLATION_FLAG" length="1" name="CANCELLATION_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYZWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYZmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="CANCELLED_FLAG" length="1" name="CANCELLED_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYZ2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYaGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="CASH_BASIS_FINAL_APP_ROUNDING" length="22" name="CASH_BASIS_FINAL_APP_ROUNDING" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYaWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYamrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="CASH_JE_BATCH_ID" length="15" name="CASH_JE_BATCH_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYa2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYbGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="CASH_POSTED_FLAG" length="1" name="CASH_POSTED_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYbWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYbmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="CC_REVERSAL_FLAG" length="1" name="CC_REVERSAL_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYb2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYcGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="CHARGE_APPLICABLE_TO_DIST_ID" length="15" name="CHARGE_APPLICABLE_TO_DIST_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYcWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYcmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="COMPANY_PREPAID_INVOICE_ID" length="15" name="COMPANY_PREPAID_INVOICE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYc2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYdGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="CORRECTED_INVOICE_DIST_ID" length="15" name="CORRECTED_INVOICE_DIST_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYdWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYdmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="CORRECTED_QUANTITY" length="22" name="CORRECTED_QUANTITY" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYd2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYeGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="COUNTRY_OF_SUPPLY" length="5" name="COUNTRY_OF_SUPPLY" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYeWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYemrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="CREATED_BY" length="15" name="CREATED_BY" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYe2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYfGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="CREATION_DATE" length="7" name="CREATION_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_6veYfWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYfmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="CREDIT_CARD_TRX_ID" length="15" name="CREDIT_CARD_TRX_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYf2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYgGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="DAILY_AMOUNT" length="22" name="DAILY_AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYgWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYgmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="DESCRIPTION" length="240" name="DESCRIPTION" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYg2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYhGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="DETAIL_TAX_DIST_ID" length="22" name="DETAIL_TAX_DIST_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYhWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYhmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="DISTRIBUTION_CLASS" length="30" name="DISTRIBUTION_CLASS" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYh2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYiGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="DISTRIBUTION_LINE_NUMBER" length="15" name="DISTRIBUTION_LINE_NUMBER" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYiWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYimrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="DIST_CODE_COMBINATION_ID" length="15" name="DIST_CODE_COMBINATION_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYi2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYjGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="DIST_MATCH_TYPE" length="25" name="DIST_MATCH_TYPE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYjWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYjmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="EARLIEST_SETTLEMENT_DATE" length="7" name="EARLIEST_SETTLEMENT_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_6veYj2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYkGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ENCUMBERED_FLAG" length="1" name="ENCUMBERED_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYkWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYkmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="END_EXPENSE_DATE" length="7" name="END_EXPENSE_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_6veYk2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYlGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="EXCHANGE_DATE" length="7" name="EXCHANGE_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_6veYlWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYlmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="EXCHANGE_RATE" length="22" name="EXCHANGE_RATE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYl2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYmGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="EXCHANGE_RATE_TYPE" length="30" name="EXCHANGE_RATE_TYPE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYmWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYmmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="EXCHANGE_RATE_VARIANCE" length="22" name="EXCHANGE_RATE_VARIANCE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYm2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYnGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="EXPENDITURE_ITEM_DATE" length="7" name="EXPENDITURE_ITEM_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_6veYnWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYnmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="EXPENDITURE_ORGANIZATION_ID" length="15" name="EXPENDITURE_ORGANIZATION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYn2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYoGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="EXPENDITURE_TYPE" length="30" name="EXPENDITURE_TYPE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYoWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYomrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="EXPENSE_GROUP" length="80" name="EXPENSE_GROUP" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYo2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYpGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="EXTRA_PO_ERV" length="22" name="EXTRA_PO_ERV" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYpWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYpmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="FINAL_APPLICATION_ROUNDING" length="22" name="FINAL_APPLICATION_ROUNDING" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYp2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYqGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="FINAL_MATCH_FLAG" length="1" name="FINAL_MATCH_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYqWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYqmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="FINAL_PAYMENT_ROUNDING" length="22" name="FINAL_PAYMENT_ROUNDING" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYq2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYrGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="FINAL_RELEASE_ROUNDING" length="22" name="FINAL_RELEASE_ROUNDING" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veYrWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYrmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="FULLY_PAID_ACCTD_FLAG" length="1" name="FULLY_PAID_ACCTD_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYr2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYsGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE1" length="150" name="GLOBAL_ATTRIBUTE1" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYsWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYsmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE10" length="150" name="GLOBAL_ATTRIBUTE10" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYs2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYtGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE11" length="150" name="GLOBAL_ATTRIBUTE11" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYtWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYtmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE12" length="150" name="GLOBAL_ATTRIBUTE12" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYt2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYuGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE13" length="150" name="GLOBAL_ATTRIBUTE13" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYuWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYumrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE14" length="150" name="GLOBAL_ATTRIBUTE14" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYu2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYvGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE15" length="150" name="GLOBAL_ATTRIBUTE15" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYvWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYvmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE16" length="150" name="GLOBAL_ATTRIBUTE16" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYv2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYwGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE17" length="150" name="GLOBAL_ATTRIBUTE17" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYwWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYwmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE18" length="150" name="GLOBAL_ATTRIBUTE18" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYw2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYxGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE19" length="150" name="GLOBAL_ATTRIBUTE19" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYxWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYxmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE2" length="150" name="GLOBAL_ATTRIBUTE2" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYx2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYyGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE20" length="150" name="GLOBAL_ATTRIBUTE20" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYyWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYymrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE3" length="150" name="GLOBAL_ATTRIBUTE3" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYy2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYzGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE4" length="150" name="GLOBAL_ATTRIBUTE4" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYzWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veYzmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE5" length="150" name="GLOBAL_ATTRIBUTE5" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veYz2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY0GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE6" length="150" name="GLOBAL_ATTRIBUTE6" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY0WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY0mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE7" length="150" name="GLOBAL_ATTRIBUTE7" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY02rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY1GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE8" length="150" name="GLOBAL_ATTRIBUTE8" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY1WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY1mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE9" length="150" name="GLOBAL_ATTRIBUTE9" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY12rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY2GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GLOBAL_ATTRIBUTE_CATEGORY" length="150" name="GLOBAL_ATTRIBUTE_CATEGORY" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY2WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY2mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="GMS_BURDENABLE_RAW_COST" length="22" name="GMS_BURDENABLE_RAW_COST" precision="5" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veY22rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY3GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="HISTORICAL_FLAG" length="1" name="HISTORICAL_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY3WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY3mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="INCOME_TAX_REGION" length="10" name="INCOME_TAX_REGION" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY32rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY4GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="INTENDED_USE" length="30" name="INTENDED_USE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY4WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY4mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="INVENTORY_TRANSFER_STATUS" length="1" name="INVENTORY_TRANSFER_STATUS" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY42rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY5GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="INVOICE_DISTRIBUTION_ID" length="15" name="INVOICE_DISTRIBUTION_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veY5WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY5mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="INVOICE_ID" length="15" name="INVOICE_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veY52rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY6GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="INVOICE_INCLUDES_PREPAY_FLAG" length="1" name="INVOICE_INCLUDES_PREPAY_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY6WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY6mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="INVOICE_LINE_NUMBER" length="22" name="INVOICE_LINE_NUMBER" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veY62rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY7GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="INVOICE_PRICE_VARIANCE" length="22" name="INVOICE_PRICE_VARIANCE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veY7WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY7mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="JE_BATCH_ID" length="15" name="JE_BATCH_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veY72rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY8GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="JUSTIFICATION" length="240" name="JUSTIFICATION" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY8WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY8mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="LAST_UPDATED_BY" length="15" name="LAST_UPDATED_BY" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veY82rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY9GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="LAST_UPDATE_DATE" length="7" name="LAST_UPDATE_DATE" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_6veY9WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY9mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="LAST_UPDATE_LOGIN" length="15" name="LAST_UPDATE_LOGIN" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veY92rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY-GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="LINE_GROUP_NUMBER" length="15" name="LINE_GROUP_NUMBER" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veY-WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY-mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="LINE_TYPE_LOOKUP_CODE" length="25" name="LINE_TYPE_LOOKUP_CODE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY-2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY_GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MATCHED_UOM_LOOKUP_CODE" length="25" name="MATCHED_UOM_LOOKUP_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY_WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veY_mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MATCH_STATUS_FLAG" length="1" name="MATCH_STATUS_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veY_2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZAGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MERCHANT_DOCUMENT_NUMBER" length="80" name="MERCHANT_DOCUMENT_NUMBER" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZAWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZAmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MERCHANT_NAME" length="80" name="MERCHANT_NAME" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZA2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZBGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MERCHANT_REFERENCE" length="240" name="MERCHANT_REFERENCE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZBWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZBmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MERCHANT_TAXPAYER_ID" length="80" name="MERCHANT_TAXPAYER_ID" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZB2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZCGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MERCHANT_TAX_REG_NUMBER" length="80" name="MERCHANT_TAX_REG_NUMBER" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZCWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZCmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_ACCRUAL_POSTED_FLAG" length="2000" name="MRC_ACCRUAL_POSTED_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZC2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZDGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_AMOUNT" length="2000" name="MRC_AMOUNT" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZDWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZDmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_AMOUNT_TO_POST" length="2000" name="MRC_AMOUNT_TO_POST" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZD2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZEGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_BASE_AMOUNT" length="2000" name="MRC_BASE_AMOUNT" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZEWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZEmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_BASE_AMOUNT_TO_POST" length="2000" name="MRC_BASE_AMOUNT_TO_POST" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZE2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZFGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_BASE_INV_PRICE_VARIANCE" length="2000" name="MRC_BASE_INV_PRICE_VARIANCE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZFWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZFmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_CASH_JE_BATCH_ID" length="2000" name="MRC_CASH_JE_BATCH_ID" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZF2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZGGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_CASH_POSTED_FLAG" length="2000" name="MRC_CASH_POSTED_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZGWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZGmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_DIST_CODE_COMBINATION_ID" length="2000" name="MRC_DIST_CODE_COMBINATION_ID" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZG2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZHGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_EXCHANGE_DATE" length="2000" name="MRC_EXCHANGE_DATE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZHWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZHmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_EXCHANGE_RATE" length="2000" name="MRC_EXCHANGE_RATE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZH2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZIGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_EXCHANGE_RATE_TYPE" length="2000" name="MRC_EXCHANGE_RATE_TYPE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZIWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZImrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_EXCHANGE_RATE_VARIANCE" length="2000" name="MRC_EXCHANGE_RATE_VARIANCE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZI2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZJGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_JE_BATCH_ID" length="2000" name="MRC_JE_BATCH_ID" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZJWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZJmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_POSTED_AMOUNT" length="2000" name="MRC_POSTED_AMOUNT" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZJ2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZKGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_POSTED_BASE_AMOUNT" length="2000" name="MRC_POSTED_BASE_AMOUNT" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZKWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZKmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_POSTED_FLAG" length="2000" name="MRC_POSTED_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZK2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZLGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_PROGRAM_APPLICATION_ID" length="2000" name="MRC_PROGRAM_APPLICATION_ID" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZLWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZLmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_PROGRAM_ID" length="2000" name="MRC_PROGRAM_ID" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZL2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZMGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_PROGRAM_UPDATE_DATE" length="2000" name="MRC_PROGRAM_UPDATE_DATE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZMWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZMmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_RATE_VAR_CCID" length="2000" name="MRC_RATE_VAR_CCID" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZM2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZNGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_RECEIPT_CONVERSION_RATE" length="2000" name="MRC_RECEIPT_CONVERSION_RATE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZNWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZNmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="MRC_REQUEST_ID" length="2000" name="MRC_REQUEST_ID" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZN2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZOGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="OLD_DISTRIBUTION_ID" length="15" name="OLD_DISTRIBUTION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZOWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZOmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="OLD_DIST_LINE_NUMBER" length="15" name="OLD_DIST_LINE_NUMBER" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZO2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZPGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ORG_ID" length="15" name="ORG_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZPWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZPmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="OTHER_INVOICE_ID" length="15" name="OTHER_INVOICE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZP2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZQGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PACKET_ID" length="15" name="PACKET_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZQWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZQmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PARENT_INVOICE_ID" length="15" name="PARENT_INVOICE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZQ2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZRGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PARENT_REVERSAL_ID" length="15" name="PARENT_REVERSAL_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZRWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZRmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PAY_AWT_GROUP_ID" length="15" name="PAY_AWT_GROUP_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZR2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZSGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PA_ADDITION_FLAG" length="1" name="PA_ADDITION_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZSWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZSmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PA_CC_AR_INVOICE_ID" length="15" name="PA_CC_AR_INVOICE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZS2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZTGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PA_CC_AR_INVOICE_LINE_NUM" length="15" name="PA_CC_AR_INVOICE_LINE_NUM" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZTWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZTmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PA_CC_PROCESSED_CODE" length="1" name="PA_CC_PROCESSED_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZT2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZUGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PA_CMT_XFACE_FLAG" length="1" name="PA_CMT_XFACE_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZUWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZUmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PA_QUANTITY" length="22" name="PA_QUANTITY" precision="5" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZU2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZVGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PERIOD_NAME" length="15" name="PERIOD_NAME" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZVWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZVmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="POSTED_AMOUNT" length="22" name="POSTED_AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZV2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZWGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="POSTED_BASE_AMOUNT" length="22" name="POSTED_BASE_AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZWWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZWmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="POSTED_FLAG" length="1" name="POSTED_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZW2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZXGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PO_DISTRIBUTION_ID" length="15" name="PO_DISTRIBUTION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZXWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZXmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PREPAY_AMOUNT_REMAINING" length="22" name="PREPAY_AMOUNT_REMAINING" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZX2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZYGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PREPAY_DISTRIBUTION_ID" length="15" name="PREPAY_DISTRIBUTION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZYWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZYmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PREPAY_TAX_DIFF_AMOUNT" length="22" name="PREPAY_TAX_DIFF_AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZY2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZZGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PREPAY_TAX_PARENT_ID" length="15" name="PREPAY_TAX_PARENT_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZZWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZZmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PRICE_ADJUSTMENT_FLAG" length="1" name="PRICE_ADJUSTMENT_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZZ2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZaGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PRICE_CORRECT_INV_ID" length="15" name="PRICE_CORRECT_INV_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZaWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZamrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PRICE_CORRECT_QTY" length="22" name="PRICE_CORRECT_QTY" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZa2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZbGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PRICE_VAR_CODE_COMBINATION_ID" length="15" name="PRICE_VAR_CODE_COMBINATION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZbWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZbmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PROGRAM_APPLICATION_ID" length="15" name="PROGRAM_APPLICATION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZb2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZcGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PROGRAM_ID" length="15" name="PROGRAM_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZcWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZcmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PROGRAM_UPDATE_DATE" length="7" name="PROGRAM_UPDATE_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_6veZc2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZdGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PROJECT_ACCOUNTING_CONTEXT" length="30" name="PROJECT_ACCOUNTING_CONTEXT" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZdWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZdmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="PROJECT_ID" length="15" name="PROJECT_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZd2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZeGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="QUANTITY_INVOICED" length="22" name="QUANTITY_INVOICED" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZeWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZemrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="QUANTITY_UNENCUMBERED" length="22" name="QUANTITY_UNENCUMBERED" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZe2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZfGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="QUANTITY_VARIANCE" length="22" name="QUANTITY_VARIANCE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZfWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZfmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RATE_VAR_CODE_COMBINATION_ID" length="15" name="RATE_VAR_CODE_COMBINATION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZf2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZgGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RCV_CHARGE_ADDITION_FLAG" length="1" name="RCV_CHARGE_ADDITION_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZgWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZgmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RCV_TRANSACTION_ID" length="15" name="RCV_TRANSACTION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZg2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZhGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RECEIPT_CONVERSION_RATE" length="22" name="RECEIPT_CONVERSION_RATE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZhWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZhmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RECEIPT_CURRENCY_AMOUNT" length="22" name="RECEIPT_CURRENCY_AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZh2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZiGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RECEIPT_CURRENCY_CODE" length="15" name="RECEIPT_CURRENCY_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZiWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZimrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RECEIPT_MISSING_FLAG" length="1" name="RECEIPT_MISSING_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZi2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZjGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RECEIPT_REQUIRED_FLAG" length="1" name="RECEIPT_REQUIRED_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZjWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZjmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RECEIPT_VERIFIED_FLAG" length="1" name="RECEIPT_VERIFIED_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZj2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZkGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RECOVERY_RATE_CODE" length="30" name="RECOVERY_RATE_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZkWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZkmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RECOVERY_RATE_ID" length="22" name="RECOVERY_RATE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZk2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZlGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RECOVERY_RATE_NAME" length="150" name="RECOVERY_RATE_NAME" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZlWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZlmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RECOVERY_TYPE_CODE" length="30" name="RECOVERY_TYPE_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZl2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZmGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RECURRING_PAYMENT_ID" length="15" name="RECURRING_PAYMENT_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZmWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZmmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="REC_NREC_RATE" length="22" name="REC_NREC_RATE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZm2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZnGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="REFERENCE_1" length="30" name="REFERENCE_1" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZnWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZnmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="REFERENCE_2" length="30" name="REFERENCE_2" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZn2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZoGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RELATED_ID" length="15" name="RELATED_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZoWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZomrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RELATED_RETAINAGE_DIST_ID" length="15" name="RELATED_RETAINAGE_DIST_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZo2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZpGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RELEASE_INV_DIST_DERIVED_FROM" length="15" name="RELEASE_INV_DIST_DERIVED_FROM" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZpWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZpmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="REQUEST_ID" length="15" name="REQUEST_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZp2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZqGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="REQ_DISTRIBUTION_ID" length="15" name="REQ_DISTRIBUTION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZqWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZqmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RETAINED_AMOUNT_REMAINING" length="22" name="RETAINED_AMOUNT_REMAINING" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZq2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZrGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="RETAINED_INVOICE_DIST_ID" length="15" name="RETAINED_INVOICE_DIST_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZrWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZrmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="REVERSAL_FLAG" length="1" name="REVERSAL_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZr2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZsGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ROOT_DISTRIBUTION_ID" length="15" name="ROOT_DISTRIBUTION_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZsWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZsmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="ROUNDING_AMT" length="22" name="ROUNDING_AMT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZs2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZtGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="SET_OF_BOOKS_ID" length="15" name="SET_OF_BOOKS_ID" nullable="false" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZtWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZtmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="START_EXPENSE_DATE" length="7" name="START_EXPENSE_DATE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_6veZt2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZuGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="STAT_AMOUNT" length="22" name="STAT_AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZuWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZumrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="SUMMARY_TAX_LINE_ID" length="22" name="SUMMARY_TAX_LINE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZu2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZvGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TASK_ID" length="15" name="TASK_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZvWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZvmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TAXABLE_AMOUNT" length="22" name="TAXABLE_AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZv2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZwGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TAXABLE_BASE_AMOUNT" length="22" name="TAXABLE_BASE_AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZwWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZwmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TAX_ALREADY_DISTRIBUTED_FLAG" length="1" name="TAX_ALREADY_DISTRIBUTED_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZw2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZxGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TAX_CALCULATED_FLAG" length="1" name="TAX_CALCULATED_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZxWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZxmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TAX_CODE_ID" length="22" name="TAX_CODE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZx2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZyGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TAX_CODE_OVERRIDE_FLAG" length="1" name="TAX_CODE_OVERRIDE_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZyWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZymrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TAX_RECOVERABLE_FLAG" length="1" name="TAX_RECOVERABLE_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZy2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZzGrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TAX_RECOVERY_OVERRIDE_FLAG" length="1" name="TAX_RECOVERY_OVERRIDE_FLAG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZzWrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZzmrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TAX_RECOVERY_RATE" length="22" name="TAX_RECOVERY_RATE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZz2rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ0GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TOTAL_DIST_AMOUNT" length="22" name="TOTAL_DIST_AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZ0WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ0mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TOTAL_DIST_BASE_AMOUNT" length="22" name="TOTAL_DIST_BASE_AMOUNT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZ02rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ1GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="TYPE_1099" length="10" name="TYPE_1099" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZ1WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ1mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="UNIT_PRICE" length="22" name="UNIT_PRICE" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZ12rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ2GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="UPGRADE_BASE_POSTED_AMT" length="22" name="UPGRADE_BASE_POSTED_AMT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZ2WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ2mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="UPGRADE_POSTED_AMT" length="22" name="UPGRADE_POSTED_AMT" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZ22rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ3GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="USSGL_TRANSACTION_CODE" length="30" name="USSGL_TRANSACTION_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZ3WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ3mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="USSGL_TRX_CODE_CONTEXT" length="30" name="USSGL_TRX_CODE_CONTEXT" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZ32rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ4GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="VAT_CODE" length="80" name="VAT_CODE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_6veZ4WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ4mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="WEB_PARAMETER_ID" length="22" name="WEB_PARAMETER_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZ42rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ5GrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="WITHHOLDING_TAX_CODE_ID" length="15" name="WITHHOLDING_TAX_CODE_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZ5WrTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ5mrTEeqZh9xgAuX6ow"/>
+      </feature>
+      <feature label="XINV_PARENT_REVERSAL_ID" length="15" name="XINV_PARENT_REVERSAL_ID" sourceType="DEC" talendType="id_BigDecimal" xmi:id="_6veZ52rTEeqZh9xgAuX6ow" xsi:type="relational:TdColumn">
+        <initialValue xmi:id="_6veZ6GrTEeqZh9xgAuX6ow"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fa6e6e80-459d-4cf4-b541-6e7e759f0bee"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6+MGi9LovsN5ru9bwIBr2kfbpiOZAnaQN+5va8vGoR3ffYU0NHBFgdxf8TVnzXeyF45hFdkG/45i
+ghyouO30DA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f6d0a682-bbed-4807-bc3d-3c51e64e497e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+PzF6spH/MdeDaY2N809Tx9kEqV3Jod+Jhuka5Zit+0uH2OFXarTXsQ1rH2uf9YL8qXkhU5nDG53
+Hwhsbym8sw==</DigestValue></Reference></SignedInfo><SignatureValue>fCMaqEVSA1BeHbbV/yc7akLFaAPM0oFqOTxFT1Pwz1tttqfd0aNuGsSv2c2KpP+r35w+o6HKQWcs
+jcIZQfw2A9m4EimkTUSmN490TN+4oiZzvBdtLwvK8SzErdQ3O8t2eZDMdYQH4c8AtswHbhq7MkMA
+ll+kHs66qUpBkrzx3/JzPCx/cLY/Ry6OmheE+PEQg6lD50nT8vQbp+6XrbWDyhTxYuvk3rzxyZds
+11fqIJJ6cqjlkoQCdYAJqaE4Pi1KMb2Lswg/BrWgYtYBMb1hOvzd87SaB7hDkSVlaPTYEdl0tlnG
+ZXMqEm3vLcrd6wwCNtKA86nmeaGz/+JOHiX8gQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f6d0a682-bbed-4807-bc3d-3c51e64e497e" Target="#_fa6e6e80-459d-4cf4-b541-6e7e759f0bee"><Timestamp>2020-04-30 19:34:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -12,8 +12,49 @@
     <module>code/routines</module>
     <module>code/beans</module>
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
-    <module>jobs/process/test_0.1</module>
-    <module>jobs/process/sp_ranking_0.1</module>
+    <module>jobs/process/Oracle/OLTP/comp_0.1</module>
+    <module>jobs/process/Accelerate/customer_oracle_0.1</module>
+    <module>jobs/process/Oracle/OLTP/client_cmpgn_cell_0.1</module>
+    <module>jobs/process/Oracle/OLTP/gl_je_lines_rpt_0.1</module>
+    <module>jobs/process/Oracle/OLAP/wc_client_d_0.1</module>
+    <module>jobs/process/Oracle/OLTP/hs_old_0.1</module>
+    <module>jobs/process/Oracle/OLAP/wc_product_d_0.1</module>
+    <module>jobs/process/Oracle/OLAP/wc_customer_d_0.1</module>
+    <module>jobs/process/Oracle/OLTP/hs_cx_rsn_0.1</module>
+    <module>jobs/process/Accelerate/service_partner_oracle_0.1</module>
+    <module>jobs/process/Oracle/OLTP/frnc_0.1</module>
+    <module>jobs/process/Oracle/OLTP/super_region_0.1</module>
+    <module>jobs/process/Oracle/OLTP/prod_0.1</module>
+    <module>jobs/process/Oracle/OLAP/wc_company_d_0.1</module>
+    <module>jobs/process/Oracle/OLTP/client_0.1</module>
+    <module>jobs/process/Oracle/OLTP/hz_parties_0.1</module>
+    <module>jobs/process/CMS/cms_0.1</module>
+    <module>jobs/process/Oracle/OLTP/region_0.1</module>
+    <module>jobs/process/Oracle/OLTP/cmpgn_0.1</module>
+    <module>jobs/process/Accelerate/customer_0.1</module>
+    <module>jobs/process/Accelerate/core_0.1</module>
+    <module>jobs/process/j_sha256_0.1</module>
+    <module>jobs/process/Oracle/OLAP/wc_contract_d_0.1</module>
+    <module>jobs/process/Oracle/OLAP/wc_cmpgn_d_0.1</module>
+    <module>jobs/process/Oracle/OLTP/sales_terr_0.1</module>
+    <module>jobs/process/Oracle/OLTP/cov_summ_0.1</module>
+    <module>jobs/process/Oracle/OLAP/wc_contract_activty_f_0.1</module>
+    <module>jobs/process/Oracle/OLTP/hz_cust_accounts_0.1</module>
+    <module>jobs/process/Oracle/OLTP/loc_0.1</module>
+    <module>jobs/process/Oracle/OLTP/intfc_out_0.1</module>
+    <module>jobs/process/Oracle/OLTP/fsm_claim_0.1</module>
+    <module>jobs/process/Oracle/OLAP/wc_cx_reason_d_0.1</module>
+    <module>jobs/process/Accelerate/service_partner_0.1</module>
+    <module>jobs/process/Oracle/OLTP/prod_type_0.1</module>
+    <module>jobs/process/Oracle/OLTP/xx_ca_party_hs_0.1</module>
+    <module>jobs/process/Oracle/OLTP/cx_rsn_0.1</module>
+    <module>jobs/process/Oracle/OLTP/hz_contact_points_0.1</module>
+    <module>jobs/process/Oracle/OLTP/ccm_0.1</module>
+    <module>jobs/process/Oracle/OLTP/cancel_curve_0.1</module>
+    <module>jobs/process/Oracle/OLTP/sp_rankingdvr_0.1</module>
+    <module>jobs/process/Oracle/OLAP/wc_ccm_d_0.1</module>
+    <module>jobs/process/Accelerate/core_oracle_0.1</module>
+    <module>jobs/process/Accelerate/sp_ranking_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
