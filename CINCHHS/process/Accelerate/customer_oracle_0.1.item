@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Dev" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Dev" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Dev">
     <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atbidevdb1"/>
     <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="bidevdb"/>
     <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="1521"/>
-    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:+qsOFPfDa/vpiL24GtIz4WC9iYrwxB84nU/u0KoPs9+/vw24Rol7"/>
+    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:tylBBHx+IROoxD+aJ8rWrnJUXLfaRt5PBUu4CLjViCnZ+KZz1T37"/>
     <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ODS"/>
     <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ods"/>
     <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value=""/>
@@ -12,7 +12,7 @@
     <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atbiqadb1"/>
     <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="bidbqa"/>
     <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="1521"/>
-    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:U3ko1KBZomeNn1ykqIXU6Orpx4+B1WMGBu8FF7u/6DvlhXgGtFy9"/>
+    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:cYcPbjgc/xwmCPOAk5xpOtbMjFkXE4mia1pSFRAzlopJ/KiPT7xW"/>
     <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ODS"/>
     <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ods"/>
     <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value=""/>
@@ -21,7 +21,7 @@
     <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atd0-scan"/>
     <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="bidb.cchs.com"/>
     <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="1521"/>
-    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:9YGCo1W+7zusJ86UpNznb1Umy333hcJo2o3GURDPZSTfFnuXnKAb"/>
+    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:epD7VfwjJIrnXfaDAu9R60mxZVYrmQJMd9s4se0ObDLDilTcb9M0"/>
     <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ODS"/>
     <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ods"/>
     <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value=""/>
@@ -30,7 +30,7 @@
     <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atbicidb1"/>
     <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="bicidb"/>
     <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="1521"/>
-    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:jhRFXzG0nXUnjtcBXu5NiFZ9VoKv8uE0jFEIj2okepI6BuXW1UJ6"/>
+    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:UWiAR/6bJtRjZ+vJmZmnZaH3gXIVc3cvxzpwv/Afat3tAuEfwayP"/>
     <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ODS"/>
     <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ods"/>
     <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value=""/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:1Buuo5GmHcW0ZDm4adR1W5voGsbtamBoQpm6OVhJ"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:W7FqoQSX1LYLp4BzvxHf6GEB2tU+DX7gPqaDk1gQ"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -112,7 +112,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:+VXlOPq7T1xrEkY6Qf6uIpWd7bUyxzr+J6LILxex"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:XSdH7WuzCrcvqSMRyQeTafswIG41C3somYWa2bEj"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -160,7 +160,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fKimpTVg5sKiLqlm0UHD2adKnFw2hxWsLm5Iei7jopMVVqJYZaWb1+L1jg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:e8T+lZeTHi+MQges/ODezx+c1TFjSxwWhVdh8LSU9dl60RRBY6YUq6j62A=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - code_address_type"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_address_type&quot;"/>
@@ -240,7 +240,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:n2Xv59apSRXFs0Wcvj1wy6MTHpUov90403X38w7MYHVeC8GjzncAvE2PAHpdgvzR"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:aGVEaGQa6UiQv0jsdDqFNcG1slj34rOjKSlIAcx2wsNtV+26e5a881oTaONgXNS2"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_address_type&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -382,7 +382,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:WA09uYSWM9ip6OAvhFxi4qic+UK+ci+dzeK4tZk84WOJVx+FO4C2DQeKAA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:6+2DI7WgWtJiK0rHlglv48+rnozGS3/twmAYarkJySwLp/qmos3n6qKvYQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - code_communication_pref"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_communication_pref&quot;"/>
@@ -462,7 +462,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:cNEjMJ/lZ83aJ2fvARIKKSVx1TqVrxdTPf2wEJv780hYOcA4c3PXlu069hOgcNhJ"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3PruMQ4HsdJT6UQYKeTgbt24IXHiQ+n9Dpiq88W7r/pnjF1n2iAZKW16avOxwQV1"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_comm_pref&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -604,7 +604,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mpUDUrSlHuUTAioWTKEWpT5IarrEZAhcQi+6HNMTQqwFJdGmOq60/L5A8g=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CpEOrCt/+3ZA7drVi0TqKmNrzOzCXaa7+lqLW02j5/DEn1AGxaIX5brCBA=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - code_communication_type"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_communication_type&quot;"/>
@@ -684,7 +684,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TLOZheSFE4XME/Ozc6tZVsZXQpAvHKjeI1AKp6qZWw1qtkHg3sqmwa1EpCcNKyyz"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:QCaC5xP1LlIaMHzH2atspdPHIw+8srC+O8YrWOVQs12G33PN+uFXkEzwKhObTDL2"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_communication_type&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -826,7 +826,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:u0LaHf9Cm/4IAPZUMfO0rdM6nUPHRrI/+YCvSlAEllBAeNp861KFE0FoAQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FKJA2rhUEzlXwCY7juPuE5DRDh5DXBBh64H9PSQYt2GJh4p2S7jJMW1j9g=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - code_customer_type"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_customer_type&quot;"/>
@@ -906,7 +906,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:KeL36/qvakeJEigsXbOPkFMoqEsjoT0SmaErAQlaUDgYZCRyAzTwLWtSdW7PiIR4"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:N7EdyCMsUthdZOabqo54eK9qNVT0Bqjib8cH/TIYytUmLUH7bOyMDjJgYyUk4K6d"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_customer_type&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -1048,7 +1048,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mglPprOo+cFm9ybB3on0YE6BLmXTVGGVl/6OxiU3APTgWOum0hdsWxW4Yw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:cUqz+6taCTIG7GnUwNGGM4G5ql4upPVeU4U5VkD67GRTdggswZ4QA1Wv0g=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - code_estimate_status"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_estimate_status&quot;"/>
@@ -1128,7 +1128,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CoOm0voj5EDBcfDNKYmHC5k/Ndv3Fxm37egVNRqxpEVCAEOmQR/GFUSRFBezzIk6"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:yjFMFQVrxfrcV5+1+0MTDuVdI5rJnlIl7hujLa24X2CD1gXvX67HnpsdDJRdOjJi"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_estimate_status&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -1270,7 +1270,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:831O0XtvYMN3PbxcKfXG0g6vnhpMqrszTkHnOa6XKhI+G53N8ZK4dc30jQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZgQtYwNeo7FF2iDbNIa4iUxi/qC18XNdoKe80siwRJWrCPR7iiOgsQbY1Q=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - code_estimate_type"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_estimate_type&quot;"/>
@@ -1360,7 +1360,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:U4X/WzoqF3NbrqEigf6379vB0AWnntNrYhBpaZR2DiI0CDMB+xDwRbxKpxUFI4Jt"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pKpvZlWPHp86LwK+NTywTzWZCQ/dnKNUUnYhPYiQNlUNN1tviprqLUQhuNTVytSu"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_estimate_type&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -1514,7 +1514,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:sR836D7LgtKVxjlyS3RTMvomSw1c4ggZtrSZeBGT//woUOzYysbrdcH/2w=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:WRu1hTKtQ0eM3nzmPvMhDSNa1jrnemngQeaJLbZmUruE+/lAWfd9uShJpg=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - code_preference_type"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_preference_type&quot;"/>
@@ -1594,7 +1594,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:YqwJAXbuByc1enUoXSTsj03HPR7r12Klzh81jwIf6xSTvjBKx1CFePbTjkGByZrw"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nZ7vhN/zQiUNTvbs1KL/p14MFwoErGs3vWRKVv/2g5fL1lJTX/naSntrRrEIqw83"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_preference_type&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -1736,7 +1736,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:tGOU5mzSft6KmSGNvQ7P0tMeGjlqh5+ftEmgcs8pk10RMCibwxTUhPwVww=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:r5Vwt1KFHzhoIZYMdMF+mHsbnClkoztF7VdnJgr0/LmHQkEubxt27rX0fw=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - code_property_type"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_property_type&quot;"/>
@@ -1816,7 +1816,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mz35OrXANBLa2sC9iHed2MOQS7iuzNsXOeNl5KgXEp6/8kLxJX5fRbWEWq5/O2Kr"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:X+9+tlajDzf+A83OJittmC87PUROFz/lI58CQR8JhRN47SdcY07Xi9CClQdk4JyZ"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_property_type&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -1958,7 +1958,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:yoLfczCVcPuw5Coqgwydr38WE323uxrjKWAsT+mr4tXJ+DVfY3HLuOpobw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NlgR2ZeU2eY3py7LzGIid4dvKc/cuZGLN+1sQFdSyk+iEsrafu79z06GlQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - code_source"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_source&quot;"/>
@@ -2038,7 +2038,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:oD7oM0QzxxMM8xaZdPmoBwG7zObPpKdIlFI0znoi4fBr72bd7+Ydq3dq/bNnsa2n"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:w18vnHo/zHhOYHDOkHrw8lJht590hxKXf/jqhB4RJ25a9oRkvliOWYCHW8IwX03I"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_source&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -2180,7 +2180,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:6g1mWUk45leljB3WkZXGzzGqAsvExMiFZdVW/e2A17W/83dH+3rN1OFtoA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0qRANdI3a05NmU0LevXSg6FMfQfzSdncNJ9ghFsL69oViQ+3gH05rwpYqw=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - customer_account"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customer_account&quot;"/>
@@ -2265,7 +2265,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:cirGU/N16nHUE0IksatrRbCi59y2sWhwoFmlYK94E+cLkF8I1bxOVqsVUOZn9FMU"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kOwDoleLSFpkYJKOD8rYcC4Caibvb1rYBZPAtebB+iRDsNMs7h/3IYUFedp29nsm"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_customer_account&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -2418,7 +2418,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:HaPc+IJ6dePfoEM/h+Y3ttgtoNvLkDd1A/UBg+oP3/8slu5gy99LCpyzTA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:A9WhjUE93aG5buC65OYYDOwarZE8yxs53IibM45Cz9L5qV28jfsVTqXGSQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - customer_account_property"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customer_account_property&quot;"/>
@@ -2503,7 +2503,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MveD/kleEoZiOqXzK2tojiIVNXhNHxMucPFBVUB9qcQsNz8QzpQLxLLC8JZx6Sgs"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8ndAuPb+VioEnDlnn6TfIbFS/zesPRi8E90wmObobpHJoPNA1DXtw5Y3nI7R9aUK"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_customer_account_property&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -2656,7 +2656,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Dp2OYXi2St8s3wgxeLWFJ10+RZdqKYvQj3BJEDCrE16GBIfNMOwAxPcK7w=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0F0MyqVsqXi3o6ALU44sMqya2aAPu6EEQfXpv4E7dicSl8H4BbLs648KIQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - customer_billing_method"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customer_billing_method&quot;"/>
@@ -2786,7 +2786,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:2JQ4shcuLjNdPa2r4eTTw289skVeme9d8RNTpDy8k8v6yJ3tcloPRWRJH8m4wEkT"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:G2WAwwEQbbs89s2hVWiJovfeTrXym/VyFFn2RfaCgbfU7YLcEq4J8bMAnhxvUj6F"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_customer_billing_method&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -3038,7 +3038,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:B6yrbQuRSpDBA6QoTybbPM8arsFw2AJEgVPY8NLX9o9i0eruwW/LhDNQgg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:WGdfkExgl0Hxtqfb0A9J660KQKErURnJcv7vmGrieWIQMueGNmMXF5CNAA=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - customer_communication"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customer_communication&quot;"/>
@@ -3153,7 +3153,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dGJGpAvjenG/5qw00yVjfIrxCE7Gh8DbBCk5LDOVrgT0wQ6qaKDAdyejUdR5odNj"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:WNRJ4Dbu0s6B2osMOFNx28L09kYYDpmq35dvGwTvm+D2HTTf4TiLBF6BIl8hrexo"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_customer_communication&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -3372,7 +3372,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1bGoho0CyvIYoa3OOmHd1PwVnqnr15mt2a2kst60OaUNnNclkiZHLRDLdw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:f3vzYvTSNQ62HFM1e6wlNECog/rL532Aoqmu8AwednrAjOwUDuMQDBWFaQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - customer_contact"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customer_contact&quot;"/>
@@ -3472,7 +3472,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:l7xDaJJaw/V4OyqlDl8Z33VoC3JiZHPT2k8hIvUR2rQbwtCWwtaabwQX6F+u7qYo"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:IGKSiHxeaRtSUY/2eVgxKoOhAj5R5BjMl9ZxbbYOhf3E4qPGrSQNwimtjJcye8Gy"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_customer_contact&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -3658,7 +3658,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ujG43KRiAQ4gQYZHqIwegbLF9QsDkLOApe9c9pwSLway3ocEX48vgt7/9g=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1eKBn85yXdLx+rkXC0Q+Ag9W2587numy/sIehMK/4kICqwP9nWfiAx3x1g=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - customer_contact_property"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customer_contact_property&quot;"/>
@@ -3753,7 +3753,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:U7H7+nauUNFY/jhCvn/aFXCwxige6KIRNbRVWWRKhnzlbSl2uCBbqN8QEmy143pi"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:uMkQ8ky+JPS61qtaD9g2Tg2mGJMthFD9yj6/zE1AwVJfdCh6mVwSRhoN8TVkjK8f"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_customer_contact_property&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -3928,7 +3928,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XhCgbdfMAI9cauyAGq8N8ku8ZDM3kuLK3gjeLGIWjrEQBc4/JLrMYbfKDA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LNvfO9GipKzQ/f2D2sMJU48uqSHhj+LDKYhI5I0XCzqsU5aLC6St1+QvFw=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - customer_property_address"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customer_property_address&quot;"/>
@@ -4073,7 +4073,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:oy/13V824yOhDyezxRd5pKAY47I300oTz9OwWn7fYLF1pWlB+hXljZbq0TDP2DjQ"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mpqAn0UrFAjaqyw88vb4IsSTNTsu2Wt0wI7T1BgMtfqbKO+5HQO0QIMTj6m/RUj4"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_customer_property_address&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -4348,7 +4348,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:66/MtAfiyFR6l8KaurmDsx/3IoTli1I4hbIV8Esti2U5gNlHdCq50aV67A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:AYi4qGRXt4ogD72sPWLpmUv5I2jr6e4ePl6RyrXMGDIliXZXGqtLWefWXg=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - service_attempt"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;service_attempt&quot;"/>
@@ -4448,7 +4448,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:EjYWRjL5efy+57Ezz/fM0gl0ZAvocMzqv+Wj+SzWz5md8iwkXZufGJgW2sjGkLBO"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ukUAz+tQ63aF/C+KgicDj8eigx0I9t8DnLLB4n6b7h/rJc/sRpeUUp4P7qx30Sew"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_service_attempt&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -4623,7 +4623,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hR9A3sNz1qVUUgg8lAwrpaQKzIPaCE9YBLMesWhA2fl9jB3GLAbUz6qfyg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:IWO4REDuAgTbkpnxFG39LhsTiCKmZRqjA886wj5KoHjXf8mCScnmaS82MQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - service_job_estimate_detail"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;service_job_estimate_detail&quot;"/>
@@ -4718,7 +4718,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:xulOq4sp/KA4+03mDmt8JR31xKbrg/e8OhPoX8rCYfDOJaqZnEPXT7PzJBlk4S6K"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0wG0ikMGSQRTY6z60PtnfKnDI5pZ533bZhAT0JcjX+G5AVXucyOHE7egv2DkfB3A"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_service_job_e_d&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -4888,7 +4888,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MknD1uT0ghtiFSMGdWUOd7ARSNN77+p/ixd4gk0BlXIFzSUbbmtYXonxmQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:waSQ7WLKmjxL+jhL4ty3CPWpOF8dVQoW+Yr60EU/fuzEf8xifrFFGwjAiA=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - service_job_estimate_parts"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;service_job_estimate_parts&quot;"/>
@@ -4978,7 +4978,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:uQTvMv5DdDkedN4snOvSSmsXACpYwXu3NYxF1bU80lFS6TmBpLFZNdy2dkH4kJB7"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TC7qqkUIyya6XtIFcUTjwj5XBqCXgE7Gk0KqqhQKUAnwkb9WbLaxX7TTYoT4XRSy"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_service_job_estimate_parts&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -5137,7 +5137,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dTjIzf58cu50IZzZQtizRrsdzg7P512q//r6tbpRLnSRI0VDKFCBeWPRJg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Y0dYwQE6wEJGzng0Fe1MgZqYngQ6gRY/NQRBL9JK9HIlbZa1vCMNNKYAIA=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - service_request"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;service_request&quot;"/>
@@ -5247,7 +5247,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:G/bmNIT14NwA9Mu4KMl75dh13Nhv1aVieh9GYxk2SXIsSze5hgGNLNmDnhePn6Pv"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qm0D5jL2sx2Q0AWT/ZPQjbMaDNfnd31YDr+atOUFmT2Eeq0+KmprkLV2rSEYsaz7"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_service_request&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -5388,10 +5388,10 @@
       <column comment="" key="false" length="19" name="customer_contact_id" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="250" name="problem_desc" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2500" name="problem_desc" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="250" name="special_instructions" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2500" name="special_instructions" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
@@ -5432,10 +5432,10 @@
       <column comment="" key="false" length="19" name="customer_contact_id" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Long" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="250" name="problem_desc" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2500" name="problem_desc" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="250" name="special_instructions" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2500" name="special_instructions" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
@@ -5455,7 +5455,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Lk4Er2wHbiI6Pfa0V9n79NEtgyc5oXFV6VSgDI7i1snAk9Kxy4aB2HgQeg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:a9xwh8YksfL0+DMfdRJlamC6DlrKu0o7hEu+m1G/TfF/q2YvwBDMZ8l+jQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - code_offer_source"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_offer_source&quot;"/>
@@ -5535,7 +5535,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8XKnc3tzVzIxksyxK8aQbMfZnx7aoUXMg4onmOyLGkuqsX3nKai4SmC6sN08OQja"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:u3htoiHTjQ0UDM/nU1ejqgijd56Z3UZpqnQjBfnAuCOWWdhDF237jiQmGCVU+Q0x"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_offer_source&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -5677,7 +5677,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UOwC2h4DcglNmdH1GR3yUAJ8BThoiZ1vhxOX7XczEgx6WcDuCqX8Vst8OA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CIiRdnqMFO+cyGJAaApWtOFqNTRtXhYRrLma/Y10AwiDtXv3YjpHt7xcHQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - code_offer_type"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_offer_type&quot;"/>
@@ -5757,7 +5757,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ihoWthZR2icVCXDJF6cP0rq2E0w82gk0Rf8WBLTyM1h3JstERO6rMFu0tTLE8Zhn"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:S83t8a3Dnsb9HrOzVzkZrGuGM5b8OWTFPMulgLO19+emxgugYdBvlhREDEYSDl7T"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_offer_type&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -5899,7 +5899,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qjn31yXqga0+ncZYtMNzmyTUBUoJK/NClOeBLvRPLNlrf2mNfGJw96hTVg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:06alIl/lTyyOf5g44MWWnG61lUhYqyaZywGdM/EQQRKmA0ShU/7uQeqoIQ=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - service_job_offer"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;service_job_offer&quot;"/>
@@ -6004,7 +6004,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/EIdB3ZqoxuD1Dn8fK1aVAy51PfrKuvka/hRfcxxtfQnCL/NXzQJt9PkHM/meLNX"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lilPhrSrcOjukHCCNpQGf/4GjRzzE2iJWs2eYJcVZTpNbF2NJ8UImL7iUNAlIWRr"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_service_job_offer&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -6201,7 +6201,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:E38of24s3+gP28vKd5yybJFgk8xvffOCC8KYadICeZxd3NpdDDHAFUGiYQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:y0HfF5zKT4TTGLL5i8f09scg8oKNYEX1qSmh53yWdq2duLbBOKtWfNpoEg=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - service_job"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;service_job&quot;"/>
@@ -6386,7 +6386,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rrrKRgY+hbgAMYQC4DCITKm1a0LoT/px4sdeHNPuFVt7IaCbyN4rQZlpj+eyxNW0"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SFtjKFyxsjbsDLHksDYTd4Iumv/+4osI9v+/mfu/Lxx/JJ1BMVyK8QqEmwsh4beM"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_service_job&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -6759,7 +6759,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fLHTQ81fHveL4uwDt1RQ+1HaLrUEy1FF2GT8L1xYxNI7oL/RI9voKaq7HA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:y0mhmGg/wy8EPrku+3F+EBIo968zZw5n1nw0oRiQnNzSeZAIeK7KHPbTQg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_service_job_invoice_header_payment_type&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -6837,7 +6837,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:O5Cg65onUoDaF3j0skNAvGJWZjaWUnZIRdnvK7DUptkxNmrIYceSB2f4ume3RlJf"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qZH65O0hLIe3CEzDC/XGADFcdqyuX+BPqkrrIm+hoXiyKx5ZU0N/qBOwofbRCe81"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_c_sj_invoice_h_p_t&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -6979,7 +6979,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+vTqxm551qByw8ytu/mcoKg0u0rlZVqL/KcIq9Dp27K256alUP7qZN7fkQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wJ2pxFMff3rbVn8LUyc7nCbPF2hPSkAR+gj6Mf70kNK+bIosZXp8dz+PDg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_service_job_invoice_payee_type&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -7057,7 +7057,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:tKPTKUQ7L65erCBQKPs/gQA7ZPBAoTYpxY+CB1frZzqxmVlHJtzBCoClfQHyzlyE"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XG4A6xnEkKCoIcobXGHQg8w1fGXPIelyP8UALG823aMQ3Q6hsuJd2a9pH8aTkCHJ"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_c_sj_invoice_p_t&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -7199,7 +7199,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FyKzy7GDCwDCke0WCbD93BjWqChSENkZl5XAtOiyvajqINQK6c1Ub3wyDg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3KYxOP3dvPaByrXKA1wV1SktlagevTQpDszBSQvYkFAAa6SW2LgGtKwdjg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_service_job_parts_status&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -7277,7 +7277,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:C5oVc1wpWh8JDaccL7f5297Vuvsk/v5HQKoqzuGzXA6AKrjsp9wNr/23f65xAXtA"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:b+XaJiBpD17CPzMEo1GLCDd4NogtGUYUfBJcMc1G9rWXYR4tzrxvzQtRnVPOPfeb"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_sj_parts_status&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -7419,7 +7419,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:c4HasCCDNLfduzgiyQueumJgw5UpbVxnSUBC5PZeMG0k4FYf35X1vBKVzg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kKmLU+ZzJUKQnARUM7DmHAqgl2i54feEeBPpIxtc8+0X3Zq5DooiDP2UQw=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - code_service_job_sub_status"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_service_job_sub_status&quot;"/>
@@ -7499,7 +7499,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CAf15PO4Cz1eZ/BJlsdcYeuOGcokuaZohoZmWjDYsYynDTzxWf3ySg3qp8Jd+NYD"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FXlFUzVkJDMzurYRqPr/r+44FU+FcnM00mJXgpXPbTthZEUVi0xgGcLq35cc/apg"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_code_sj_sub_status&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -7641,7 +7641,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:QqxVoQcpllxvQ0iCgn58/smdJ8WtYQhguRrlfujV9zJCKuBNZRiLqKMyRQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XigTy30zLECLTgol6T4a69+CcFNCocqBIrzvveQlYT8+5kyiVorfSee/1g=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_7o2HYD0dEeq7f4kcLntrxg - customer_communication_pref"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;customer_communication_pref&quot;"/>
@@ -7731,7 +7731,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PqPNkFk7CHRrz8zJKUx/3P/ZcuLJQWfly3nOGCauOWe3d3IXPuSipTePlcXgo7k0"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0nfjCcHUEf3GbgbLnO7NSudE+Dh7L/UkTIz0G8MZssOjjezGxByzW5hZTEYSrAA0"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_customer_comm_pref&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -7895,7 +7895,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zx77BSXQztpTcTeZ6zhUMVlqH0emQhVnSrBZACNWTcSHI0ffNuo1cry6eQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:VFfq/r0dNnOyyyxPVvbMMHoqN/3zFo/cwcvtFo3gJieEDxoiDSang1GpRA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_service_job_invoice_detail_status&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -7973,7 +7973,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:WKZtvD0K3EInHK7QZ4SjIm1cV/gb0rL8US+eGab7eMPDYHR0wyzIdPKGNPAdoX1J"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eYtE+kP4hf2q6gk9JsaStFLeibgp7H8wLsLr8yHS6byRxndqC53trtcyZWR8uJOt"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_c_sj_invoice_d_s&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -8115,7 +8115,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3ReB0FcnBY3NnHN6c0YP93qF8G5ewvQeEQYaGKc6p8fOYv5Dxp/OsnnuMA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9QHq3NHf5REkaBKWnFygbsYsDT2HLKV5nYt2YK4hohGsrjPg8X1g0jQVUw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;service_job_invoice_part&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -8213,7 +8213,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mmJmNlfUUnMzjKRvAococjOJ0NsVgHistPiR7tobvrwLgzaErgBXxi772CpgtTvX"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rO8x+FmpKziQzjC5hd/OxtdsyUm6Dm49kGh0SFzwb1RS7dvO1iKUPDUidnwLNNQN"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_service_job_invoice_part&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -8399,7 +8399,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lNGgbVSdXWelCtKce8AHRVWiUjAeEM6dg6Q7yotXlWBMqnBcEyS2GCmhEA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Sf08kMBbc8SRgzzrix6o0PHKjT2hmMpo8WjkyUaFmem/1Z9NkSRzRdLqZQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;service_job_invoice_detail&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -8502,7 +8502,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:cCuV5VWfyfyBPSCLAZ5Pzj/XxM9CKUFpfMtrRXgXz+WCKmSFW5UM2ykxJRVUvHhx"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4CWuRv8V17iG6ywLI1SpxQs7HojviuvEuCyYlBUL+83b6caagvZi/SX0+dz1D1wD"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_service_job_i_d&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -8699,7 +8699,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:d/zhAAxasOMeeqdAmfYIino8ra5MgxQpqPcwDyhrx0xKIFGbkwceb+3tgw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mniSqRBWD/ao/MBy3Yx9F2UNem8aom25i35TcL2LvuDa1VEENTcAtRCn/w=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;service_job_parts&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -8797,7 +8797,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:r3A1I/eUohPF/sNEaOCNdrnqmm45wWai6nGJ1teWga93T051WE1ALkvs2J4ZaDWw"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:arUoh3y4cvJ++8Vv0EwG/rse6f8JbJDijhVnjisG38n6NPcgx/gNPRp4a+6iodHW"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_service_job_parts&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -8983,7 +8983,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:OvOGK4Jke/ahfdccFL67zJBbt8Uu/h9ZfSpmlM6683BPLKETqkMPlnFsmQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:miDFOQoXmzgeOOc5vKTwsFeY1jU/0X/IcqAm2K9h5Vg0aTE8ahllvwpE6g=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;code_service_job_invoice_header_status&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -9061,7 +9061,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Ye7jyfQlNpnLnQmB/dbum3ByD9RJUuXigbo3dsHv61iq7S+hdsUMLl6tydLf2Jrw"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qWDqVOk7OuWubodPO6gw15lV8iKeiwPqGURyOoXjssTq3Kzgs2y/Jfy9HYD2WQpe"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_c_sj_invoice_h_s&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -9203,7 +9203,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:2ae1PAsZf8UO3kRSvMrwAodA+ZwUFaG9btGocFwwyqE0oj4iT+QwVeu9Tw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZKBMsbqLslfjr/lyzloIqdDgtQ6Co1tlZZ8qB2cNe3pUpQJaA9yd4JArPg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;service_job_estimate_header&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -9361,7 +9361,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hOU0oST9cE4X7r/qaoTDMfFAEQFS3OixkanqYH8gCvuncBTZMvwLk6/uyDBuVQsB"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SnMPIbY3hPqKP6bDGr5YyzfgZOz3alSijBZbR8bbdxtPuBFzAdQUnsJXZXXvzU9c"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_sj_estimate_header&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -9679,7 +9679,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NvYdqD7tCksj8zarmwTpnll032w9aLo+W2lT20Z31Pk4TVA/+ya4JozIKQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:u4bZ0MTwt3glJ+g9fwu0hUXqjp0+L1JiF+sUGMhohU3fH9F6+OprgAF7+Q=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;service_job_invoice_header&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -9827,7 +9827,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JTZbdEv5qUUCVCBQCVxsclwysvDZP42AoOgfWCNzr7Usf+iODdLIzxfJwBgvpWO1"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:5uElAiOx/+SdbP5UiATKu/yM/PgpaR1tw5Xq9nt1PLxFh+G88/xMy12ckUPdV9au"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_sj_invoice_h&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -10123,7 +10123,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;accelerateprod&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;customer&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;prodadmin&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hRBSlxtIVq7kXEI2AmkEnb3t6Viei/+HCesal37s/zJsBGzbP7yxzqjKmg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LEt8Zhk9LC815cwGPyBCABaIOgBsPdIHTORDH8b0Di4iyCnTguFegPy1cQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;service_request_wip&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -10322,206 +10322,6 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1216" posY="1568">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
-    <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
-    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_OzvhcEnAEeqvVPd4QHd_TQ-tMap_1-PREVIEW.bmp"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
-    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
-    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
-    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
-    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="ACC_SERVICE_REQUEST_WIP" name="acc_service_request_wip">
-      <column comment="" key="true" length="19" name="SERVICE_REQUEST_WIP_ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="CUSTOMER_ACCOUNT_PROPERTY_ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="TRADE_ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="ITEM_ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="BRAND_ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="250" name="MODEL_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="250" name="SERIAL_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="TRADE_LOCATION_ID" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="TRADE_PROBLEM_CODE_MAP_ID" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="250" name="ISSUE_OTHER_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="REQUEST_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="SCHEDULED_SERVICE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="38" name="SLOT_LENGTH" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="SLOT_BEGIN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="SLOT_END" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="38" name="STATUS" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="UPDATED_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="11" name="UPDATED_ON" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="CREATED_BY" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="11" name="CREATED_ON" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="250" name="SERVICE_REQUEST_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="250" name="SP_ACCOUNT_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="0" name="SCHEDULED_SERVICE_REQUEST_ID" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1" name="SIGN_ME_UP" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="1" name="BILLING_ADDR_SAME_AS_SERVICE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="DIAG_FEE" nullable="true" pattern="" precision="2" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PAYMENT_FREQUENCY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PLAN_PRODUCT_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PLAN_NUMBER" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="250" name="PLAN_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="PLAN_EFFECTIVE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="PLAN_RECURRING_AMOUNT" nullable="true" pattern="" precision="2" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="PLAN_BASE_PRICE" nullable="true" pattern="" precision="2" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="PLAN_TAX" nullable="true" pattern="" precision="2" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="PLAN_BASE_DEDUCTIBLE" nullable="true" pattern="" precision="2" sourceType="NUMBER" type="id_Double" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-    </metadata>
-    <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
-      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
-      <outputTables name="acc_service_request_wip" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row37.service_request_wip_id" name="SERVICE_REQUEST_WIP_ID" type="id_Double"/>
-        <mapperTableEntries expression="row37.customer_account_property_id" name="CUSTOMER_ACCOUNT_PROPERTY_ID" type="id_Double"/>
-        <mapperTableEntries expression="row37.trade_id" name="TRADE_ID" type="id_Double"/>
-        <mapperTableEntries expression="row37.item_id" name="ITEM_ID" type="id_Double"/>
-        <mapperTableEntries expression="row37.brand_id" name="BRAND_ID" type="id_Double"/>
-        <mapperTableEntries expression="row37.model_number" name="MODEL_NUMBER" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row37.serial_number" name="SERIAL_NUMBER" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row37.trade_location_id" name="TRADE_LOCATION_ID" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="row37.trade_problem_code_map_id" name="TRADE_PROBLEM_CODE_MAP_ID" type="id_Double"/>
-        <mapperTableEntries expression="row37.issue_other_description" name="ISSUE_OTHER_DESCRIPTION" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row37.request_date" name="REQUEST_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row37.scheduled_service_date" name="SCHEDULED_SERVICE_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row37.slot_length" name="SLOT_LENGTH" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="row37.slot_begin" name="SLOT_BEGIN" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row37.slot_end" name="SLOT_END" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row37.status" name="STATUS" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="row37.updated_by" name="UPDATED_BY" type="id_String"/>
-        <mapperTableEntries expression="row37.updated_on" name="UPDATED_ON" type="id_Date"/>
-        <mapperTableEntries expression="row37.created_by" name="CREATED_BY" type="id_String"/>
-        <mapperTableEntries expression="row37.created_on" name="CREATED_ON" type="id_Date"/>
-        <mapperTableEntries expression="row37.service_request_type" name="SERVICE_REQUEST_TYPE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row37.sp_account_number" name="SP_ACCOUNT_NUMBER" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row37.scheduled_service_request_id" name="SCHEDULED_SERVICE_REQUEST_ID" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="row37.sign_me_up" name="SIGN_ME_UP" nullable="true" type="id_String"/>
-        <mapperTableEntries name="BILLING_ADDR_SAME_AS_SERVICE" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row37.diag_fee" name="DIAG_FEE" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="row37.payment_frequency" name="PAYMENT_FREQUENCY" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row37.plan_product_id" name="PLAN_PRODUCT_ID" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row37.plan_number" name="PLAN_NUMBER" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row37.plan_name" name="PLAN_NAME" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row37.plan_effective_date" name="PLAN_EFFECTIVE_DATE" nullable="true" type="id_Date"/>
-        <mapperTableEntries expression="row37.plan_recurring_amount" name="PLAN_RECURRING_AMOUNT" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="row37.plan_base_price" name="PLAN_BASE_PRICE" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="row37.plan_tax" name="PLAN_TAX" nullable="true" type="id_Double"/>
-        <mapperTableEntries expression="row37.plan_base_deductible" name="PLAN_BASE_DEDUCTIBLE" nullable="true" type="id_Double"/>
-      </outputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row37" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="service_request_wip_id" type="id_Double"/>
-        <mapperTableEntries name="customer_account_property_id" type="id_Double"/>
-        <mapperTableEntries name="trade_id" type="id_Double"/>
-        <mapperTableEntries name="item_id" type="id_Double"/>
-        <mapperTableEntries name="brand_id" type="id_Double"/>
-        <mapperTableEntries name="model_number" nullable="true" type="id_String"/>
-        <mapperTableEntries name="serial_number" nullable="true" type="id_String"/>
-        <mapperTableEntries name="trade_location_id" nullable="true" type="id_Double"/>
-        <mapperTableEntries name="trade_problem_code_map_id" type="id_Double"/>
-        <mapperTableEntries name="issue_other_description" nullable="true" type="id_String"/>
-        <mapperTableEntries name="request_date" nullable="true" type="id_Date"/>
-        <mapperTableEntries name="scheduled_service_date" nullable="true" type="id_Date"/>
-        <mapperTableEntries name="slot_length" nullable="true" type="id_Double"/>
-        <mapperTableEntries name="slot_begin" nullable="true" type="id_Date"/>
-        <mapperTableEntries name="slot_end" nullable="true" type="id_Date"/>
-        <mapperTableEntries name="status" nullable="true" type="id_Double"/>
-        <mapperTableEntries name="updated_by" type="id_String"/>
-        <mapperTableEntries name="updated_on" type="id_Date"/>
-        <mapperTableEntries name="created_by" type="id_String"/>
-        <mapperTableEntries name="created_on" type="id_Date"/>
-        <mapperTableEntries name="service_request_type" nullable="true" type="id_String"/>
-        <mapperTableEntries name="sp_account_number" nullable="true" type="id_String"/>
-        <mapperTableEntries name="sign_me_up" nullable="true" type="id_String"/>
-        <mapperTableEntries name="billing_address_same_as_service" nullable="true" type="id_String"/>
-        <mapperTableEntries name="payment_frequency" nullable="true" type="id_String"/>
-        <mapperTableEntries name="plan_recurring_amount" nullable="true" type="id_Double"/>
-        <mapperTableEntries name="diag_fee" nullable="true" type="id_Double"/>
-        <mapperTableEntries name="plan_product_id" nullable="true" type="id_String"/>
-        <mapperTableEntries name="plan_base_price" nullable="true" type="id_Double"/>
-        <mapperTableEntries name="plan_tax" nullable="true" type="id_Double"/>
-        <mapperTableEntries name="plan_base_deductible" nullable="true" type="id_Double"/>
-        <mapperTableEntries name="plan_number" nullable="true" type="id_String"/>
-        <mapperTableEntries name="plan_name" nullable="true" type="id_String"/>
-        <mapperTableEntries name="plan_effective_date" nullable="true" type="id_Date"/>
-        <mapperTableEntries name="scheduled_service_request_id" nullable="true" type="id_Double"/>
-      </inputTables>
-    </nodeData>
-  </node>
   <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="1504">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_27"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
@@ -10536,8 +10336,8 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PbBa+LPHuiQCMf1B/Zmqpa8OKvmBTlJpWO/18qTUGhgPGd74P25a9x5eY2Q/cFlC"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;ACC_SERVICE_REQUEST_WIP&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SaGL2+AuihCalk1d8uPPOCFDb6QI5/si+2Nsj4QB+EYG43fg/XRt+UCm4ydj5fuH"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;acc_service_request_wip&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -10773,7 +10573,7 @@
       <column comment="" key="false" length="19" name="TRADE_PROBLEM_CODE_MAP_ID" nullable="false" pattern="" precision="0" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="250" name="ISSUE_OTHER_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2500" name="ISSUE_OTHER_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="7" name="REQUEST_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
@@ -10880,7 +10680,7 @@
       <column comment="" key="false" length="19" name="TRADE_PROBLEM_CODE_MAP_ID" nullable="false" pattern="" precision="0" sourceType="DOUBLE PRECISION" type="id_Double" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="250" name="ISSUE_OTHER_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="2500" name="ISSUE_OTHER_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="7" name="REQUEST_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
@@ -11106,13 +10906,9 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row35"/>
   </connection>
-  <connection connectorName="FLOW" label="row37" lineStyle="0" metaname="tDBInput_23" offsetLabelX="0" offsetLabelY="0" source="tDBInput_23" target="tMap_1">
+  <connection connectorName="FLOW" label="row37" lineStyle="0" metaname="tDBInput_23" offsetLabelX="0" offsetLabelY="0" source="tDBInput_23" target="tDBOutput_27">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row37"/>
-  </connection>
-  <connection connectorName="FLOW" label="acc_service_request_wip" lineStyle="0" metaname="acc_service_request_wip" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tDBOutput_27">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="acc_service_request_wip"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
@@ -11299,13 +11095,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e055221a-967a-4c72-9da1-e137e368947d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>P/Z9D4Cobf4+0H3mPY0zHpwjCmnwEqNOq6fKGDBz11VF4ITGoPnnYse4zYsvuN9lGejC+/UTR7Mn
-boDGT/sGJA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5f4e90e8-6d31-4617-8f93-135779ced5ae"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9V41bBp1WhcLnWv8r86XUhzpEBrEdMVhy3zZXD4lZkT9edPkm3hH6R0j1MqiNetqGD94YuUri7gY
-RVT2gVBR5g==</DigestValue></Reference></SignedInfo><SignatureValue>bMikwVXhUKHvQmn8WB5E+ZJOq+ZEE0G/nkcaKtNz7pvcqmG1f6qM8tWioc2Jy1SRYXfXP9whcNYX
-cFBVoaJiilPVPHhBmIoYAKvJyPxztLjgBujGnLC1N1qqw8mA3DlPS/XRC0jYCeDpU2knSE+1HSib
-cB2U0WVRla/OpicJaDo+U0bomC4U15tOrUmxpWPISFR6pzejRLMgWdo48BYYShT/vG9pscEhhe6L
-eBZvAH3dqy9GMQO3psaF2UEE6+YOMNN01jdY297vtMFPWEJ6NbB+JWHc/Pqn38EC+rph2fejS6Tc
-Ysf9G62IEFlulpYV7RRXOARc2oNbEn8xeR8Uxg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fae97eb7-3179-46f7-8bd5-8a80a2bdf1e1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>j9JyflmYSa6ZEzThXtUSQE6QtGHwDWNXLA0+HL9bO2FmZxy0H01mU09hkOJVb4fiRs/z5oJl5wC+
+x3Jyb5Mrdg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0eae5310-1a26-4caa-bf6f-1b8e54c91bdb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MKT4pcWa0nyPqFUUQpT/JxaOuVMbYLPcHFI4AsYSf0Imn795bRilzPw6F8quy989z0WRcTH1vBo7
+kIaMEmeu/A==</DigestValue></Reference></SignedInfo><SignatureValue>LAYgwAvLXn8uKs1unxywuvv+zd0ft0aAxiyz+fcVlYc6leVWYKL6ezs3J2evxO+Nsappp9MwFY0Y
+gBNrpbN8z9aNZfXWTxuttgNjSdXp4SHtp9xDdFOd9m760y/Gb9N+r2M+WRygDi7IylOwEX1d4AK0
+b9K3pfQfUf3yH3rdyX6TweocTyk6mi+0jM40PJFKu8ZFrZoK0dUP5KQBxAZtFYfDoroWsLqAa5t/
+Wej848vU1zLvwsMRec4mOLXY8Q5as0DYz4H1hfaHQzfHuOeqVipjhkYvfMrvlWhfA28Y7/Y1eFHw
+Z5Ez6/Xu/VrEogjrWCa74WSkKkWEvHl+5IhN0Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -11327,4 +11123,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5f4e90e8-6d31-4617-8f93-135779ced5ae" Target="#_e055221a-967a-4c72-9da1-e137e368947d"><Timestamp>2020-04-30 21:37:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0eae5310-1a26-4caa-bf6f-1b8e54c91bdb" Target="#_fae97eb7-3179-46f7-8bd5-8a80a2bdf1e1"><Timestamp>2020-05-07 19:21:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
