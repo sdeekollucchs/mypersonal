@@ -392,6 +392,10 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "_ycIK4IsWEeqoQdxf-QCU7A - sp_ranking",
+    "version" : "Latest",
+    "type" : "query"
+  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
