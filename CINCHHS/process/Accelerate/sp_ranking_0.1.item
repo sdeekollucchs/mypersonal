@@ -3,11 +3,11 @@
     <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value=""/>
     <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atbidevdb1"/>
     <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="bidevdb"/>
-    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:nI3U3XmK3t7FcoUYJylnSjBi3z2lZOCbMyIreeExd/cVkqmPEoam"/>
+    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:FmxWXRBdgkzaEKKI1Kqn+fJc5WaZZmoQPCyG8df/lm2x1i34+Ljq"/>
     <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="1521"/>
     <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ods"/>
     <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ODS"/>
-    <contextParameter comment="" name="sp_ranking_Password" prompt="sp_ranking_Password?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_Password" value="enc:system.encryption.key.v1:zNVmI4EmlneqlXIqAkV9cawVaM6nl4taHg1PkIWvfY4r9gckY1EzM2Q="/>
+    <contextParameter comment="" name="sp_ranking_Password" prompt="sp_ranking_Password?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_Password" value="enc:system.encryption.key.v1:FdwpF0EdAckMezX5vuj2cSm+a6gpH3Zyt54G6NPt1hiLLxZzPzN+DGQ="/>
     <contextParameter comment="" name="sp_ranking_Database" prompt="sp_ranking_Database?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="SP_RATING"/>
     <contextParameter comment="" name="sp_ranking_AdditionalParams" prompt="sp_ranking_AdditionalParams?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value=""/>
     <contextParameter comment="" name="sp_ranking_Server" prompt="sp_ranking_Server?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="Services-db.dev.accelerate.cinchhs.com"/>
@@ -19,11 +19,11 @@
     <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atbidevdb1"/>
     <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="bidevdb"/>
     <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="1521"/>
-    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:PIWYXEfyMcqX8bOCRecIUod1PPgcE+5PNq6R1na3HdXtK87UpHwK"/>
+    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:Q+DWN4zw92im4KPxfW3rLEf5aQodNMZMYCmlrzoX3FISRGdiEmnd"/>
     <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ODS"/>
     <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ods"/>
     <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value=""/>
-    <contextParameter comment="" name="sp_ranking_Password" prompt="sp_ranking_Password?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_Password" value="enc:system.encryption.key.v1:FsGbeLA4dPbnzXvQbMaRzm3BY2kwA/KQpXqTJmkgwGytDdI02kgLq5Q="/>
+    <contextParameter comment="" name="sp_ranking_Password" prompt="sp_ranking_Password?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_Password" value="enc:system.encryption.key.v1:8V+b4HQWSr8pmHKP9ACQ804kRuNUJ/iv/AQVpdwqK83TmEAxJ3F7aZk="/>
     <contextParameter comment="" name="sp_ranking_Database" prompt="sp_ranking_Database?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="SP_RATING"/>
     <contextParameter comment="" name="sp_ranking_AdditionalParams" prompt="sp_ranking_AdditionalParams?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value=""/>
     <contextParameter comment="" name="sp_ranking_Server" prompt="sp_ranking_Server?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="Services-db.dev.accelerate.cinchhs.com"/>
@@ -75,7 +75,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:oFaTxFP2M/HcYdQWWetDBfuAVq49gpPSfS1X8VHU"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:bYD+tTkqBd9ww8dvUY1AWDuUS3LwkyPJgKCosabt"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -110,7 +110,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:ODBlo+V5HWSVC0fG+/pYoiE3VZWwwDlqybRHQsIe"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:JpGThqGKaCaiSb5eiJl3j2cHtLiL9OiX/Jr6KZHO"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -161,11 +161,11 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mff5zb8CbA9BjPsAuCQ6gOr7N2wG6prKvX9D+P5jhNoRCopE+Zf6m8KsPCnN6I0v"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:5NEdPu0+2YtpKkcbPbr1zcsJP8T1tiD7meCWYWw43r/k1rsaQrs+xBbI46rv9Bws"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value="_ycIK4IsWEeqoQdxf-QCU7A - sp_ranking"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="MEMO_SQL" name="QUERY" value="SELECT&#13;&#10;            sp.account_number         jobs_acct_num,&#13;&#10;            COUNT(DISTINCT(service_job_id)) jobs,&#13;&#10;            trade,&#13;&#10;            coalesce(oit.unit, oit.item_description) AS item_grouping_detail_unit,&#13;&#10;            oit.item_code             sjproduct_line,&#13;&#10;            sp.state,&#13;&#10;            so.customer_state cust_state,&#13;&#10;            sj.service_job_status,&#13;&#10;            so.customer_postal_code   zip5,&#13;&#10;            substr(so.customer_postal_code, 0, 3) zip3&#13;&#10;        FROM&#13;&#10;            fsm_sp       sp,&#13;&#10;            fsm_sj       sj,&#13;&#10;            fsm_item_h   oit,&#13;&#10;            fsm_so       so&#13;&#10;        WHERE&#13;&#10;            sp.current_flg = 'Y'&#13;&#10;            AND oit.current_flg = 'Y'&#13;&#10;            AND sj.current_flg = 'Y'&#13;&#10;            AND so.current_flg = 'Y'&#13;&#10;            AND sj.product_line = oit.item_code&#13;&#10;            AND sj.service_order_id = so.service_order_id&#13;&#10;            AND sp.servicebench_id = sj.service_provider_sb_id&#13;&#10;            AND ( trunc(to_date(sj.created_on_dt)) &gt;= sysdate - 180 )&#13;&#10;            AND sj.service_job_status = 'CMP'&#13;&#10;        GROUP BY&#13;&#10;            account_number,&#13;&#10;            sj.service_job_status,&#13;&#10;            sp.state,&#13;&#10;            so.customer_state,&#13;&#10;            trade,&#13;&#10;            coalesce(oit.unit, oit.item_description),&#13;&#10;            item_code,&#13;&#10;            so.customer_postal_code,&#13;&#10;            substr(so.customer_postal_code, 0, 3)"/>
     <elementParameter field="CLOSED_LIST" name="USE_NB_LINE" value="NONE"/>
     <elementParameter field="LABEL" name="USE_NB_LINE_NOTE" value="* Only used if the query is an insert, an update or a delete."/>
@@ -194,13 +194,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d64b9c33-9461-4a23-91b9-c250cc07e915"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kOs8xYwZi6wlCvxfo5ROSDEoc85ZZ4Q62q8PFVlNl5Zpe851I60x/ZRFOueYBk3HeF+lM8+t5Xur
-VtT+IrzWGw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_eae61a19-2009-4713-a147-503d443e3e1e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>02DATJyzsKKtt3GmBoYrOYHv176tJ2q1K4kTUdXbVLTplALtWwz1vOPcpoJGuVTaniCk3ivG3J7N
-A+RqLT/MSQ==</DigestValue></Reference></SignedInfo><SignatureValue>GfxKRV4J4evq2RSX5ZgBEW3ejmXDRUh0mjzwrOd2IlkDsXILJLCIN/E/GG0X7MulnZw6ri8UIzXz
-b69W02e9rltnnFWnIqxoW6YcmVtiHFoBiGchaOBbswCra330cv9ePemQTDXGCUhnWEyApEbNLs35
-P5SQhXYCqHS/rastO2K3ENknHnOVwJg2BALbssu5nJ8beogiVjyN6T/N28XX/rI5xubafzLPJzUh
-3pZVOFem/S48uPsyDgn9d/5xEyQnE1XlCB4YiqBvxUSM/oFjVdUa73Wm63rtOZW23D+g/QzI9i9s
-jw70JcvA0pQc4IZOOeSh4Ij4PUsvZSUlFQ2dwQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c2a0455d-67cd-4dfe-8aed-e17c59c2dbe1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mMbSr+mbVK1mfM/sa/gD8M/AwbUNaqFq3Z5tMew2H3d14NBJffzp4SklZWifRDPACZZTOjxsPbjf
+K/lPxPyubw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a34b5055-cfa7-41ff-8bc3-745187872c5c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OQc+pb91nPB6xDw6e5yzUO5d9OVNExWZfukxgfsr4W0lSurQihFfGTfyITSHcDn4iLQyk6q61l9O
+KZucpvKyeQ==</DigestValue></Reference></SignedInfo><SignatureValue>i4ncRDcuCFjKvYdjIZYmfMzuTmH05eGeUhUXg6pIDpj5EnXCJ4xGabC+A8rtoPkBRunNYw8HhDzp
+rxG80iL99WO49SG963DQENg+qBTLHYofKKAiLHtskkLwzKj4XFRxi9ABtHJH2j3cvCBUOpODHckg
+ExOQL0dyt1W5gri+fqvlJsnc2CdEie0lQg3SNwxZalXUgcfsx79zlj6OYDa8nB2uY4mbalzH3Bvy
+jp9rH/b1kSrNn1ekQiZOHjDhLSrehfXyBRKZmdwAea7LxrYg8B7ju3RdikDf2HrtW5uND0iXT7eQ
+OkDafGDVszWFZTlXH+ZnlhLdO+Z0etZSuN7qng==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -222,4 +222,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_eae61a19-2009-4713-a147-503d443e3e1e" Target="#_d64b9c33-9461-4a23-91b9-c250cc07e915"><Timestamp>2020-05-08 16:18:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a34b5055-cfa7-41ff-8bc3-745187872c5c" Target="#_c2a0455d-67cd-4dfe-8aed-e17c59c2dbe1"><Timestamp>2020-05-08 16:19:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
