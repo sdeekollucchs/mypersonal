@@ -388,6 +388,14 @@
     "version" : "Latest",
     "type" : "context"
   }, {
+    "id" : "_jEpMEIstEeqoQdxf-QCU7A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_ycIK4IsWEeqoQdxf-QCU7A",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
@@ -447,6 +455,10 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  }, {
+    "id" : "_jEpMEIstEeqoQdxf-QCU7A - sp_ranking_stage",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
