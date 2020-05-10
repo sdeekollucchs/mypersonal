@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Dev" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value=""/>
-    <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atbidevdb1"/>
     <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="bidevdb"/>
-    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:+hAWm6zhR7K8UOSJ4nsngJl1fZISd2R6zN5UZD0BsuhqrZbTGPDL"/>
+    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:5bHGTu9jPe5/YXMtT5IoAEdgwr1VtIrRfrb2o5SjYofwhlU5q17f"/>
     <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="1521"/>
     <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ods"/>
     <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ODS"/>
-    <contextParameter comment="" name="sp_ranking_Password" prompt="sp_ranking_Password?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_Password" value="enc:system.encryption.key.v1:dAumNIQXMtpnzdJ8oVIypidbaTFyXWQFgczDLOwcFhs/aW5ruf9vo0g="/>
+    <contextParameter comment="" name="sp_ranking_Password" prompt="sp_ranking_Password?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_Password" value="enc:system.encryption.key.v1:3bxSJwShZ05ur1L6ZrZYPE5tcR2/FN0D0mD2+zVmMXobYz1hn2EqaOY="/>
     <contextParameter comment="" name="sp_ranking_Database" prompt="sp_ranking_Database?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="SP_RATING"/>
     <contextParameter comment="" name="sp_ranking_AdditionalParams" prompt="sp_ranking_AdditionalParams?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value=""/>
     <contextParameter comment="" name="sp_ranking_Server" prompt="sp_ranking_Server?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="Services-db.dev.accelerate.cinchhs.com"/>
     <contextParameter comment="" name="sp_ranking_Login" prompt="sp_ranking_Login?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="data_import"/>
     <contextParameter comment="" name="sp_ranking_Schema" prompt="sp_ranking_Schema?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="dspr"/>
     <contextParameter comment="" name="sp_ranking_Port" prompt="sp_ranking_Port?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="5432"/>
+    <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atbidevdb1"/>
   </context>
   <context confirmationNeeded="false" name="Dev">
-    <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atbidevdb1"/>
     <contextParameter comment="" name="ServiceName" prompt="ServiceName?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="bidevdb"/>
     <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="1521"/>
-    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:+iwRqeeney+lgYgJUdJhCYft9wPJIJfvoIDOBaQ8RikyKSOS4JP9"/>
+    <contextParameter comment="" name="ODS_Password" prompt="ODS_Password?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_Password" value="enc:system.encryption.key.v1:Tea7uEvJikBvoZsr9cFb36lF8OiiCLmaNMbCWocvCO6J4c9uZB6K"/>
     <contextParameter comment="" name="ODS_Schema" prompt="ODS_Schema?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ODS"/>
     <contextParameter comment="" name="ODS_Login" prompt="ODS_Login?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="ods"/>
     <contextParameter comment="" name="AdditionalParameters" prompt="AdditionalParameters?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value=""/>
-    <contextParameter comment="" name="sp_ranking_Password" prompt="sp_ranking_Password?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_Password" value="enc:system.encryption.key.v1:nH4ISV4Kywjhfr5NVEuYZC0eF/AgzNiyUjc4r3AdOky+z6isnSHtuJQ="/>
+    <contextParameter comment="" name="sp_ranking_Password" prompt="sp_ranking_Password?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_Password" value="enc:system.encryption.key.v1:mH43+TpPpKJWBBgfTjVwdSG7hYiHljTB8l5TdoF8GT6bEDNjXJdaK1I="/>
     <contextParameter comment="" name="sp_ranking_Database" prompt="sp_ranking_Database?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="SP_RATING"/>
     <contextParameter comment="" name="sp_ranking_AdditionalParams" prompt="sp_ranking_AdditionalParams?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value=""/>
     <contextParameter comment="" name="sp_ranking_Server" prompt="sp_ranking_Server?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="Services-db.dev.accelerate.cinchhs.com"/>
     <contextParameter comment="" name="sp_ranking_Login" prompt="sp_ranking_Login?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="data_import"/>
     <contextParameter comment="" name="sp_ranking_Schema" prompt="sp_ranking_Schema?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="dspr"/>
     <contextParameter comment="" name="sp_ranking_Port" prompt="sp_ranking_Port?" promptNeeded="false" repositoryContextId="_2f7gEIstEeqoQdxf-QCU7A" type="id_String" value="5432"/>
+    <contextParameter comment="" name="Server" prompt="Server?" promptNeeded="false" repositoryContextId="_SoBDYEaWEeqWKq9lCyru-A" type="id_String" value="atbidevdb1"/>
   </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" show="false" value="true"/>
@@ -75,7 +75,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:+zZW8XADUo7zWub5cE/mvQpDhQPFtanpn3LH6sf6"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:rIKcD4qvKLHwqUY09hOki6PzHkMEjr1H1uK1LxPB"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -110,7 +110,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:p1H/rCLyYt4Q1s9zmc4Ch2dghzej1rWPR3DSlJGw"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:PPOD0YGUmotF/dVh4nI9IcT8XbPgGbpJDnnZp2Qx"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -145,7 +145,7 @@
     <routinesParameter id="_QnqcwIsUEeqoQdxf-QCU7A" name="TalendStringUtil"/>
     <routinesParameter id="_QmlesIsUEeqoQdxf-QCU7A" name="TalendString"/>
   </parameters>
-  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="96">
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_ycIK4IsWEeqoQdxf-QCU7A"/>
@@ -161,16 +161,16 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.ServiceName"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ODS_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.ODS_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zGNWPfqoA2umhSaGfiYFGnz2INzxss+kZjXLBY8Mr77QLJEjs6CdGEyeB2HWQpHL"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LwwfWnurp+xSfp3n7ndZyb+UySPXKn801AAo24rhSh62GPSULvVZlJ9N72WwFtU9"/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_jEpMEIstEeqoQdxf-QCU7A - sp_ranking_stage"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;SP_RANKING&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;SP_RANKING_V&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.TOTAL_JOBS, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.STATE, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.SP_RANKING_ID, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.SP_ID, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.TRADE, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.ITEM, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.REASSIGNMENT, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.RESPONSE_TIME, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.SEVERITY, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.REJECTIONS, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.CYCLE_TIME, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.ZIP5, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.ZIP3, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.TRADE_ID, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.ITEM_ID, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING.BRAND_ID&#10;FROM &quot;+context.ODS_Schema+&quot;.SP_RANKING&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.TOTAL_JOBS, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.ITEM_ID, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.STATE, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.SP_ID, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.TRADE, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.ZIP5, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.ZIP3, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.ITEM, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.REASSIGNMENT, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.RESPONSE_TIME, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.SEVERITY, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.REJECTIONS, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.CYCLE_TIME, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.SP_RANKING_ID, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.TRADE_ID, &#10;  &quot;+context.ODS_Schema+&quot;.SP_RANKING_V.BRAND_ID&#10;FROM &quot;+context.ODS_Schema+&quot;.SP_RANKING_V&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -290,7 +290,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.sp_ranking_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.sp_ranking_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ih7CVFGl78k9dWlJo/wl1LrbBs1pCpueepL43srBMJhzD1LFKo+hQWWT5MeYdZUMYm0eWv3T+A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:EYDwmu4EDnA6CcuWsipsvZ7f1FmGSVPiFpLZFJx5UI2KsWCrujpG6UHbYglE4R/fEg48eW7vKg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;sp_ranking_stage&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -516,245 +516,6 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="96">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_2"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_jEpMEIstEeqoQdxf-QCU7A"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
-    <elementParameter field="TEXT" name="HOST" value="context.sp_ranking_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.sp_ranking_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.sp_ranking_Database"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.sp_ranking_Schema"/>
-    <elementParameter field="TEXT" name="USER" value="context.sp_ranking_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LglJ5jQ62LJ9kFUDaYYwN0FkefGSAWd8fTAJ1M7QBEuL2Mz4PZEJbrLkGu2ttbMnuZxdfgkr+w=="/>
-    <elementParameter field="DBTABLE" name="TABLE" value="&quot;sp_ranking_stage&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
-    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="DELETE"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_jEpMEIstEeqoQdxf-QCU7A - sp_ranking_stage"/>
-    <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" show="false" value="false"/>
-    <elementParameter field="CHECK" name="SPATIAL_INDEX" show="false" value="false"/>
-    <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" show="false" value="false"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
-    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
-    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.sp_ranking_AdditionalParams"/>
-    <elementParameter field="CHECK" name="SAVE_POINT" show="false" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
-    <elementParameter field="TABLE" name="ADD_COLS"/>
-    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
-    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="sp_ranking_id"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="sp_id"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="total_jobs"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="state"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="zip5"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="zip3"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="trade_id"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="item_id"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="brand_id"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="severity"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="cycle_time"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="response_time"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="rejections"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="reassignment"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="trade"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="item"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="brand"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
-    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
-    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_LOWERCASE" value="false"/>
-    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
-    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
-    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="sp_ranking_stage" name="tDBOutput_2">
-      <column comment="" defaultValue="nextval('dspr.sp_ranking_stage_sp_ranking_id_seq'::regclass)" key="true" length="19" name="sp_ranking_id" nullable="false" pattern="" precision="0" sourceType="BIGSERIAL" type="id_Long" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="sp_id" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="0" key="false" length="10" name="total_jobs" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2147483647" name="state" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="zip5" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="zip3" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="trade_id" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="item_id" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="brand_id" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="severity" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="cycle_time" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="response_time" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="rejections" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="reassignment" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2147483647" name="trade" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2147483647" name="item" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2147483647" name="brand" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-    </metadata>
-    <metadata connector="REJECT" label="sp_ranking_stage" name="REJECT">
-      <column comment="" defaultValue="nextval('dspr.sp_ranking_stage_sp_ranking_id_seq'::regclass)" key="true" length="19" name="sp_ranking_id" nullable="false" pattern="" precision="0" sourceType="BIGSERIAL" type="id_Long" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="sp_id" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" defaultValue="0" key="false" length="10" name="total_jobs" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2147483647" name="state" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="zip5" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="10" name="zip3" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="trade_id" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="item_id" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="brand_id" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="severity" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="cycle_time" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="response_time" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="rejections" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="19" name="reassignment" nullable="true" pattern="" precision="2" sourceType="NUMERIC" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2147483647" name="trade" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2147483647" name="item" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="2147483647" name="brand" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDBOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
@@ -764,18 +525,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_2"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d3df51e5-2cc1-47e9-bcdf-3b5642fd1d59"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kGrdcjFbOeDgYot7bM7Na1VABJWhIwubMi39/16V6ctPcNnnc6+TSVpGlS0hjYlby6CsRFbVa3XI
-fOBsA7YATQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9845a82d-fb86-444f-896a-184ee81e7c2f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rneSh3yeeNIcwoNfkHDEppgE65S5CLFhBeijrc03Ynu52PYPjk1n3N8g7QPdofIgMF8C9Y7vxJ0g
-qS3KG69HLg==</DigestValue></Reference></SignedInfo><SignatureValue>eLV753WD3QzNIyD/oZ00gSsAYOMm0uZv9YNQLjurln07e/bYnEthS6lMq4Povw9ql3ev/LUrds2y
-vYIxosXlNu1bZFJ19i9UZzUJQDst7+A4px2+kInD0CRyXcyX+X8yEa2bmSHxm8RyI6UoF7Goi3Dw
-AnEVgbArdeI2uzfbgVJjR5qMEfd/StCGQgIbTZKVfECOP5lgLvpzkhZHvsXDC4fD2aSH8+Tk2Qn1
-s4xSpOhCRJ4VwRUTSDPIrYd9bKPOh7qygvKV8HIij1mmyToA9psiYlvQRQebIAj13HMWN2kZOABe
-KSEb/ywjvQ+V1s+0MuBd14pXeKeInFiWOJxuSA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5bf679d0-1c92-430a-9f1b-eedf0cc3ba8f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Vq8tAIOAm46wQmE1hHOT8lOpcEHIJtXvGF6FUcvOCWZSJUSSgnBDXpVMdmL/kcrefq41ftoVmtLI
+5Bqu8FLNGw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5e50559b-d1be-4985-aef9-79d8ea2a33c6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8/By1C7a0dF+yvddzpR0W1nX39dIEYepKSzDuncilzJGZMy2g7+2UzGTWWudGcufC6x4a1a03ATd
+ioB3z5iEKg==</DigestValue></Reference></SignedInfo><SignatureValue>XdXZNomCx6dppMhE68zXQv6UIhG1RGxiwwnKq5EhPJH9zTcGmEL2QgQRossPduyzdwYUY8vxsx0Y
+BaRnYxugsVaa+66X0Q+G93aEAB2Txui97iQ3+73xaTgj11Ye7oM9aHg9Ro+rz8S4uPy8OuCzyssQ
+l6UFg8nTH0zJCVhbH1siHkJROCgcmtdVB0Tq/GSymzjvHpUXWf1PNfRy591vVzMF8XYrPr/O33sF
+G65cB8INgKYB7SGs48y/VZ6rKL9o51tbykV4JrsTC2j/TGG/jhE9zDJzVChsF63hfDJcXvHTRRfL
+SsNsnSOTmBRx3HCdww+BqwnbIiRCzDo//PVC+g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -797,4 +553,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9845a82d-fb86-444f-896a-184ee81e7c2f" Target="#_d3df51e5-2cc1-47e9-bcdf-3b5642fd1d59"><Timestamp>2020-05-10 08:40:24</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5e50559b-d1be-4985-aef9-79d8ea2a33c6" Target="#_5bf679d0-1c92-430a-9f1b-eedf0cc3ba8f"><Timestamp>2020-05-10 16:39:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
